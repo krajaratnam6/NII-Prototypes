@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Samples/2 - Microphone/2 - Microphone.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
