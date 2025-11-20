@@ -14,7 +14,7 @@ verbose = True
 
 learner_model_summary = \
         {
-            "goals":"I would like to be able to go to university in English.",
+            "goals":"I would like to learn about colors.",
             "interests":"I am interested in sports and science.",
             "CEFR_self":"B1",
             "CEFR_predict":"B1",
