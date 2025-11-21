@@ -1,906 +1,899 @@
-a
-an
-about
-above
-across
-action
-activity
-actor
-actress
-add
-address
-adult
-advice
-afraid
-after
-afternoon
-again
-age
-ago
-agree
-air
-airport
-all
-also
-always
-amazing
-and
-angry
-animal
-another
-answer
-any
-anyone
-anything
-apartment
-apple
-April
-area
-arm
-around
-arrive
-art
-article
-artist
-as
-ask
-at
-August
-aunt
-autumn
-away
-baby
-back
-bad
-bag
-ball
-banana
-band
-bank
-bath
-bathroom
-be
-beach
-beautiful
-because
+positive
+sugar
+play
+then
+oh
+dancing
 become
-bed
-bedroom
-beer
-before
-begin
-beginning
-behind
-believe
-below
-best
-better
-between
-bicycle
-big
-bike
-bill
-bird
-birthday
-black
-blog
-blonde
-blue
-boat
-body
-book
-boot
-bored
-boring
+something
+interview
+present
+together
+or
+here
+internet
+will
+text
+policeman
+song
+soon
+his
+pool
+mouth
+team
+evening
+way
+wine
+false
+practise
+all
+snow
 born
-both
-bottle
-box
-boy
-boyfriend
-bread
-break
-breakfast
-bring
+video
+below
+post
+choose
+ask
+money
+news
+cooking
+object
+welcome
+April
+hospital
+early
+rain
+woman
+teenager
+fantastic
+soup
+teach
+popular
+usually
+goodbye
+laugh
+nurse
+remember
+before
+girl
+capital
+twelve
+player
+ice
+warm
+leg
+six
+nine
+to
+grandparent
+station
+minute1
+project
+take
+down
+carrot
+fly
+opinion
+CD
+dangerous
+hey
+past
+reason
+sad
+shirt
+a
+student
+school
+should
+film
+interesting
+meaning
+everything
+front
+red
+television
+star
+study
+love
+often
+after
+talk
+fun
+June
+bed
+note
+run
+die
+boot
+where
+address
+end
+live1
+people
+extra
+traffic
+egg
+think
+grow
+between
+million
+they
+reader
+she
+too
+group
+near
+out
+university
+relax
+model
+fifteen
+Monday
+visit
+sweater
+bag
+dress
+seventeen
+air
+include
+husband
+cheese
+passport
+third
+modern
+website
+radio
+uncle
+classroom
+put
+answer
+could
+programme
+over
+clock
+football
+someone
+college
+midnight
+look
+still
+space
+believe
+actor
+father
+high
+meet
+three
+cold
+partner
+summer
+thousand
+juice
+once
 brother
-brown
-build
-building
-bus
+artist
+downstairs
+desk
+birthday
+dinner
+keep
+yellow
+plant
+carry
+thing
+right
+else
+head
+home
+lion
+forty
+action
+fat
+both
+piano
+anyone
+try
+kilometre
+month
+cake
+friend
+decide
+small
+final
+five
+happen
+exam
+mountain
+winter
+my
+trousers
+picture
+dad
+grandmother
+July
+subject
+vacation
+hate
+from
+true
+above
+visitor
+TV
+online
+window
+autumn
+friendly
+boat
+call
+lie1
+glass
+idea
+daughter
+black
+find
+never
+us
+world
+as
+Friday
+design
+bored
+machine
+practice
+mother
+driver
+piece
+into
+now
+delicious
+really
+sport
+stand
+write
+natural
+him
+history
+tomato
+color
+train
+neighbour
+shoe
+gray
+quick
+Thursday
+boring
+box
+town
+twice
+island
+watch
+in
+stay
+hello
+hard
+would
+bill
+sing
+cream
+taxi
+very
+key
+ten
+village
+conversation
+fill
+hair
+mum
+question
+blue
+eye
+November
+supermarket
+walk
+enough
+exercise
+car
+listen
+much
+situation
+wake
+cup
+nobody
+May
+if
+useful
+free
+jacket
+arrive
+can
+angry
+quiet
+on
+worker
+face
+old
+buy
+eleven
+kind
+pound
+drink
+police
+bedroom
+computer
+local
+young
+say
+full
+sound
+newspaper
+test
+writer
+culture
+phrase
+poor
+restaurant
+fact
+dark
+salad
+flight
+behind
+white
+last1
+leave
+nose
+homework
+great
+outside
+difference
+happy
+feel
+want
+improve
+street
+information
+painting
+lesson
+list
+under
+when
+chicken
+shopping
+green
+activity
+our
+agree
+anything
+draw
+know
+beginning
+page
+finish
+farmer
+point
+purple
+complete
+bike
+detail
+museum
+bye
+spring
+style
+sister
+the
+excited
+dollar
+house
+exciting
+chair
+fourth
+elephant
+discuss
+same
+age
+apartment
+diet
+not
+healthy
+photograph
+somebody
+shower
+chart
+party
+which
+company
+up
+cafe
+article
+dictionary
+interested
+man
+wife
+food
+event
+because
+four
+give
+funny
+let
+card
+week
+form
+amazing
+century
+tea
+tell
+start
+theatre
+bicycle
+your
+can't
+cut
+far
+language
+toilet
+pay
+waiter
+interest
+bank
+country
+section
+swim
+wall
+park
+ear
+customer
+person
+at
+different
+favourite
+strong
+apple
+must
+afraid
+report
+her
+cannot
+trip
+come
+main
+south
+sentence
+journey
+travel
+like
+guitar
+fifty
+land
+need
+reading
+so
+Sunday
+that
+ninety
+night
+boyfriend
+next
+real
+price
+who
+paper
+door
+hot
+back
+salt
+cinema
+farm
+floor
+river
+rule
+sixty
+Tuesday
+art
+teacher
+also
+August
+tree
+no
+hour
+weekend
+just
+geography
+beer
 business
-busy
-but
+bathroom
+show
+road
+pair
+tooth
+an
+rice
+cow
+personal
+chocolate
+first
+boy
+away
+begin
+every
+short
+wait
+even
+learn
+animal
+cat
+doctor
+pink
+its
+quickly
+similar
+why
+morning
+bring
+fire
+make
+and
+ever
+go
+photo
+sun
+during
+story
+fine
+yes
+hobby
+difficult
+sit
+eight
 butter
-buy v.
-by prep.
-bye exclam.
-cafe n.
-cake n.
-call v., n.
-camera n.
-can1 modal v.
-cannot modal v.
-capital n., adj.
-car n.
-card n.
-career n.
-carrot n.
-carry v.
-cat n.
-CD n.
-cent n.
-centre n.
-century n.
-chair n.
-change v., n.
-chart n.
-cheap adj.
-check v.
-cheese n.
-chicken n.
-child n.
-chocolate n.
-choose v.
-cinema n.
-city n.
-class n.
-classroom n.
-clean adj., v.
-climb v.
-clock n.
-close1 v.
-clothes n.
-club n.
-coat n.
-coffee n.
-cold adj., n.
-college n.
-colour n.
-come v.
-common adj.
-company n.
-compare v.
-complete adj., v.
-computer n.
-concert n.
-conversation n.
-cook v.
-cooking n.
-cool adj.
-correct adj., v.
-cost n., v.
-could modal v.
-country n.
-course n.
-cousin n.
-cow n.
-cream n.
-create v.
-culture n.
-cup n.
-customer n.
-cut v.
-dad n.
-dance n., v.
-dancer n.
-dancing n.
-dangerous adj.
-dark adj.
-date n.
-daughter n.
-day n.
-dear adj.
-December n.
-decide v.
-delicious adj.
-describe v.
-description n.
-design n., v.
-desk n.
-detail n.
-dialogue n.
-dictionary n.
-die v.
-diet n.
-difference n.
-different adj.
-difficult adj.
-dinner n.
-dirty adj.
-discuss v.
-dish n.
-do1 v., auxiliary v.
-doctor n.
-dog n.
-dollar n.
-door n.
-down adv., prep.
-downstairs adv.
-draw v.
-dress n., v.
-drink n., v.
-drive v.
-driver n.
-during prep.
-DVD n.
-each det./pron./adv.
-ear n.
-early adj., adv.
-east n., adj., adv.
-easy adj.
-eat v.
-egg n.
-eight number
-eighteen number
-eighty number
-elephant n.
-eleven number
-else adv.
-email n., v.
-end n., v.
-enjoy v.
-enough det., pron., adv.
-euro n.
-© Oxford University Press The Oxford 3000™ by CEFR level 2 / 12
-even adv.
-evening n.
-event n.
-ever adv.
-every det.
-everybody pron.
-everyone pron.
-everything pron.
-exam n.
-example n.
-excited adj.
-exciting adj.
-exercise n., v.
-expensive adj.
-explain v.
-extra adj.
-eye n.
-face n.
-fact n.
-fall v.
-false adj.
-family n., adj.
-famous adj.
-fantastic adj.
-far adv.
-farm n.
-farmer n.
-fast adj., adv.
-fat adj.
-father n.
-favourite adj., n.
-February n.
-feel v.
-feeling n.
-festival n.
-few det./adj., pron.
-fifteen number
-fifth number
-fifty number
-fill v.
-film n.
-final adj.
-find v.
-fine adj.
-finish v.
-fire n.
-first det./number, adv.
-fish n.
-five number
-flat n.
-flight n.
-floor n.
-flower n.
-fly v.
-follow v.
-food n.
-foot n.
-football n.
-for prep.
-forget v.
-form n., v.
-forty number
-four number
-fourteen number
-fourth number
-free adj.
-Friday n.
-friend n.
-friendly adj.
-from prep.
-front n., adj.
-fruit n.
-full adj.
-fun n.
-funny adj.
-future n.
-game n.
-garden n.
-geography n.
-get v.
-girl n.
-girlfriend n.
-give v.
-glass n.
-go v.
-good adj.
-goodbye exclam./n.
-grandfather n.
-grandmother n.
-grandparent n.
-great adj.
-green adj., n.
-grey adj., n.
-group n.
-grow v.
-guess v., n.
-guitar n.
-gym n.
-hair n.
-half n., det./pron.
-hand n.
-happen v.
-happy adj.
-hard adj., adv.
-hat n.
-hate v.
-have v.
-have to modal v.
-he pron.
-head n.
-health n.
-healthy adj.
-hear v.
-hello exclam./n.
-help v., n.
-her pron., det.
-here adv.
-hey exclam.
-hi exclam.
-high adj.
-him pron.
-his det.
-history n.
-hobby n.
-holiday n.
-home n., adv.
-homework n.
-hope v.
-horse n.
-hospital n.
-hot adj.
-hotel n.
-hour n.
-house n.
-how adv.
-however adv.
-hundred number
-hungry adj.
-husband n.
-I pron.
-ice n.
-ice cream n.
-idea n.
-if conj.
-imagine v.
-important adj.
-improve v.
-in prep., adv.
-include v.
-information n.
-interest n., v.
-interested adj.
-interesting adj.
-internet n.
-interview n., v.
-into prep.
-introduce v.
-island n.
-it pron.
-its det.
-jacket n.
-January n.
-jeans n.
-job n.
-join v.
-journey n.
-juice n.
-July n.
-June n.
-just adv.
-keep v.
-key n., adj.
-kilometre n.
-kind (type) n.
-kitchen n.
-know v.
-land n.
-language n.
-large adj.
-last1 (final) det.
-late adj., adv.
-later adv.
-laugh v., n.
-learn v.
-leave v.
-left adj., adv., n.
-leg n.
-lesson n.
-let v.
-letter n.
-library n.
-lie1 v.
-life n.
-light (from the sun/a lamp) n.,
-adj.
-like (similar) prep.
-like (find sb/sth pleasant) v.
-line n.
-lion n.
-list n., v.
-listen v.
-little adj., det./pron.
-live1 v.
-local adj.
-long1 adj., adv.
-look v.
-lose v.
-lot pron., det., adv.
-love n., v.
-lunch n.
-machine n.
-magazine n.
-main adj.
-make v.
-man n.
-many det./pron.
-map n.
-March n.
-market n.
-married adj.
-match (contest/correspond) n., v.
-May n.
-maybe adv.
-me pron.
-meal n.
-mean v.
-meaning n.
-meat n.
-meet v.
-meeting n.
-member n.
-menu n.
-message n.
-metre n.
-midnight n.
-mile n.
-milk n.
-million number
-minute1 n.
-miss v.
-mistake n.
-model n.
-modern adj.
-moment n.
-Monday n.
-money n.
-month n.
-more det./pron., adv.
-morning n.
-most det./pron., adv.
-mother n.
-mountain n.
-mouse n.
-mouth n.
-move v.
-movie n.
-much det./pron., adv.
-mum n.
-museum n.
-music n.
-must modal v.
-my det.
-name n., v.
-natural adj.
-near prep., adj., adv.
-need v.
-negative adj.
-neighbour n.
-never adv.
-new adj.
-news n.
-newspaper n.
-next adj., adv.
-next to prep.
-nice adj.
-night n.
-nine number
-nineteen number
-ninety number
-no exclam., det.
-© Oxford University Press The Oxford 3000™ by CEFR level 3 / 12
-no one pron.
-nobody pron.
-north n., adj., adv.
-nose n.
-not adv.
-note n.
-nothing pron.
-November n.
-now adv.
-number n.
-nurse n.
-object n.
-o’clock adv.
-October n.
-of prep.
-off adv., prep.
-office n.
-often adv.
-oh exclam.
-OK exclam., adj./adv.
-old adj.
-on prep., adv.
-once adv.
-one number/det., pron.
-onion n.
-online adj., adv.
-only adj., adv.
-open adj., v.
-opinion n.
-opposite adj., n., prep., adv.
-or conj.
-orange n., adj.
-order n., v.
-other adj./pron.
-our det.
-out adv./prep.
-outside adv.
-over prep., adv.
-own adj./pron.
-page n.
-paint v., n.
-painting n.
-pair n.
-paper n.
-paragraph n.
-parent n.
-park n., v.
-part n.
-partner n.
-party n.
-passport n.
-past adj., n., prep.
-pay v.
-pen n.
-pencil n.
-people n.
-pepper n.
-perfect adj.
-period n.
-person n.
-personal adj.
-phone n., v.
-photo n.
-photograph n.
-phrase n.
-piano n.
-picture n.
-piece n.
-pig n.
-pink adj., n.
-place n.
-plan n., v.
-plane n.
-plant n.
-play v., n.
-player n.
-please exclam.
-point n.
-police n.
-policeman n.
-pool n.
-poor adj.
-popular adj.
-positive adj.
-possible adj.
-post n., v.
-potato n.
-pound n.
-practice n.
-practise v.
-prefer v.
-prepare v.
-present adj., n.
-pretty adj., adv.
-price n.
-probably adv.
-problem n.
-product n.
-programme n.
-project n.
-purple adj., n.
-put v.
-quarter n.
-question n.
-quick adj.
-quickly adv.
-quiet adj.
-quite adv.
-radio n.
-rain n., v.
-read v.
-reader n.
-reading n.
-ready adj.
-real adj.
-really adv.
-reason n.
-red adj., n.
-relax v.
-remember v.
-repeat v.
-report n.
-restaurant n.
-result n.
-return v., n.
-rice n.
-rich adj.
-ride v.
-right adj., adv., n.
-river n.
-road n.
-room n.
-routine n.
-rule n.
-run v.
-sad adj.
-salad n.
-salt n.
-same adj., pron., adv.
-sandwich n.
-Saturday n.
-say v.
-school n.
-science n.
-scientist n.
-sea n.
-second1 (next after the first) det./
+mile
+hand
+vegetable
+spend
+dirty
+euro
+opposite
+twenty
+seventy
+cook
+follow
+banana
+class
+period
+life
+of
+sleep
+dear
+hundred
+skirt
+blonde
+everybody
+use
+order
+fruit
+paragraph
+cent
+Wednesday
+singer
+seven
+DVD
+success
+example
+mistake
+hope
+build
+lot
+flat
+music
+Saturday
+married
+eighteen
+send
+sixteen
+dialogue
+part
+new
+job
+fifth
+map
+future
+off
+lunch
+open
+metre
+market
+tennis
+potato
+today
+horse
+easy
+city
+library
+sell
+you
+T-shirt
+I
+ready
+holiday
+parent
+ride
+brown
+bottle
+building
+common
+pig
+two
+result
+pretty
+always
+he
+wrong
+cool
+o'clock
+other
+place
+thanks
+bad
+see
+add
+area
+nice
+be
+spelling
+skill
+coffee
+lose
+across
+little
+their
+dog
+January
+cost
+March
+sandwich
+some
+yourself
+umbrella
+with
+close
+member
+create
+please
+writing
+actress
+message
+best
+yesterday
+help
+fall
+onion
+fourteen
+without
+coat
+mouse
+upstairs
+garden
+flower
+camera
+bath
+north
+spell
+turn
+break
+word
+cheap
+famous
+orange
+light
+thirsty
+colour
+moment
+share
+hungry
+west
+better
+terrible
+gym
+east
+advice
+long1
+each
+blog
+breakfast
+centre
+check
+clean
+health
+how
+important
+negative
+win
+tired
+fast
+climb
+baby
+do
+later
+imagine
+big
+mean
+eighty
+plane
+concert
+however
+clothes
+child
+this
+body
+work
+sure
+good
+aunt
+probably
+career
+fishes
+letter
+dish
+introduce
+snake
+magazine
+hi
+most
+product
+statement
+describe
+expensive
+afternoon
+routine
+through
+time
+what
+sick
+for
+another
+kitchen
+day
+fish
+get
+cousin
+have
+line
+guess
+prepare
+room
+sorry
+we
+drive
+type
+beach
+yeah
+hotel
+second1
+course
+than
+repeat
+thirteen
+jeans
+change
+late
+miss
+read
+thirty
+tonight
+wash
+join
+adult
+water
+but
+weather
+OK
+beautiful
+book
+few
+name
+possible
+around
+description
+pencil
+compare
+problem
+return
+sometimes
+busy
+bread
+there
+slow
+grey
+left
+science
+match
+prefer
+again
+large
+phone
+airport
+by
+milk
+ticket
+any
+foot
+girlfriend
+one
+own
+speak
+grandfather
+tall
+hear
+meal
+about
+meat
+office
+scientist
+nineteen
+stop
+ago
+year
+me
+them
+only
+eat
 number
-second1 (unit of time) n.
-section n.
-see v.
-sell v.
-send v.
-sentence n.
-September n.
-seven number
-seventeen number
-seventy number
-share v.
-she pron.
-sheep n.
-shirt n.
-shoe n.
-shop n., v.
-shopping n.
-short adj.
-should modal v.
-show v., n.
-shower n.
-sick adj.
-similar adj.
-sing v.
-singer n.
-sister n.
-sit v.
-situation n.
-six number
-sixteen number
-sixty number
-skill n.
-skirt n.
-sleep v.
-slow adj.
-small adj.
-snake n.
-snow n., v.
-so adv., conj.
-some det., pron.
-somebody pron.
-someone pron.
-something pron.
-sometimes adv.
-son n.
-song n.
-soon adv.
-sorry adj., exclam.
-sound n., v.
-soup n.
-south n., adj., adv.
-space n.
-speak v.
-special adj.
-spell v.
-spelling n.
-spend v.
-sport n.
-spring n.
-stand v.
-star n.
-start v.
-statement n.
-station n.
-stay v.
-still adv.
-stop v., n.
-story n.
-street n.
-strong adj.
-student n.
-study n., v.
-style n.
-subject n.
-success n.
-sugar n.
-summer n.
-sun n.
-Sunday n.
-supermarket n.
-sure adj.
-sweater n.
-swim v.
-swimming n.
-table n.
-take v.
-talk v.
-tall adj.
-taxi n.
-tea n.
-teach v.
-teacher n.
-team n.
-teenager n.
-telephone n., v.
-television n.
-tell v.
-ten number
-tennis n.
-terrible adj.
-test n., v.
-text n.
-than conj.
-thank v.
-thanks exclam., n.
-that det., pron., conj.
-the definite article
-theatre n.
-their det.
-them pron.
-then adv.
-there adv.
-they pron.
-thing n.
-think v.
-third number
-thirsty adj.
-thirteen number
-thirty number
-this det./pron.
-thousand number
-three number
-through prep., adv.
-Thursday n.
-ticket n.
-time n.
-tired adj.
-title n.
-to prep., infinitive marker
-today adv., n.
-together adv.
-toilet n.
-© Oxford University Press The Oxford 3000™ by CEFR level 4 / 12
-tomato n.
-tomorrow adv., n.
-tonight adv., n.
-too adv.
-tooth n.
-topic n.
-tourist n.
-town n.
-traffic n.
-train n.
-travel v., n.
-tree n.
-trip n.
-trousers n.
-true adj.
-try v.
-T-shirt n.
-Tuesday n.
-turn v., n.
-TV n.
-twelve number
-twenty number
-twice adv.
-two number
-type n.
-umbrella n.
-uncle n.
-under prep., adv.
-understand v.
-university n.
-until conj./prep.
-up adv., prep.
-upstairs adv.
-us pron.
-use v.
-useful adj.
-usually adv.
-vacation n.
-vegetable n.
-very adv.
-video n.
-village n.
-visit v., n.
-visitor n.
-wait v.
-waiter n.
-wake v.
-walk v., n.
-wall n.
-want v.
-warm adj.
-wash v.
-watch v., n.
-water n.
-way n.
-we pron.
-wear v.
-weather n.
-website n.
-Wednesday n.
-week n.
-weekend n.
-welcome exclam., v., adj.
-well adv., adj., exclam.
-west n., adj., adv.
-what pron./det.
-when adv., pron., conj.
-where adv., conj.
-which pron./det.
-white adj., n.
-who pron.
-why adv.
-wife n.
-will modal v.
-win v.
-window n.
-wine n.
-winter n.
-with prep.
-without prep.
-woman n.
-wonderful adj.
-word n.
-work v., n.
-worker n.
-world n.
-would modal v.
-write v.
-writer n.
-writing n.
-wrong adj.
-yeah exclam.
-year n.
-yellow adj., n.
-yes exclam.
-yesterday adv., n.
-you pron.
-young adj.
-your det.
-yourself pron
+nothing
+December
+pen
+rich
+many
+October
+plan
+move
+festival
+menu
+everyone
+until
+arm
+ball
+half
+dance
+enjoy
+meeting
+movie
+paint
+swimming
+telephone
+well
+dancer
+sheep
+correct
+forget
+it
+bird
+quite
+email
+hat
+table
+explain
+date
+more
+September
+shop
+title
+tomorrow
+tourist
+understand
+game
+pepper
+quarter
+sea
+special
+wonderful
+wear
+feeling
+son
+thank
+perfect
+bus
+club
+topic
+February
+maybe
+band
+family

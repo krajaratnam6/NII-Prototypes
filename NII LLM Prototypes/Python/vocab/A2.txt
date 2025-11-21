@@ -111,234 +111,237 @@ business
 busy
 but
 butter
-buy v.
-by prep.
-bye exclam.
-cafe n.
-cake n.
-call v., n.
-camera n.
-can1 modal v.
-cannot modal v.
-capital n., adj.
-car n.
-card n.
-career n.
-carrot n.
-carry v.
-cat n.
-CD n.
-cent n.
-centre n.
-century n.
-chair n.
-change v., n.
-chart n.
-cheap adj.
-check v.
-cheese n.
-chicken n.
-child n.
-chocolate n.
-choose v.
-cinema n.
-city n.
-class n.
-classroom n.
-clean adj., v.
-climb v.
-clock n.
-close1 v.
-clothes n.
-club n.
-coat n.
-coffee n.
-cold adj., n.
-college n.
-colour n.
-come v.
-common adj.
-company n.
-compare v.
-complete adj., v.
-computer n.
-concert n.
-conversation n.
-cook v.
-cooking n.
-cool adj.
-correct adj., v.
-cost n., v.
-could modal v.
-country n.
-course n.
-cousin n.
-cow n.
-cream n.
-create v.
-culture n.
-cup n.
-customer n.
-cut v.
-dad n.
-dance n., v.
-dancer n.
-dancing n.
-dangerous adj.
-dark adj.
-date n.
-daughter n.
-day n.
-dear adj.
-December n.
-decide v.
-delicious adj.
-describe v.
-description n.
-design n., v.
-desk n.
-detail n.
-dialogue n.
-dictionary n.
-die v.
-diet n.
-difference n.
-different adj.
-difficult adj.
-dinner n.
-dirty adj.
-discuss v.
-dish n.
-do1 v., auxiliary v.
-doctor n.
-dog n.
-dollar n.
-door n.
-down adv., prep.
-downstairs adv.
-draw v.
-dress n., v.
-drink n., v.
-drive v.
-driver n.
-during prep.
-DVD n.
-each det./pron./adv.
-ear n.
-early adj., adv.
-east n., adj., adv.
-easy adj.
-eat v.
-egg n.
-eight number
-eighteen number
-eighty number
-elephant n.
-eleven number
-else adv.
-email n., v.
-end n., v.
-enjoy v.
-enough det., pron., adv.
-euro n.
-© Oxford University Press The Oxford 3000™ by CEFR level 2 / 12
-even adv.
-evening n.
-event n.
-ever adv.
-every det.
-everybody pron.
-everyone pron.
-everything pron.
-exam n.
-example n.
-excited adj.
-exciting adj.
-exercise n., v.
-expensive adj.
-explain v.
-extra adj.
-eye n.
-face n.
-fact n.
-fall v.
-false adj.
-family n., adj.
-famous adj.
-fantastic adj.
-far adv.
-farm n.
-farmer n.
-fast adj., adv.
-fat adj.
-father n.
-favourite adj., n.
-February n.
-feel v.
-feeling n.
-festival n.
-few det./adj., pron.
-fifteen number
-fifth number
-fifty number
-fill v.
-film n.
-final adj.
-find v.
-fine adj.
-finish v.
-fire n.
-first det./number, adv.
-fish n.
-five number
-flat n.
-flight n.
-floor n.
-flower n.
-fly v.
-follow v.
-food n.
-foot n.
-football n.
-for prep.
-forget v.
-form n., v.
-forty number
-four number
-fourteen number
-fourth number
-free adj.
-Friday n.
-friend n.
-friendly adj.
-from prep.
-front n., adj.
-fruit n.
-full adj.
-fun n.
-funny adj.
-future n.
-game n.
-garden n.
-geography n.
-get v.
-girl n.
-girlfriend n.
-give v.
-glass n.
-go v.
-good adj.
-goodbye exclam./n.
-grandfather n.
-grandmother n.
-grandparent n.
-great adj.
-green adj., n.
-grey adj., n.
-group n.
-grow v.
-guess v., n.
-guitar n.
+buy
+by
+bye
+cafe
+cake
+call
+camera
+can
+cannot
+can't
+capital
+car
+card
+career
+carrot
+carry
+cat
+CD
+cent
+centre
+century
+chair
+change
+chart
+cheap
+check
+cheese
+chicken
+child
+chocolate
+choose
+cinema
+city
+class
+classroom
+clean
+climb
+clock
+close
+clothes
+club
+coat
+coffee
+cold
+college
+colour
+color
+come
+common
+company
+compare
+complete
+computer
+concert
+conversation
+cook
+cooking
+cool
+correct
+cost
+could
+country
+course
+cousin
+cow
+cream
+create
+culture
+cup
+customer
+cut
+dad
+dance
+dancer
+dancing
+dangerous
+dark
+date
+daughter
+day
+dear
+December
+decide
+delicious
+describe
+description
+design
+desk
+detail
+dialogue
+dictionary
+die
+diet
+difference
+different
+difficult
+dinner
+dirty
+discuss
+dish
+do
+doctor
+dog
+dollar
+door
+down
+downstairs
+draw
+dress
+drink
+drive
+driver
+during
+DVD
+each
+ear
+early
+east
+easy
+eat
+egg
+eight
+eighteen
+eighty
+elephant
+eleven
+else
+email
+end
+enjoy
+enough
+euro
+even
+evening
+event
+ever
+every
+everybody
+everyone
+everything
+exam
+example
+excited
+exciting
+exercise
+expensive
+explain
+extra
+eye
+face
+fact
+fall
+false
+family
+famous
+fantastic
+far
+farm
+farmer
+fast
+fat
+father
+favourite
+February
+feel
+feeling
+festival
+few
+fifteen
+fifth
+fifty
+fill
+film
+final
+find
+fine
+finish
+fire
+first
+fish
+fishes
+five
+flat
+flight
+floor
+flower
+fly
+follow
+food
+foot
+football
+for
+forget
+form
+forty
+four
+fourteen
+fourth
+free
+Friday
+friend
+friendly
+from
+front
+fruit
+full
+fun
+funny
+future
+game
+garden
+geography
+get
+girl
+girlfriend
+give
+glass
+go
+good
+goodbye
+grandfather
+grandmother
+grandparent
+great
+green
+grey
+gray
+group
+grow
+guess
+guitar
 gym n.
 hair n.
 half n., det./pron.
@@ -522,7 +525,7 @@ nine number
 nineteen number
 ninety number
 no exclam., det.
-© Oxford University Press The Oxford 3000™ by CEFR level 3 / 12
+ï¿½ Oxford University Press The Oxford 3000ï¿½ by CEFR level 3 / 12
 no one pron.
 nobody pron.
 north n., adj., adv.
@@ -535,7 +538,7 @@ now adv.
 number n.
 nurse n.
 object n.
-o’clock adv.
+oï¿½clock adv.
 October n.
 of prep.
 off adv., prep.
@@ -803,7 +806,7 @@ to prep., infinitive marker
 today adv., n.
 together adv.
 toilet n.
-© Oxford University Press The Oxford 3000™ by CEFR level 4 / 12
+ï¿½ Oxford University Press The Oxford 3000ï¿½ by CEFR level 4 / 12
 tomato n.
 tomorrow adv., n.
 tonight adv., n.

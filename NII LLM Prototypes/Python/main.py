@@ -11,6 +11,7 @@ def ToCEFR(level: Literal['A1', 'A2', 'B1', 'B2', 'C1', 'C2']) -> str:
 
 model = "gpt-oss:120b-cloud" #"gpt-oss:20b"
 verbose = True
+vocab_paths = {"A1":"vocab/A1.txt", "A2":"vocab/A2.txt", "B1":"vocab/B1.txt", "B2":"vocab/B2.txt"}
 
 learner_model_summary = \
         {
@@ -135,5 +136,8 @@ def PredictCEFR(messages, self_report):
 
     return response.message.content
     #return CEFRLevel.model_validate_json(response.message.content).level
+
+def vocab_check(level):
+    return
 
 main()
