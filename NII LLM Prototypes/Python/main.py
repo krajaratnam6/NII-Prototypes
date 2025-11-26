@@ -1,6 +1,7 @@
 from ollama import chat
 from pydantic import BaseModel
 from typing import Literal
+import re
 
 class CEFRLevel(BaseModel):
     justification: str
@@ -17,34 +18,30 @@ learner_model_summary = \
         {
             "goals":"I would like to learn about colors.",
             "interests":"I am interested in sports and science.",
-            "CEFR_self":"B1",
-            "CEFR_predict":"B1",
-            "strengths":"This speaker is good at understanding complex sentences.",
+            "CEFR_self":"A1",
+            "CEFR_predict":"A1",
+            "strengths":"This speaker is good at inferring from context.",
             "weaknesses":"This speaker has a weak vocabulary.",
             "num_conv": 0,
         }
 
+def GetVocab():
+    vocab = set()
+    with open(vocab_paths[learner_model_summary["CEFR_self"]], 'r') as file:
+        for line in file:
+            vocab.add(line.strip().lower())
+    return vocab
+
 def main():
-    if verbose:
-        print("\n\nLearner Model Summary:\n" + str(learner_model_summary) + "\nGenerating Conversation...")
+    vocab = GetVocab()
+    ci_ratio = 0.9
+    max_iter = 10
+    VocabConstrainedAgent(vocab, ci_ratio, max_iter)
 
-    prompt = PromptGeneration(learner_model_summary)
-    full_prompt = prompt["prompt"] + "\n"
-    full_prompt += "You are in a setting represented by this image description: " + prompt["background_desc"] + "\n"
-    full_prompt += "The high-level design of this conversation is as follows: " + prompt["general_desc"] + "\n"
 
-    if verbose:
-        print("\n\nPrompt Generation Output:\n" + str(prompt) +\
-              "\n\nFinal Prompt:\n" + str(prompt) + "\n\n")
-
-    print(">> " + prompt["opener"])
-    SingleAgent(full_prompt)
-
-def PromptGeneration(learner_model_summary):
-    task = "Loosely design a situated conversation in a grounded location for a learner trying to improve their English. \
-    Give the learner a well-defined conversational goal in the scenario.\n"
-    task += "The goals of the student are as follows:\n" + learner_model_summary["goals"] + "\n"
-    task += "The personal (not necessarily goal-related) interests of the student are as follows:\n" + learner_model_summary["interests"] + "\n"
+def VocabConstrainedAgent(vocab, ci_ratio, max_iter):
+    task = "You are tasked with helping an English language-learner practice English in a believable scenario.\n"
+    task += "You are acting as a clerk in the produce section of a grocery store. Try to preserve this role as much as possible.\n"
     task += "The self-reported CEFR level of the student is: " + learner_model_summary["CEFR_self"] + "\n"
     task += "The modeled CEFR level of the student is: " + learner_model_summary["CEFR_predict"] + "\n"
     task += "The learner has demonstrated the following strenghts: " + learner_model_summary["strengths"] + "\n"
@@ -56,59 +53,22 @@ def PromptGeneration(learner_model_summary):
         for conv in learner_model_summary["conv"]:
             task += "\tConversation " + i + ": " + conv + "\n"
     messages = [{'role': 'system', 'content': task}]
-    response = chat(
-        model,
-        messages=messages,
-        options=dict(num_predict=1000)
-    )
+
+    opener = chat(
+            model,
+            messages,
+            #think="low",
+            options=dict(num_predict=1000)
+        )
     
-    general_desc = response.message.content
-    messages += [
-        {'role': 'assistant', 'content': general_desc},
-        {'role': 'system', 'content': "Considering the above, write a short description for a background image that can convey the setting of the conversation."}
-    ]
-
-    response = chat(
-        model,
-        messages=messages,
-        options=dict(num_predict=1000)
-    )
-
-    background_desc = response.message.content
-    messages += [
-        {'role': 'assistant', 'content': background_desc},
-        {'role': 'system', 'content': "Now write a prompt for an LLM agent that will take on the role of the tutor in this situated conversation.\
-          Again, consider the goal of the scenario, as well as the learners' long-term goal."}
-    ]
-
-    response = chat(
-        model,
-        messages=messages,
-        options=dict(num_predict=1000)
-    )
-
-    prompt = response.message.content
-    messages += [
-        {'role': 'assistant', 'content':prompt},
-        {'role': 'system', 'content': "Now write a short opening line from the perspective of this agent, explaining the context of the situation and the diegetic goal. Stay in character."}
-    ]
-    opener = chat(model, messages=messages, options=dict(num_predict=1000)).message.content
-    return {'general_desc': general_desc, 'background_desc':background_desc, 'prompt':prompt, 'opener':opener}
-
-def SingleAgent(prompt):
-    messages = [
-    {
-        'role': 'system',
-        'content': prompt,
-    },
-    ]
+    print(opener.message.content + "\n")
 
     while True:
         user_input = input('> ')
         response = chat(
             model,
             messages=[*messages, {'role': 'user', 'content': user_input}],
-            think="low",
+            #think="low",
             options=dict(num_predict=1000)
         )
 
@@ -116,8 +76,39 @@ def SingleAgent(prompt):
             {'role': 'user', 'content': user_input},
             {'role': 'assistant', 'content': response.message.content},
         ]
-        print("\n\nPredicted user CEFR level: " + PredictCEFR(messages, learner_model_summary["CEFR_self"]) + "\n\n")
+
+        iter = 1
+
+        ratio, out_vocab = vocab_ratio(vocab, response.message.content)
+        while iter < max_iter and ratio < ci_ratio:
+            iter+=1
+            notice = "This response lies above the user's CEFR level of " + learner_model_summary["CEFR_self"]
+            notice += f".\nOnly {ratio*100}% of those words fall within the users vocabulary. Aim for {ci_ratio*100}% or higher"
+            notice += f".\nThese words were too advanced: {out_vocab}"
+            notice += ".\n Please rephrase the previous response using simpler vocabulary and/or more standard forms. Avoid casual shortenings. Do not acknowledge this message."
+            messages += [{'role':'system', 'content':notice}]
+            if verbose:
+                print(f"Generated response with ci ratio of {ratio}, which is lower than {ci_ratio}. Regenerating, attempt {iter} of {max_iter}...\n")
+            response = chat(
+                model,
+                messages,
+                options=dict(num_predict=1000)
+            )
+            ratio, out_vocab = vocab_ratio(vocab, response.message.content)
+        
         print(">> " + response.message.content + '\n')
+
+def vocab_ratio(vocab, content):
+    word_list = re.sub(r'[^a-z ]', '', content.lower()).split()
+    in_vocab = 0; total_count = 0
+    out_vocab = []
+    for word in word_list:
+        total_count+=1
+        if word in vocab:
+            in_vocab += 1
+        else:
+            out_vocab.append(word)
+    return (in_vocab / total_count, out_vocab)
 
 def PredictCEFR(messages, self_report):
     request = "Given the previous chat history, map the user's English proficiency onto a CEFR level.\ " \
