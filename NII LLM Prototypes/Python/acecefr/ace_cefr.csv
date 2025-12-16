@@ -1,0 +1,891 @@
+text,label,train or test,rater 1 label,rater 2 label,test rater label
+A central message emerging from our analysis is that a leader's ability to communicate clearly to the masses is relatively more important than her ability to discover the best course of action for them.,5,test,5,5,5
+"A commonly accepted view is that if negative GDP growth continues two consecutive quarters or a decline of GDP by 2 percent, economists start to think a recession is imminent.",6,test,6,6,5
+A contract or agreement may require a municipality to undertake obligations and duties to be performed subsequent to the expiration of the term of office of the elected governing body.,6,train,6,6,
+a good beer I guess,2.5,train,3,2,
+"A hierarchical regression model analyzing the effect of English language proficiency on the respondents' fears of deportation showed a small, statistically significant negative association between the two variables.",6,test,6,6,5
+A loss of balance and dizziness.,4,train,4.5,3,
+A lot of homework,1,train,2.5,1,
+A real glutton for punishment.,5,test,6,6,6
+"Access to a great community, with a massive database of many, many areas of interest.",4.25,test,4,4.5,4
+advice,2,train,4,3.5,
+age,1,train,1,1,
+"Aggressive, but considerate of other drivers.",4.5,train,4,5,
+"Ah, here she is. Here's my good friend Ms Martha. She is the best fashion designer around, and she also has a good nose for finding lost things.",4.5,test,4,5,6
+All pets are inside the house.,2.25,test,2.5,2,2
+"Almond milk will be a bit sweeter than regular milk, would you like less sugar or more sugar than you might with regular milk?",5,train,5,5,
+almost,2,train,2,2,
+"Alright, now you are going to have to lay down on the table and then I'll cover you up with this blanket so you don't get cold. Are you ready?",4.25,test,4.5,4,3
+"Alright, please wait outside. It'll be about five minutes until your table is ready. Will you be seated outside or inside?",3,test,2.5,3.5,3.5
+"Alright. So, how's the project going?",2.375,test,1,2,4
+"And are you interested in a particular type of cuisine or a special meal, like vegan or gluten free?",5,train,5,5,
+And don't forget to leave a good review on Google Maps if you like our service!,3.5,test,2,3,2.5
+"And Fang Zhuang said that China sought to find a solution to Islamic extremism, which is a problem that Europe had been striving to eradicate.",6,test,4,5,5
+antidisestablishmentarianism,6,train,6,6,
+Any recipe using avocados is a favorite of mine!,3.5,train,2,3,
+Are you a dentist?,1.5,train,2,1,
+Are you coming to the lake with us?,2.75,test,2.5,3,2
+Are you fully aware of the problem?,3.75,train,3.5,4,
+"Are you interested in any other types of art besides video games, like painting, drawing, music, etc?",4,train,4,4,
+Are you married? Are you a father or mother?,2,train,2,2,
+As far beyond our solar system as we possibly can.,4.75,test,4.5,5,4
+Ask me!,2,train,2,2,
+Asparagus is the worst.,2.75,train,3,2.5,
+assignment,3.5,test,4,3,3
+At this point his tenure as Chair is marked mainly by vainglorious outbursts followed by months of reclusion.,6,train,6,6,
+Awesome! I've heard that Mana is in the middle of touring at the moment. You might be able to catch a show if you're in the US or Latin America.,5,train,5,5,
+backache,3.5,test,4,4,2.5
+Banks require 5000 rupiah.,3,train,3,3,
+beautiful snow.,1,train,1,1,
+Because I've always been very interested in justice and pursuing the truth.,5,test,5,5,4
+Because I've got my own business and I've got two kids at home.,3,train,2,2.5,
+Because it's a very complex system of equations that take a long time to calculate by hand.,4.5,train,4.5,4.5,
+"Before fully describing our formal model and our results, in the remainder of this introductory section, we explain the motivation for this work.",5.375,train,5,4.5,
+"Before you go, I have one more question. Who is going with you tonight?",3,train,3,3,
+Being on the fence is an idiom that means being undecided about something.,4,train,3,4,
+Beyond the moon and the stars.,3.5,train,3,4,
+Birthday party.,1,train,1,1,
+Both kids are very sturdy and masculine. Their dad is completely polar opposite - super skinny.,5,test,6,6,5
+Bram's attraction to modelling this Stug is due to the heavily weather worn paint finish and the desolate look of the Stug III's remains.,6,test,6,6,6
+brief,3,test,2.5,4,3.5
+Bullying and sexual harassment are some of the most critical issues.,4.25,test,4.5,4,4
+Bullying has to be addressed at an early age.,4.5,train,5,4,
+buy,1,train,1,1,
+"By perseverance, just not giving up even when things seem impossible.",5.5,test,6,5,4.5
+By perseverance.,4,test,4,5,3.5
+"By using less water when we clean, we can reduce the amount of water that is wasted.",4.5,test,5,4,3
+"Bye for now, Diana. I hope to see you soon!",3,test,3,3,2
+can I do anything,3,train,3,3,
+"Can you use this? Yes, I can. I used it before.",2,test,2.5,1,2
+"Canada has great places, such as the Museum of Modern Art! Want to roleplay getting tickets there?",4,test,4.5,3,2.5
+Celery is a low calorie vegetable.,4,test,5,3,3.5
+"Certainly, we have a wide variety of cookies to choose from. We have classic chocolate chip cookies, as well as more unique flavors such as oatmeal raisin, peanut butter, and sugar. We also have seasonal cookies, such as gingerbread and sugar cookies for the holidays.",5,train,3,3.5,
+Certainly. A glass of H2O will be forthcoming.,5,test,5,6,5
+"Certainly. Our soup du jour is a hearty lentil soup with a touch of sweetness from the carrots and celery. For a lighter option, our Caesar salad is made with fresh romaine lettuce and a creamy dressing.",5,train,5,5,
+chair,1,test,1,1,1
+"Chapters are essentially 'local branches' of RSES, established and run by members located within similar geographic boundaries.",4.5,test,4,5,4.5
+Clinical trials have been halted while regulators review safety protocols and efficacy.,6,test,6,5,5
+Colors evoked a building's surrounding environment and connected it to the landscape.,6,test,6,5,4.5
+comfortable,2.25,test,2.5,2,2
+Coming right up! That will be 26 pounds.,3.5,test,3,4,4
+"Commencing on July 1, and every two years thereafter, the Governor, in consultation with the Department of the Treasury, shall adjust the threshold amount in direct proportion to the rise or fall of the consumer price index for all urban consumers in the New York City and the Philadelphia areas as reported by the United States Department of Labor.",6,test,6,6,6
+Commitment is key to reaching our goals.,4,test,4.5,3.5,4
+Commitment to our goals is the key to our success.,4.25,test,4,4.5,4.5
+"Community service is considered mandatory, not optional.",5,train,5,5,
+computer,1,train,1,2,
+Consistency in both quality and design.,3.5,train,3,4,
+Consistency in quality and service.,4.25,train,4.5,4,
+Consistency in terms of quality.,4.75,train,5,4.5,
+"Contrary to everyone's expectation, the previous ruling was overturned in the end because the new evidence disproved the defendant's alibi.",6,test,6,5,5
+Cool! Do you play on a team with other people?,2.5,test,2.5,2.5,3
+Cool! I personally love to watch movies that have characters with unique traits like the ones from Guardians of the Galaxy--they're hilarious.,5,test,5,5,4
+"Cool! I really enjoy listening to those bands myself. I really like ""I Love You To,"" off of the Rolling Stones' album Aftermath.",4,train,4,4,
+Cool. What about The Force Awakens? What are your thoughts on that movie?,3,test,3,3,2.5
+Coordinators write an introduction and can commission up to two full-length papers to appear in special fixed sections of the journal to round out the submissions received through peer review.,5.5,train,5,5,
+Could you help him?,2.875,train,3,2,
+crazy,1.5,test,2,1,2
+critics,4,test,4,4,4
+decide,2,test,2,2,1
+Departure is at 10:30.,2.5,test,3,4,3
+designation,5,test,5,5,5
+despite,3.5,test,4,3,3
+"Development and sustainability are two seemingly different concepts. If so, how could the mankind achieve sustainable development?",6,test,6,6,4.5
+Did this hotel used to be someone's home?,3.75,test,4.5,3,2
+did you find your keys,2.5,train,2.5,2.5,
+Did you like it? What did you like most about it?,3.5,test,3.5,3.5,2
+Did you read the news yesterday?,2,train,2,2,
+Did you see the new soap? I'm sure I put it somewhere around here.,3,train,3.5,2.5,
+"Did you watch this movie? Do you like it? Yes, I Iike it very much.",1.5,test,2,1,1
+"Digital components and assemblies typically improve audio quality and flexibility, but they can cause new issues in timing and privacy.",6,train,5,4.5,
+Discipline and practice.,4.5,train,4.5,4,
+Dizziness is a common symptom of an ear infection.,4,train,4.5,3.5,
+Dizziness is one of the symptoms of an ear infection.,4,test,3.5,3,4
+Do I need a purpose all the time? Meetings can be informal.,3.5,test,4,2,2.5
+Do they want anything else?,2.25,test,2.5,2,2
+"Do you have a car? Yes, that is my car. New car.",1.5,train,2,1,
+Do you have a cold?,2,train,3,3,
+"Do you have a favorite movie character? Mine is Marty McFly from ""Back to the Future"".",3,train,2.5,3.5,
+Do you have any homework? No homework this weekend! I am happy.,2,train,2.5,1,
+"Do you like books about science, like The Periodic Table of the Elements or How the Universe Works?",2.5,test,3,3,2
+"Do you like crime shows, like CSI? If so, why do you like those type of shows?",3,test,3,3,2.5
+Do you like roller coasters?,2,train,3,3.5,
+"Do you like stories that have happy endings? What about sad endings, or just plain confusing endings?",4.5,train,4.5,3,
+Do you like the characters in romantic comedies? Some are very sweet and some are funny.,4,test,4,4,2
+"Do you like the plot of ""The Conjuring""? The bad guys are spooky! It's about two ghost hunters, who go into a house that is supposedly haunted.",3.25,train,3,3.5,
+"Do you like to read books set in different times and locations, or do you prefer to read books about situations that you can relate to?",4.75,train,5,4.5,
+Do you like to visit your hometown?,2.25,train,2,2,
+Do you prefer the winter or the summer?,2,train,2,2,
+Do you speak Spanish?,1,train,1,2,
+Do you think you're better at it than when you first started?,4.25,train,5,3.5,
+Do you think your parents have many secrets? I'm sure they do! Maybe it's good that we don't know those.,3,train,3.5,2.5,
+Do you want any cream in your coffee?,2.5,test,3,2,2
+"Do you want any sugar, or maybe something else to make your drink taste better?",3.75,train,4.5,3,
+Do you want to see all the content of Claude?,3.5,train,4,3,
+"Do you watch season by season, or do you like to wait until they're all released and binge watch them?",5,train,6,4.5,
+Don't mull it over for too long.,5,test,6,5,6
+"Don't undersell your experience and skills during an interview. Very often, interviewees are unaware of how unique they are.",5,test,5,6,4.5
+Don't worry. You're not late at all.,3.25,test,3.5,3,2
+DS stands for Double Security and means that the watches are made with an extra strong case and extra strong glass to extend the life of the watch.,5,test,6,5,4.5
+due diligence,4.5,train,4,5,
+Earlier in class I nodded drowsily -.- Afonso was determined to try updating this blog everyday so that this blog won't get too dusty.,5.5,test,6,5,6
+"Education takes place across numerous spaces, exploding the idea of traditional schooling sites, with learning not siloed into rigid disciplines.",6,test,6,6,6
+effervescent,6,test,5,6,5
+empty,2,train,2.5,2,
+endeavor,5,test,5,5,4.5
+"Especially for fardhu prayers, the times have been set by following the circulation of the sun and not by following the fixed time intervals.",6,train,6,6,
+"Every time this candidate speaks, I'm so impressed by his speech because he's virtually eloquent on any topic.",5,test,5,5,6
+Everything is out of stock right now. The whole supply chain is disrupted. I'm not confident if we can resume our business anytime soon.,5,train,6,5,
+finally,2,train,2,2,
+five dollars,1,test,1,1,1
+"Foods with a low glycemic index have less of an immediate impact on blood glucose levels, and therefore can help diabetics control their blood sugar.",6,test,6,6,5
+"For herbal tea, we have blueberry chamomile, chai, rooibos, fennel tarragon, and nettle.",5,test,3,2,3
+"For your next visit, all you need to call up your personal information is your email address and your password.",4,train,2.5,3,
+"Foreign investment flowed generously, with incentives aimed at increasing semiconductor production and renewable energy technology.",6,test,6,5,4.5
+"Fortunately, the scientist eventually succeeded with their experiments, but very often, a number of scientists wouldn't achieve the desired outcomes under pressure.",6,test,6,6,4.5
+four,1,test,1,1,1
+Frameworks are tools rather than solutions. Knowing a few will come in handy when you face unprecedentedly complex problems.,6,train,6,6,
+"From this link you can download the print quantity form, which you can return via e-mail or with the sample calendar.",3.5,test,3,4,4.5
+furniture,2,test,2,2,2
+"Furthermore, from October 4th, advance distribution is set to start on the distribution site, Subsc.",5,train,5,5,
+Germany,1,test,1,1,1
+Get off your high horse and lend me a hand. This house isn't going to paint itself.,6,test,5,6,6
+Go through the third door on the right.,2.5,test,2.5,2.5,2
+"Good idea! ... Well, nothing in my t-shirt, but I think we're getting warmer. Anywhere else?",4,test,3.5,4.5,3
+"Good, the restaurant is located on Main Street. It's across the street from the bank, next to the movie theater.",3.5,test,3.5,3.5,2
+Good! So I'm making a TV series called Smudge on Culture. Each season will feature a different culture.,4.25,test,4,4.5,3.5
+"Got it, any type of milk?",3,test,3,3,4
+government,2,test,2,2,2
+"Gramsci is recognized for the concept of hegemony as it is most commonly applied today, involving the political dominance and authority of a ruling class and state, as well as the inclusion of cultural hegemony and ideology in order to create and maintain a cohesive rule over the subaltern.",6,train,6,6,
+"Great, I hope you feel better soon! If you are sick or injured and need help, you can call the emergency services (911). They might take to to the hospital.",4,test,4.5,3.5,3.5
+Great! Come to the front desk at 1:00. See you then!,2.75,test,2.5,3,2.5
+Great! I'm having a really good day!,2.25,train,2.5,2,
+"Great! Now, just sit back, relax, and I'll read the book to you. Do you like to listen to stories?",3,train,3.5,2.5,
+Great! Who's your favourite character?,2.75,train,3,2.5,
+hand,1,train,1,1,
+Have you ever been to the zoo?,2.25,test,2.5,2,3
+Have you read anything good lately? I am looking for a book to read.,3.75,train,4,3.5,
+Have you seen the whole show? I watch it on Netflix. What is your favorite episode?,3.5,train,3.5,3.5,
+He feigned indifference.,6,train,5,6,
+He is from France.,1,train,1,1,
+He is not here. Do you want to call him?,2,train,2.5,1,
+He is studying mushroom spore dispersal.,6,train,6,6,
+He is twelve.,1,train,1,1,
+He isn't here.,1.5,train,2,1,
+He likes chocolate.,1,train,1,1,
+He likes this color.,1.5,train,2,1,
+"He sweltered under a delirious fever, succumbing to the hallucinations.",6,train,6,6,
+"He was taken into custody and booked on charges of grand larceny, embezzlement, and extortion.",6,train,6,6,
+He's fair and gives praise as well as constructive criticism.,4.75,train,4.5,5,
+head,1,test,1,1,1
+"Hehe! I'm always happy to see you, too!",3,train,3,3,
+hello my name is Jackie,1,test,1,1,1
+"hello, I'm Helena. what's going on?",2.5,train,3,2,
+Hello! What’s wrong?,2.25,train,2,2.5,
+her friend,1,test,1,1,1
+Here you go. I hope you have a nice trip.,3.25,train,3,3.5,
+hey,1,train,1,1,
+"Hey, Bearnard the polar bear here! I was wondering -- what sports do you like to watch, and why?",3.5,train,4,3,
+"Hey, it's me, Bearnard the polar bear! In this lesson we are going to practice seeing a doctor. Let's roleplay, I'll start: Hi, I'm Dr. Bearnard. How are you feeling today?",3.5,train,5,4,
+"Hey, what should we do tonight?",3.25,test,3.5,3,2
+"hi Manuel, I like hip hop. Do you like any rap music?",2.5,test,2.5,2.5,2
+hi my name is Abbie,1,train,1,1,
+hi what's going on,2.5,train,3,3,
+"Hi, I can help you with that. What day and time would you like to reserve the table for?",4,test,4.5,3.5,4
+Hi! My courses are hard this semester.,3.25,test,3.5,3,2
+Hi. How are you? Not very well actually. I am very tired. I cannot stop coughing and I have a headache. Should I take somos medicine?,2.5,train,3,2,
+Hi. I'm Joe. I am a doctor.,1,train,1,1,
+Hiking in nature is the best.,3.5,test,3.5,3.5,2.5
+His car completely totaled in a car crash.,5,train,6,5,
+"His curious mind and tenacity to deep dive into issues of interest is why he's successful in his domain, which he likely inherited from his grandmother.",6,train,6,6,
+His friends refused to go home. We simply don't understand why!,4,train,4.5,2.5,
+"His pain became unbearable, so much so that his daily life was significantly affected. The doctor prescribed him anti-inflammatory medicines to bring it under control.",6,train,6,6,
+His quest was to make government bureaucracies nimbler.,6,test,6,5,5
+His warnings not to fraternize with the enemy went unheeded.,6,train,6,6,
+"Hmm, maybe let's try to stay hydrated and get plenty of rest. If you can't get enough rest, maybe try using a humidifier or vaporizer in your bedroom to help you breathe more easily.",4.75,test,4.5,5,4.5
+"Hmm. How often do you feel this pain? Is it all day long, or just certain times? Do you have any other symptoms besides headaches?",4.5,test,4,5,3.5
+"Hmm. No, not there... What about the pockets on my sweater?",3.25,test,3,3.5,3.5
+Hmm... have you tried any over-the-counter medication yet? You could try taking a couple of paracetamol or ibuprofen.,4.375,train,5,3.5,
+"Hmmm it could be food poisoning or an allergic reaction. Do you have any other medications that you take on a regular basis like anti-depressants, birth control, or blood pressure pills?",5.25,test,4.5,6,4.5
+hobby,1,test,1,1,1
+home,1,train,1,1,
+hope,1.5,train,2,1,
+"Hopes for a rebound have fizzled, as GDP growth has cooled to near 3%, falling short of targets to hit a much higher annualized rate.",6,test,6,6,5
+how about Paris,2.5,train,2,3,
+How about using the adjective 'vast'?,4,train,2,2.5,
+How are you?,1,test,1,1,1
+How are you? Are you hungry? I had lunch. I'm fine.,1,test,2.5,1,1
+How beautiful!,2.5,test,2.5,2.5,1
+How can we overcome our challenges to reach our goals?,4.75,test,4.5,5,4
+How do you keep track of all your tasks?,4.5,test,4,5,4.5
+How many kids are there?,2,train,2,2,
+How old is he? He is eleven.,1,test,1,1,1
+How's the criminal justice system of this country different from yours?,5,test,5,5,4
+"However, few works in music history appear to be so permeated with spirituality, not only regarding the text but also regarding the music itself.",6,test,6,6,6
+hungry,1,test,1,1,1
+I actually really enjoy biology.,3.5,train,4,3,
+"I agree that my coach should have helped me improve my forward position. However, I am grateful that he gave me the opportunity to try another position, as it allowed me to learn new skills and develop my versatility.",5,test,5,5,5
+"I also like a good ceviche on fish tacos. Do you like ceviche? It's raw fish marinated with some onions, lime, and cilantro, and sometimes red onion, serrano peppers, and of course, guacamole. I think that might be the best thing I ever put guacamole on.",5,test,5,5,4.5
+I also offer cover letter writing and create LinkedIn profiles - all essential tools to attract employers and help you get the job of your dreams.,5,train,5,5,
+I am definitely leaning towards accepting it.,3.5,test,3,4,4
+"I am delighted to hear that you enjoy movies, for they are a form of art that can transport us to other worlds and teach us about ourselves and the world around us.",4.75,test,4.5,5,4.5
+I am fine.,1,train,1,1,
+I am grateful to have nice neighbors.,3.25,train,3,3.5,
+I am happy.,1,train,1,1,
+I am looking forward to it being a fun safe space for our community.,5,test,5,5,4
+"I am not qualified to provide medical advice. If you are unsure about what medication you are taking, please consult with your doctor or pharmacist.",4.75,test,5,4.5,5
+I asked that the board consider my proposal but they responded with swift disregard.,6,test,6,5,6
+"I believe it to be genuine, since it's from a very respected museum.",5,train,5,5,
+I bought it at my friend's store. She made it.,2,test,1,2,2
+I can help you out now that I'm free.,4,train,4,4,
+I can try,2,train,2,2,
+"I can work well with others, but I'm more of an individual.",4,train,3,2,
+I concur with your assessment. Chandler is a witty and charming character who is always able to find the humor in any situation. His sarcastic wit and dry humor are a constant source of amusement for his friends and viewers alike.,4.5,test,4,5,6
+I concur with your proposal to convene at the establishment of culinary fare.,5.5,test,6,5,6
+I consider integrity to be a very important virtue.,4.75,train,5,4.5,
+"I could teach you about the pancreas, what other organs do you want to know about?",4.25,train,4.5,4,
+I didn't understand the noise last night.,2.25,test,2.5,2,2
+"I don't know if the rumors are true or not, so I'm not going to accuse them of anything",4.75,train,5,4.5,
+"I don't know, but I think it's genuine.",3.5,test,3,4,4
+I don't know. I am concerned.,3.25,train,4.5,2,
+I don't mind if they give it to me in a nice way.,3.5,test,3,3.5,2.5
+I enjoy listening to heavy metal.,3,test,3,3,3
+I enjoy trying them on at the store.,3,train,3.5,2.5,
+I find them pretty arrogant.,4,test,3.5,4.5,4.5
+I get to take it,2.75,test,2.5,3,2
+I got a lot of clothes. Where else could they be?,4,test,4,4,2
+I got some spinach we could add to it.,4,test,4.5,3.5,2.5
+I guess it'll be sunny.,3.25,train,3,3.5,
+I have a few ... Wait! I found them in a sock under my pillow! Thanks for your help!,2.75,test,3,2.5,2
+"I have a few examples of reading journal entries that I have found to be particularly insightful and thought-provoking. In one entry, the reader reflects on the themes of identity and belonging in the novel ""The Color Purple."" In another entry, the reader discusses the challenges of grief and loss as they relate to the book ""The Year of Magical Thinking."" Finally, in one entry, the reader explores the power of language and storytelling as they relate to the book ""The Book Thief."" I hope that these examples will inspire you to start your own reading journal and to explore the depths of your own thoughts and feelings about the books that you read.",6,test,3.5,4.5,4
+"I have a laptop, as well as a desktop computer.",2.75,train,2.5,3,
+"I have a nice garden with flowers, trees, and a small pond.",3.25,test,3,3.5,1
+I have a picture of me and my family at the beach.,2.75,test,3.5,2,2.5
+"I have all kinds of flowers in my garden, some of them are very rare!",4,test,4,4,3
+I have ideas,1.5,test,2,1,1
+I have lived here since I was 4.,2.75,test,3,2.5,2.5
+I have one sister.,1,test,1,1,1
+I have some food.,1.5,train,2,1,
+"I have to learn about French history for a class I'm taking, do you know anything about it?",4.5,test,5,4,3
+I haven't met him.,2.25,test,2.5,2,2
+"I haven't read all claims yet. Whatever I say now would be completely speculative and ungrounded, so I'd rather not.",6,train,6,6,
+I hope you had a nice time!,3.25,train,3.5,3,
+"I hope you will grant me permission but if not, I understand.",4,train,4,4,
+I just stayed home and did nothing.,2,test,2,2,2.5
+I know a lot about the disease and how it spreads.,4,test,3.5,4.5,3
+"I know that he was an Italian Renaissance painter, sculptor, architect, poet, and engineer.",4.5,test,4,5,4
+I learned some new words from a book I'm reading.,3,test,2,2,2
+I left because I wasn't happy there.,3.75,train,3.5,4,
+I like AC DC,1,train,1,1,
+I like apples.,1,train,1,1,
+I like dogs.,1,test,1,1,1
+I like it. How much is it?,1,test,1,2,1
+I like pop,1,train,1,1,
+I like the classics over remakes.,4.75,test,4.5,5,2.5
+I like the kitchen as I can cook here.,2,test,2,2,2
+"I like The Lion King because it has an interesting character, Simba, who becomes king.",3.75,test,4,3.5,3
+"I like the main character, Tuco. He's a greedy criminal who teams up with two other men.",4,train,3,4,
+I like to explore the city on my bike.,3,train,3,1,
+I like to thing that whatever happens is because of fate or destiny.,3.75,train,4,3.5,
+I like to walk in the morning.,1.5,test,2,1,2
+I liked Spider-Man 2. It had a cool scene where Doctor Octopus threw a car at Spider-Man. Did you think that was a cool scene?,3.5,test,3.5,3.5,2.5
+I live in Colombia,1,train,1,1,
+"I love getting out, getting on my bike and exploring new places.",4.75,train,4.5,5,
+I love it when I know I will have a good conversation with someone.,4.25,test,4.5,4,3.5
+I love rock,1,train,1,1,
+"I love rock and roll! I wish I could form a band, though I don't know how to find people in my area. Any tips?",4.25,train,4,4.5,
+I love the characters! There's a lot of interesting characters in those movies. Can you tell me about your favorite characters?,3.25,test,3.5,3,2
+I love the fact that it has so many features.,3.25,test,3,3.5,2.5
+I love to cook. I can make dinner for you tonight. What do you like to eat?,2,test,2,2,2
+"I may be able to, but I'm not sure yet.",3,test,5,4,3
+"I must admit, I wrote him off at first, but he's growing on me.",6,train,6,5,
+I need to go,1.5,train,2,1,
+I need to go to work.,1.5,test,2,1,1
+I often recommend the book to my coworkers.,3,train,3,2.5,
+I only have about ten minutes.,2.75,test,3,2.5,2.5
+I promise everything will be fine.,2.5,train,3.5,2,
+"I recommend a caesar salad, but if you're feeling more adventurous, I can recommend the house soup.",4.25,test,4.5,4,3
+I saw many reporters on the street doing some research.,3,test,3.5,2.5,2
+"I see. Can you describe the pain in more detail? Is it sharp, dull, or burning? Is it constant or does it come and go? Is it worse when you swallow?",4.5,test,4,5,4
+"I see. Dulce de leche is a popular dessert in Argentina, and it is often used as a filling for pastries and other desserts. Empanadas are also a popular dish in Argentina, and they can be filled with a variety of ingredients, such as meat, cheese, or vegetables.",5,test,6,4.5,3
+I see. That is a pertinent piece of information. I will need to adjust my recommendations accordingly. Please inform me of any other allergies you may have.,6,test,6,5,6
+I see. You are a person of discerning taste. I too enjoy action movies with a high degree of narrative and visual dynamism.,6,train,6,6,
+I suggest you quit your chitchatting and get on with it.,5,test,6,5,5
+I tend to avoid those people as much as I can.,4.25,test,4.5,4,3.5
+I think it's going to be overcast all day.,4,train,5,5,
+"I think it's salty enough, but you can add more if you want to.",4,train,4,4,
+I think that's a great offer. You should take it!,2.5,train,3,2,
+I think the plot will thicken and there will be a lot of drama.,5,test,5,5,6
+I think they're down the hall.,3,train,3,3,
+I think we should be prepared for a potential storm threat.,4.75,train,5,4.5,
+I thought it was hilarious!,3.75,test,4,3.5,4
+"I tried to make my own pizza once, but it turned out to be a pathetic excuse for dinner.",5,train,6,5,
+"I try to avoid conflict, but sometimes it's unavoidable.",3.875,test,3,4,3.5
+"I understand your frustration. It is indeed unfortunate that the weather will not cooperate with your plans. However, it is not uncommon for the weather to change unexpectedly, and it is always important to be prepared for such eventualities. Perhaps you could consider rescheduling your trip to the beach for a later date, when the weather is more favorable.",4.75,train,5,4.5,
+"I usually take 800mg of ibuprofen or 600mg of extra strength tylenol. They both work fine. Are you going to take over-the-counter or prescription medication? If prescription, I will need to call the hospital.",4.25,test,4,4.5,5
+"I want a coffee, please.",1,test,1,1,1
+"I want a liberal amount of chocolate, please.",5,test,2,4,5
+I want extra sugar in it.,2.75,test,2,3.5,1
+I want these tours,2,train,2,2,
+I want to follow my passion and become a professional dancer.,4,test,4.5,3.5,3
+I want to go.,1.25,test,1,1,1
+I want to leave a legacy of peace and love for future generations.,4.5,test,5,4,5
+I want to travel in June,2,train,2,2,
+I want to travel to London,2,train,2,2,
+"I was accused of withholding the classified information for a prolonged period of time. However, investigations confirmed the validity of my action, given the circumstance.",6,train,6,6,
+I was reading a mystery novel yesterday. Do you enjoy mysteries?,2,train,2,2,
+I was so naive as a child. I did a lot of embarrassing things.,4.5,train,2,3,
+I was very desperate to get back to shore.,4.5,train,4,5,
+I went to the movies with a friend.,2.75,test,3,2.5,2
+I will do it,2.25,test,2,2.5,2
+I will! Bye for now!,3,test,3,3,1
+I will.,1.75,train,2,2,
+I wonder if there's any treasure.,3.25,train,3.5,3,
+"I would be delighted to assist you with your reservation for the Vegas. May I inquire as to the date and time of your desired reservation, as well as the number of guests in your party?",5.5,test,5,6,5
+"I would be delighted to provide you with a steaming cup of coffee, with sufficient space for dairy products and without any added sweeteners.",5,test,5,5,4.5
+"I would love to go to the beach so much. I just love the colors of the water and the fun of playing in the sand. All sorts of cool stuff washes up on the shore, too.",3.5,test,4,3,3
+I would love to see Athens,2.25,test,2.5,2,3.5
+I'd like 100 please,2.5,train,2.5,2.5,
+I'd rather try it on before I buy it.,4.25,test,4.5,4,2.5
+I'd say about an hour.,3.25,train,3,3.5,
+"I'll check! ... Wow! My keys were in my pocket! Now I can get back into my igloo! Thanks, friend!",3.75,train,3.5,4,
+I'll have to ask my boss to allow me to adjust my schedule.,4.75,test,5,4.5,3.5
+"I'm a fan of this author whose literary work never ceases to amaze me. Her witty but bizarre plot is amusingly enhanced by her creative repertoire of rhetorical expressions. As soon as her new book is published, I devour it to the extent that I forget to eat or sleep until I finish reading it.",6,train,6,6,
+I'm concerned that I might fail.,4,test,4,4,4
+I'm concerned that I won't pass.,4,train,4,4,
+I'm down to try that.,5,train,6,5,
+I'm going.,1,test,1,2,1
+I'm happy our community is getting a new park.,3,train,2,2,
+I'm looking to the future with hope.,4.25,test,4,4.5,2
+"I'm not an authority on giving speeches, but take a deep breath and speak with confidence.",5,test,5,5,3
+"I'm not really the spontaneous type. So, yeah,  I usually plan things in advance.",4.5,train,4.5,4.5,
+"I'm not sure yet. I have some tentative plans, but nothing firm.",3.75,test,4,3.5,4.5
+I'm pretty sure,3,test,3,3,1
+I'm really bad at making quick decisions.,3.5,train,3.5,3.5,
+"I'm scared of spiders, but I'm trying to get over my fear.",4.25,train,4,4.5,
+I'm so down about the price hikes.,4.75,train,5,4.5,
+I'm sorry,1,test,1,1,1
+I'm sorry to hear that. Can you tell me in more details when you first had the stomach pain?,3,test,2,2.5,3
+I'm studying art at the university.,2,test,2,2,1
+I'm very happy you are here with us!,2,test,2,2,2
+I'm very sad. I miss him so much.,3,test,3,3,2
+I've still got mountains of work before I can come up for air. It'll be another week of heavy lifting and then I think I'll be in the clear.,5,test,5,5,6
+"If a commissioner determines that any public land should be sold, exchanged, or otherwise conveyed to a private party, the commissioner may offer the land first for private sale to any owner of contiguous land at a price to be established by the commissioner.",5.75,train,6,5,
+"If a professionally recommended product is overdue, the insuring party who recommends the product shall pay the investor the principal and agreed benefit in accordance with the stipulations in the insuring measures.",6,train,6,6,
+"If I'm lucky, I'll be able to see the asteroid belt in the night sky.",4.5,train,5,4,
+"If something goes awry, someone should be able to spot it.",5,test,6,6,5
+"If this is the case, do you have medical records for this visit?",3.5,test,2,3,3
+"If you find them, let me know!",3.75,test,4,3.5,2
+"If you have a bank account, then there must be a working registered mobile number with it.",4,test,4,4,4
+"If you have any spare time, what do you like to do in your free time apart from playing volleyball?",4.25,test,4,4.5,4.5
+"If you like coffee with cream and sugar, would you prefer plain coffee or something like latte or cappuccino?",4.75,test,5,4.5,2.5
+"If you like this kind of movie I'd recommend ""Thelma and Louise"", it's a great movie and it's about two women on the road.",3.75,train,3.5,4,
+If you need any help you know where to find me,3.5,test,5,4,3
+impossible,2.25,train,2,2.5,
+"In any case where external crane services are required, the customer shall incur the charge.",6,test,6,5,5
+"In fermentation, microorganisms, such as bacteria and yeast, break down sugar in an anaerobic environment.",6,train,6,5,
+in front of,2,test,2,2,2.5
+"In order to reduce the risk of local recurrence, adjuvant radiotherapy is prescribed post-surgery.",6,train,6,6,
+"In the case of this particular review, no tests had to go that route, as most of the benchmarks are very good at delivering similar results with each repeated run.",5.25,train,6,4.5,
+in your pants,2,test,2,2,1
+in your pants?,2.5,train,1,4,
+"Inclusion of superfoods in your diet is expected to bring many health benefits, which could be boosted even further by a moderate amount of regular cardiovascular exercise.",6,train,6,6,
+"Indeed, a plethora of options is available, which may present a challenge to the discerning customer.",6,test,3,4,6
+"Indeed, I concur with your friends' recommendations. I believe that you would enjoy reading fantasy or science fiction, as it would allow you to simultaneously learn and be engrossed in a captivating narrative.",6,train,6,6,
+"Indeed, I shall add the appointment to your calendar and send you a reminder in advance. In the meantime, I recommend that you rest and drink plenty of fluids.",5,train,3,4.5,
+Integrity and honesty are two of my core values.,4.5,train,4,5,
+Interesting! Is there anything in particular that made you stop reading them before finishing?,5,test,5,5,4.5
+"Interrogation is an odd subtype of dialogue as its back-and-forth tends toward rigid, not free.",5.5,test,6,6,5
+Invensis offers complete railway logistics BPO services that cover both core and supporting processes.,5,train,6,4.5,
+Is it a good program? I hope so. I heard good things about it.,3,test,3.5,2,2
+Is it near?,1.5,train,2,1,
+Is it really safe? Running is pretty simple. You don't have to run fast.,2.5,test,3.5,2,2
+It could be particularly advantageous to make such glasses via safe processes.,5.125,train,4.5,4,
+It doesn't have to be that way.,3,train,2,2.5,
+"It feels like dangerous territory, but is certainly worthy of consideration.",4.5,test,5,4,5
+It is a good idea.,1.5,train,2,1,
+"It is a pleasure to meet you as well, Smudge. I concur, the World Cup is a most exhilarating time for soccer fans. The heightened competition and global attention make for a truly unforgettable experience.",6,test,6,6,5
+"It is also one of the most dynamic areas of the world economically, a factor which largely accounts for its growing international significance.",6,train,6,6,
+It is brown.,1,test,1,1,1
+It is clear from the recent statement that the company will not take any preemptive action to mitigate against those possible risks.,6,test,6,5,6
+It is good.,1,train,1,1,
+It is indeed incredible!,3.25,test,2,4.5,3
+"It is raining! I have umbrellas. Here, you can use this.",2,test,2.5,1,2
+it is rock and roll,1.5,test,1,2,2
+It looks like spam to me.,3.5,train,3,4,
+It makes me really happy when I hear someone give me a compliment.,3.375,train,2,3,
+"It operates the same as the quiver, stick bag and rock bag in that it permanently increases storage.",6,test,6,6,5
+"It seemed like he was on something, but I couldn't tell if it was uppers or downers.",5,test,6,5,5
+It seemed like our interpretations of the facts were very different.,4.75,train,4.5,5,
+It seems that most people have a certain amount of resistance to change.,4.5,test,4,5,5
+It takes a lot of consistent effort to keep everything clean.,4.75,test,5,4.5,4
+It was a very brief conversation.,4,train,2,3,
+It was amazing! The special effects were so cool!,3.5,train,4,3,
+It was an abysmal performance.,5,test,6,5,6
+It was nice to meet you. Have a good flight!,2,train,2,2,
+"It was no simple fast, but a thirty-day hunger strike.",5,test,6,4,4
+It was probably an innocent mistake.,4,test,4.5,3.5,3
+"It went well, I think.",2.25,test,2,2.5,2
+It will take a minute or two.,2.25,train,2.5,2,
+It will take quite a bit of rebel spirit to go against those rules.,5.5,train,5,6,
+It's a bit more abstract than I'm used to.,3.75,train,4.5,3,
+It's a building with several tenants.,4.25,test,4,4.5,4
+it's a great idea,2,train,2,2,
+"It's a lot of fun to do videos on a phone. It can be a challenge, but there are apps for editing video that really help make an already great video amazing. If you ever need some app recommendations, let me know.",5,train,5,5,
+"It's about a faded actress, Norma Desmond who once was a star. She is delusional, but lives in the past when Hollywood was Hollywood.",5.375,test,4.5,6,5
+It's absolutely gorgeous!,3,train,3,3,
+It's been a rough spell but I'm game to try anything that might help us weather this storm.,6,test,5,6,6
+It’s even all the way around.,4.5,train,4.5,4.5,
+It's going well. I'm having a great time.,3.5,train,3.5,3.5,
+"It's good to visit your family and friends and travel. Did you know that travel can make us healthier? That's because when we travel, we meet new people and we learn new things. It's like a vacation for our brain",3.25,test,3,3.5,2
+it's great,1,test,1,1,1
+It's important that we respect and celebrate diversity.,3.5,test,4,3,4
+"It's important to know that if you cancel or change your reservation less than 24 hours before you reserved, you will be charged a $15 admin fee.",4.75,train,4.5,5,
+It's important to remember that they are human beings and deserve to be treated with dignity.,4.5,test,5,4,4.5
+It's just important to stay consistent and not neglect it on a daily basis.,5,test,5,5,4.5
+It's my pen.,1,test,1,2,1
+It's really important to maintain consistency in quality.,4,test,2,3,4.5
+It's truly an incredible meal!,3.75,test,3.5,4,2
+Its reinforced sides guarantee a reliable grip on a dry and wet roads and reduce the risk of breakage and puncture.,5.5,test,5,6,5
+job,1,test,1,1,1
+just,2,test,2.5,3,1
+Just a couple of weeks.,2.5,test,1,1,1
+just thank you,1.5,train,2,1,
+just waiting is fine! thank you,2.75,train,3,2.5,
+knowledge,2.5,test,2.5,2.5,2
+leader,2.25,test,2.5,2,2
+"Let me check! ... Nah, it's not in my pocket! Any other ideas?",3,test,2.5,3.5,4
+let me see the pocket,3,train,3,3,
+Let's check the flight details to confirm.,3.5,test,3.5,3.5,3
+"Let's cut to the chase. We need to hone in on the main issues immediately. We'll run out of time, otherwise.",5,test,6,6,6
+let's go,2,train,2.5,1,
+let's go to the Moon,2.5,test,2,3,1
+Let's read the reviews first.,3,train,3,3,
+Let's stay home instead.,3,test,4,4,2
+letter,1.5,train,2,1,
+"Life is about making trade-offs and compromises. Consciously or unconsciously, we compare options and make an uncountable number of decisions every single day, hoping we've made the right decisions.",6,test,6,6,6
+Listening to opinions and delegating tasks are some of the often-cited attributes of great leaders.,6,test,6,6,5
+long,1,train,1,1,
+loudly,2.5,test,2.5,2.5,2
+Loyalty and honesty matter to me more than integrity.,4.75,train,4.5,5,
+man,1,train,1,1,
+Many trees.,1.5,test,2,1,1
+"MAS says, due to most platform operators where cryptocurrency trading is not in Singapore, it is difficult to verify their validity or credibility.",6,train,6,5,
+maybe a coat,1.5,train,1,2,
+Maybe someone else can help.,3.75,train,3.5,4,
+"Meaning and definitions of parsimony, translation in Hindi language for parsimony with similar and opposite words.",6,test,6,6,4.5
+medicine,2,test,1,2,1
+milk,1,train,1,1,
+mine is Michael Buble,2,train,2,2,
+money,1,train,1,1,
+My boss is a good leader.,2,train,2,2,
+My car is red and new.,1,train,1,1,
+My cat is really lazy.,2.25,test,2.5,2,2
+My family and my childhood friends are forever in my heart.,4.25,train,3.5,5,
+My father was very nervous all night long.,2.5,train,3,2,
+"My favorite character in ""The Godfather"" is Michael Corleone. He is a complex and well-developed character who undergoes a significant transformation over the course of the film. I admire his strength, his loyalty, and his willingness to do whatever it takes to protect his family.",5,test,6,6,5
+My fever is finally gone!,3.75,test,3.5,4,4
+My fingers hurt!,2.25,test,2.5,2,2
+"My mom taught me years ago, so I might be a bit rusty, but I think I'm up to the task.",4.5,train,5,4,
+My name is Susan.,1,train,1,2,
+My uncle is a lawyer. He can help us.,2,test,2,2,2
+naive,4,test,3,5,5
+Nancy Ademola's second appearance on Bernie Knight's Tuesday Night Contender Series went much better than his first as a head kick helped punch his ticket to a UFC contract.,6,train,6,6,
+Nausea is a common symptom.,3.5,test,3.5,3.5,3
+Nausea is one of the most common symptoms.,3.5,test,4,2.5,3.5
+nepotism,6,train,6,6,
+"Nepotism is not a good thing, but it's a reality.",4.75,train,5,4.5,
+never,1.5,train,1,2,
+"Nice. I love the song ""It Ain't Me"" with her and Kygo. Do you know it?",3,train,2.5,2,
+no actually I don't,3.25,test,3,3.5,2
+No exactly,2,test,2,2,2
+no I didn't know. It is very interesting,2,test,2,2,2
+no I don't,1.5,test,2,1,1
+no I have not read that book,3,test,3,3,2
+no I never tried,2.25,train,2.5,2,
+no I think,1,train,1,1,
+no I want a gallery,2.5,test,2,3,2
+"No solution is bullet proof. We must stay vigilant and adopt our approach swiftly, according to the changing circumstances, to increase the likelihood of success.",6,test,6,6,5
+"No, i am happy",1,test,1,1,1
+"No, I don't feel that cold, but I am getting goosebumps on my arms.",5,train,6,4,
+"No, I haven't really been conscious of the problem. I need more information.",4.5,train,5,6,
+"No, packages that haven't been delivered yet are excluded from our inventory count.",5.5,train,6,5,
+"Nope, not there. Any other ideas?",3,test,3,2,2.5
+not at all,3,train,3,1,
+"Not yet, but I'm planning to dedicate significant time to it today.",5,train,4,3,
+"Not yet. I'm hoping for a nephew, but I'll be happy either way.",4.5,train,4.5,4.5,
+"Note that some have pointed out that unanswered questions in fictional works engender both frustration and imagination in the reader, thus generating momentum and engagement in the action sequence.",6,train,6,6,
+now this is my first time,2.25,train,2,2.5,
+obsession,4.5,train,4.5,4.5,
+Of course! It’s 10 dollars a ticket.,2.5,train,3,2,
+"Of course! Please, let me know if you are unsatisfied with our service or need anything else. We always want to make our guests happy.",4.25,test,4.5,4,4
+Of course! That will be $30!,2.75,train,2.5,3,
+Oh no! Are you sick? How can I help you feel better?,3,test,1,2,2.5
+Oh no! Well thanks for trying!,2.5,test,3,2,3
+oh okay,1,train,1,1,
+oh well that's all right so tell me if you find it,3.5,train,3.5,3.5,
+oh yeah please,1,test,1,1,1
+"Oh, good! I think it is funny too. It is a very creative movie.",2.5,test,2,2,2
+"Oh, have you seen the movie Silence of the Lambs? It's a suspenseful drama about a detective trying to catch a serial killer. I love it!",5,train,5,5,
+"Oh, I forgot it was yesterday! Sorry about that. If Argentina is in the World Cup, are you excited to see them play?",3,train,3,2,
+"Oh, I like it with sugar and milk.",2.25,test,2,2.5,1
+"Oh, that is nice. What did you think of it?",2,train,2,2,
+"Oh! I love Julio! He has such a way with words. His characters are so lifelike, like you could reach right out and touch them.",4.5,test,3,4,4.5
+ok very well,2,train,2,2,
+"Ok, just to confirm - I'll see you at Le French Diner at 7pm next Wednesday for steak and lobster, right?",3.75,train,4,3.5,
+"Ok, then try to rest as much as possible, drink plenty of fluid and avoid fatty and spicy foods. I also recommend taking plenty of vitamin C and zinc to help boost your immune system.",4.75,test,5,4.5,4.5
+"OK, we can do that. First I need you to tell me about any other symptoms that you're experiencing. Do you have a sore throat? Do you have a cough? Are you sniffling? Do you have runny nose?",4.5,train,2,3,
+"OK! What day and time would you like to come in, and what are your names?",3.75,test,3.5,4,2.5
+okay,1,train,1,1,
+okay here we go,2.5,train,2.5,2.5,
+okay here you are,1.5,train,1,2,
+okay I understand,1,test,1,1,1
+okay my credit card is 1 2 7 5 4 3 9 2 1 0,1.5,train,1,2,
+"Okay, I'm going to ask you something that's kind of a difficult question. Would you rather watch a whole season of a good show or a not-so-good show?",4.75,train,4.5,5,
+"Okay, let me check your throat. Open your mouth. Aaah! Say ""aah"". Great. Do you have a fever?",3.5,test,4,3,4
+Okay. I can't wait!,3,test,3,3.5,1
+On your purse,2,train,2,2,
+"Once you round the bend, you'll see the house, clear on over the hills and nestled into the forest.",6,train,6,6,
+One of the symptoms of an ear infection is dizziness.,4,train,4.5,3.5,
+One of the VPs will take over until a new CEO is appointed.,5,test,5,5,4.5
+Only a little.,2.75,train,3,2.5,
+Ooh. I don't think I've heard of that artist. What about trap rappers?,3,test,3,3,3.5
+"Orange juice, please.",1,train,1,1,
+Other state powers wondered how to rein in the autocrat and avert what seemed an impending disaster.,6,train,6,6,
+Part of the beauty of cherry blossoms is due to its ephemeral nature.,6,test,6,6,5
+patience,4,test,4,4,4
+Patience is definitely important.,3.75,test,3.5,4,4
+"People can't stand his absent-mindedness. On the contrary, I found it quite interesting!",6,train,6,6,
+People often misunderstand the relationship of correlation as cause and effect.,6,train,6,6,
+Please wash this.,1.5,test,2,1,2
+Presentations have never been my strong suit. I genuinely admire people who aren't afraid to get up and talk in front of a huge crowd.,6,test,6,6,4.5
+Prioritizing organization is the only way I can keep track of it all.,5,test,5,5,4.5
+procrastination,4.75,train,4.5,5,
+Public speaking frightens me.,3,test,4.5,5,3
+recite,3.5,test,3,4,4
+recommend,2,test,3,2,2
+Refreshed and re-energized.,4,train,4,4,
+"Registering code conditions at both the transmitting and receiving locations, at the finish of the transmission of a message, enables the message to be checked against a like record at the other location.",6,test,6,6,4.5
+Regular card use is the key to the success of this program: Every transaction counts!,5,train,5,5,
+related,2.5,test,2,3,3
+relevant,4,test,5,4,4
+sad,1,train,1,1,
+school,1,test,1,1,1
+"Several naturalists noted that the typical form was more common in the countryside, while the carbonaria moth prevailed in the sooty regions.",5.5,test,6,5,5
+She came across a pride of lions.,6,train,6,4,
+"She hated the idea of neutering the cat, but proceeded nonetheless.",5,test,6,5,5
+She is a teacher.,1,train,1,1,
+"She prattled on, but my focus was elsewhere.",6,test,6,6,6
+She took the initiative and asked to lead the project.,4.75,train,4.5,5,
+"She was accused of vindictiveness, while her male counterparts were praised for their ambition.",6,test,6,6,6
+She's a dystopian writer who wrote the Hunger Games trilogy and the Underland Chronicles.,4.25,train,5,3.5,
+"She's been quite withdrawn, as of late.",6,train,6,6,
+She's not listening.,1.5,test,2,1,1
+She's trying to work.,1.5,train,2,1,
+significant,3.5,test,4,3,4
+Singing can be relaxing.,2.75,test,3,2.5,2.5
+sleep,1,train,1,1,
+so do I,2.5,train,2,3,
+So do you also read fantasy novels written by other authors or just Harry Potter?,4,test,4,4,4
+so it is perfect I want it,2.25,train,2,2.5,
+Some adverse drug reactions could be avoided by properly evaluating the conditions of patients and correctly applying local anaesthetics 11.,6,test,6,6,5
+Some of the symptoms of food poisoning are nausea and cramping.,3.5,train,4,3,
+Some plants need specific soil to grow well indoors.,3.75,train,4,3.5,
+"Some residents form their opinions by listening to leaders, and then base their actions on what they hear.",4.5,train,5,4,
+Sorry,1,train,1,1,
+sorry I do not,2,train,2,2,
+Sorry.,1,test,1,1,1
+sounds good to me,2.5,train,2,3,
+Sounds great! Do you prefer in the dining room or the patio?,3.25,test,3,3.5,3
+"Specifically, the followers are engaged in a coordination game: they each want to do the right thing, and do it together, but they lack full information about their environment.",5,test,5,5,4.5
+"Specifics are not critical, so long as we can get across the core idea crystal clear.",6,train,6,6,
+Startup funds could only float the company for so long.,5,test,6,5,5
+Stereotypes are problematic because they are usually rooted in prejudice.,5.5,test,5,6,5
+Stereotypes lead to prejudice.,5,train,5,5,
+"Structural elements of this type can be utilized in the manufacture and installation of a wind turbine tower, which, when properly aligned and bolted, reinforce the mechanical bond of the assembled pieces as joined together in the field during installation.",5.75,test,6,5,5
+"Sure, the medicine that is most commonly given for the flu is an antiviral medication called Tamiflu. I can write you a prescription for Tamiflu.",5,test,5,5,4.5
+"Sure, we can meet at the restaurant. What time would you like to go?",3.25,train,3,3.5,
+"Sure, what's it about?",2.75,train,3.5,2,
+Sure! 200 Years of Solitude by Gabriel Garcia Marquez and Frankenstein by Mary Shelley are some classics.,3.5,train,5,1,
+take care,1.5,train,1,2,
+Talking quietly in a loud party never works well.,4,test,3,2.5,2.5
+Thank you! You sleep well too.,2.5,test,2,3,1
+Thank you.,1,test,1,1,1
+Thanks. What time do you usually eat dinner?,2.75,test,3.5,2,2
+that is great so what else do you do? what else do you like to do?,3.5,test,4,3,2
+That makes his performance even more impressive! What are your predictions for the fight between him and Dustin Poirier?,4.75,train,5,4.5,
+that sounds cute do you like to go for a swim too,3,train,3,4,
+"That sounds delicious! I would love to have the turkey sandwich. And there'll be plenty of room for dessert: churros, paella, and flan!",4.5,test,4.5,2.5,3
+That was a perfect example of how to make a restaurant reservation! Would you like to practice some more?,3.5,train,2,3,
+"That was my favorite at one point, but I really love the song Stairway to Heaven by Led Zeppelin.",3.5,train,3.5,3.5,
+That watermelon was enormous!,3,train,3,3,
+That's a classic! What is it that you like about it? The story? The graphics? The characters?,4,test,4.5,5,3
+"That's a very impressive career field. Do you create games, websites, or apps?",3.5,train,4,3,
+"That's awesome! What kind of crime books would you recommend if you have any? As for TV, do you follow any news channels as well?",4.25,test,4.5,4,4
+That's cool! Do you have a favorite player? How did you get into the game?,4,test,4,4,2.5
+That's it! Thank you! I'm so relieved to have my passport back!,4,test,4.5,5,4
+That's okay. How would you feel about being on a trivia team with some friends?,4,test,4,4,3
+that's perfect,2,test,2.5,1,1
+That's what trust is all about.,3.75,train,3.5,4,
+The ability to analyze trends and monitor demographic changes that take place alongside migratory flows requires a systematic processing of information related to the movement of people.,6,test,6,5,6
+"The aforementioned study found that parents from more educated and privileged backgrounds talked more, used a more diverse lexicon, and produced longer utterances with their children.",6,train,6,5,
+"The African mango extract reduces appetite, stimulates fat breakdown, reduces the absorption of carbohydrates.",5.5,train,5,6,
+The article is relevant because we are studying the 1965 Immigration Act and that's what it's about.,3.5,train,3,4,
+The article was quite relevant to the discussion we had in class yesterday.,4.5,train,4.5,4.5,
+"The author is really good, he has written other books too, did you ever read any of his others?",4,test,4,4,3
+"The Beast and Beauty, a classic tale of love and redemption, is set in a remote castle on the mainland. The Beast is a cruel and fearsome creature, but Beauty sees his inner goodness and teaches him the meaning of love. Through her compassion, the Beast is transformed into a handsome prince, and the two live happily ever after.",5.625,test,6,4.5,5
+The bottom line is everyone needs to chip in where they can help.,5,train,6,5,
+"The buyers entered into a bidding war, preventing any real movement.",5,train,5,5,
+The car is black.,1,train,1,1,
+"The cavum vergae is bordered anteriorly by the posterior border of the cavum septi pellucidi, inferiorly by the body of the fornix, and superiorly and posteriorly by the corpus callosum.",6,test,6,6,6
+The CFO is the most likely successor.,4,test,5,3,5
+"The characters are Red, Andy Dufresne, Brooks Hatlen, and Warden Norton.",2.75,train,3,2.5,
+The city claimed the building was razed for aesthetics.,6,train,6,6,
+The closure of the main street will cause a great deal of inconvenience to the entire community that have been affected.,5,train,5,5,
+The concept was necessary for the proletariat in unifying rule over the peasantry to wage a revolution.,6,train,6,6,
+The Consumer Report Reader provides an unheard of Reader Score of 95 and is “excellent” in both simple claims and timely payments.,5.25,train,6,4.5,
+The cookbook is between the refrigerator and the other cookbooks.,3.75,train,3,4.5,
+The country's catastrophic failure was caused by just one leader who became complacent about the situation.,6,test,6,6,6
+The end reveal was a huge surprise!,4.5,test,4,5,4
+The EU Parliament's Economic Affairs committee votes to tighten rules on London-based investment banks after Brexit.,4.75,train,4.5,5,
+"The Exchange does not warrant and holds no responsibility for the veracity of the facts and representations contained in all corporate disclosures, including financial reports.",6,test,6,6,6
+The fact that his leave was never officially approved colored his supervisor's judgement during the performance review.,6,train,5,6,
+The field shifted its focus away from metalinguistic awareness and its isolated subcategories toward the cognitive processes of executive control.,6,train,6,6,
+The free PowerPoint template has a high quality photo design in the background of the slide with impressive skyscraper photo and blue colors.,4.25,test,5,3.5,3
+The full agenda is unknown but Trump's administration will be seeking to gain a better understanding of 5G's benefits and its economic potential.,6,train,6,5,
+The gas prices have increased dramatically.,4.25,train,4,4.5,
+The idea of fate or destiny is so fascinating!,4,train,5,3,
+The ignominy of having to resign is what stung the most.,6,test,6,6,6
+"The indictment charged the tycoon with hoarding sensitive documents, refusal to cooperate with law enforcement, and contempt of court.",6,train,6,6,
+The instructions were extremely comprehensive so they weren't easy to follow.,4.25,train,4.5,4,
+The integrated HD triple tuner means that a separate receiver is no longer required.,5.5,train,5,6,
+"The journey is not linear and is influenced by multiple factors, including the initial drivers of migration.",6,test,6,5,5
+The kids totally lost it this morning and I'm at the end of my rope.,5,test,5,5,6
+The lunch is at two. I'll see you at the restaurant.,2.5,test,2.5,2.5,2
+The man took one of them.,2.125,test,2,2,2
+"The market has missed the potential of one of Vertex Capital's new favourite companies, according to Jonathan Simone.",5.5,test,6,5,4
+The minimum required in most cases is $20.,3.25,test,4,2.5,4
+"The Moors occupied Spain for seven centuries. If you want to learn more about them, just go visit the Alhambra Palace in Granada, Spain!",4.25,train,4,4.5,
+The most important thing is the applicant's qualification.,4,train,4,4,
+"The multipurpose robot often permits blending, grating, cutting, mincing and thanks to specific accessories, it can also serve as a blender, stick blender and even as a mincer.",5,train,4,6,
+"The muscat of Frontignan with famous gold reflections, a pure product in the tradition of the region, has been cultivated in Frontignan since Antiquity.",6,test,6,6,6
+The net profit of one of the subsidiaries of the parent company exceeded the market expectation in this quarter by a big margin.,6,test,6,6,5
+The new designer is really good at capturing the aesthetic of the brand.,4.5,test,4,5,5
+The new legislation aimed at curbing the use of plastics in the food sector is a good example of the EU's commitment to the environment.,5,test,4,4.5,5
+The new study aims to advance an ongoing discussion of objectively examining the differences of judgments between experts and amateurs.,6,test,6,6,5
+"The Notebook is a poignant tale of undying love that transcends time. The film's emotional impact is undeniable, and it is sure to leave a lasting impression on any viewer.",6,train,6,6,
+"The obligations and duties incurred by any municipality shall be binding and of full force and effect, notwithstanding that the term of office of the elected governing body which initially entered into or approved said contract or agreement has expired.",6,test,6,6,6
+The painting was acquired as part of the museum's new set of acquisitions.,5.5,test,6,5,4
+"The paper is basically complete, but the conclusion needs some work.",3.5,test,4,3,4
+The performance of large analogue audio systems can be improved by using distributed digital systems because networking leverages the wholesale digitalisation of media equipment for handling signals.,6,train,6,6,
+The price of gas has increased a lot recently.,2.5,test,2,3,2.5
+The price of gas has increased by 15% recently.,4,test,4,4,2.5
+The price of gas increase by 10% in just the last month,3.5,train,3,4,
+The priority is to finish the report by the end of the day.,3.5,test,3,4,3
+The proposal was at once lauded and decried by opposing camps.,6,test,6,6,6
+The prose is plagued by an ennui so thick one tires after just a few pages.,6,train,6,6,
+The protests took place amid renewed and heightened calls for rent freezes in the face of rampant gentrification.,6,train,6,5,
+The rate at which kids absorb new information is simply astonishing.,6,test,6,6,4
+"The realities of the lives of transnational youth and their families are not static, but rather fluid and flexible as they move across literal and metaphorical borders.",6,train,6,6,
+The regulators approved new rules with the aim of overhauling the way hedge funds deal with their investors.,6,train,6,5,
+the same,1.5,train,1,2,
+the second one,2.5,train,3,2,
+"The Shining's plot is excellent - a little scary at times, but very well done, with lots to think about.",4.5,train,4.5,4.5,
+The site has been built for all taking into account the unique preferences and practices within the religion.,5.25,test,6,4.5,4
+The spirit of the Olympics is what makes it so special.,3.5,train,3.5,3.5,
+"The study participant, a bilingual with phonological dyslexia, produced morphological paralexias during her reading of inflected words.",6,train,6,6,
+"The style features a bandeau top that enhances tanning potential, and the matching bottoms have the relatively high leg and mid coverage ensure you can be confident that you're not baring all.",6,test,6,6,4.5
+"The Sumida River is one of Japan's biggest, and you can take a tour on a boat and see the sights along the river's edges like sumida aquarium, temples, and more. The Sumida Observatory lets you take in a birdseye view of the river and Tokyo. Are you ready to book your tickets?",5,test,4,6,2.5
+"The views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",6,train,6,5,
+The weather report says to expect two inches of precipitation this weekend.,4.25,test,5,3.5,4
+Their failure to get approvals in time is beyond my comprehension.,6,train,6,6,
+There are many interesting characters in the movies named above. Who is your favorite character from any of these movies?,4.25,train,4,4.5,
+There are many seasons of 'The Simpsons'. How about 'The Simpsons Movie'? Do you like that?,3.5,test,3.5,3.5,2
+"There are some benefits to aging, such as maturity and wisdom.",4,test,4,4,4.5
+There is a big discrepancy between the image online and the actual product.,4.75,test,5,4.5,4.5
+"There is a small pocket in my shirt, you might try there. Or, you can check under my big belt!",3.5,test,4.5,3,2
+There is nothing else quite like an opera with live orchestra. Have you ever been to a live opera or symphonic performance?,4.75,train,4.5,5,
+there you go,2.25,train,2.5,2,
+There's a discrepancy between the picture of what I ordered and what I received.,5,train,5,5,
+"These groupings allow dialogue among the papers' authors, which can ignite in-depth investigation of the selected subjects.",5.75,test,5,6,5
+"These helically wound elastic conduits in galvanized steel have been valued for attributes like corrosion resistance, durability, and high usable life.",6,test,6,6,6
+they are,1,test,1,1,1
+They are students.,1,test,1,1,1
+They create prejudice.,4,test,4.5,3.5,5
+They eat there.,1.25,test,1,1,1
+They have chosen an internal candidate to be the CEO's successor.,5,train,3,4,
+They lived in the occupied territories under a carceral regime.,6,test,6,6,6
+They lived under the constant threat of guerilla warfare.,5,train,5,5,
+They make these screen protectors that prevent the glass from cracking.,4.5,train,4,5,
+They’ll appoint a successor.,3.75,train,3.5,4,
+They're afraid of having nightmares.,3,train,2,2,
+They're all prepositions.,4,train,4,4,
+This allowed us to see how well each internet browser works alongside these programs to provide optimum online security to you and your family.,5,train,3.5,4.5,
+"This business also includes the GreenScope Properties Group, which develops industrial properties, predominantly warehouses and distribution centres.",5,test,5,5,5
+"This conventional type of partition suffers from several well-known drawbacks, foremost being the high-impedance nature of the remote power supply.",6,train,6,6,
+This could provide methods that might ensure enhanced specificity for target recognition without toxicity.,6,train,6,6,
+This food is good.,1.5,test,1,1,1
+This girl is in third grade.,1.75,test,2,1,2.5
+This has been a particular problem with glasses which employ refractory metals such as platinum alloys in their molten glass.,5.375,test,5,4.5,6
+"This is a type of tasting suitable for a larger group of people, ideally as a addition to receptions or a banquet with a larger number of guests.",5.5,train,6,5,
+"This is an argument which could certainly stand some expansion, though he does try to do so at least very briefly at the end by referring to several other 'contemporary Western moral philosophers'.",6,test,4,5,5
+"This is because platinum, like molybdenum, can cause an electrochemical reaction which results in bubble formation at the interface where the glass contacts the metal.",5.75,test,6,5,5
+This is his book.,1,train,1,1,
+This is my sister.,1,train,1,1,
+This is the best hotel.,2,train,2,2,
+this is the correct one,3,train,3.5,1,
+this plot is very nice,2,test,2,2,2.5
+"This utilizes the WM APPCOMMAND to change the microphone volume, see attached VI.",4.5,test,5,4,4.5
+This weekend is fine.,1.5,train,2,1,
+"Those are the child's toys, over there.",2.5,train,2.5,2.5,
+Those women are leaving.,1.75,test,1,1,1
+"Three-cylinder engines sprung onto the market in droves, signaling a departure from last season.",6,test,6,6,6
+"Time to reserve your cuts of meat from these animals which grazed in nature and only ate grass, shrubs, blueberry branches and herbs in the pasture.",5.5,train,5,6,
+Tired. Long day.,1.5,train,2,1,
+to ascertain,6,test,6,6,5
+to be in a quandary,5.5,train,5,6,
+to be responsible for,3.75,train,4,3.5,
+"To date, many related materials have been collected by the Foundation, but the detailed organizational structure and purpose thereof have not yet been clarified.",6,test,6,6,5
+to eat,1,train,1,1,
+to give someone a ride,3.75,train,3.5,4,
+to invite,2,train,2,2,
+to like,1,test,1,1,1
+to take a stand,4.5,train,4,5,
+Today's range totals 76 pieces and remains one of Axel Becker's most exclusive silverware patterns.,5,train,5,5,
+Tomorrow I will call you.,2,test,2,2,2
+train,1,test,1,1,1
+Try to enhance the colors and contrast.,4.5,train,3,3,
+"Tutorial: Your three tickets will cost you 25.25 euros. You can charge that to your credit card if you have one, or pay with cash.",4,train,4,4,
+Very possible. The tour's age range is seven to seventy-five. Would you like to schedule this tour now?,3.75,test,3.5,4,3.5
+Very sleepy.,1.5,test,2,1,1
+Warehouse worker driving forklift at warehouse.,4.5,train,4,5,
+Warm weather is the best!,3,train,3,3,
+"Water, please.",1,train,1,1,
+We all wake up early.,1.875,train,2,1,
+We are both very loyal even though we are opposites in a lot of other ways.,4,train,4.5,3.5,
+"We are committed to providing a safe, honest, and reliable gaming environment to ensure unbiased and first-class service for all our customers.",5.5,test,6,5,4
+we are living in an igloo,2,train,2,2,
+"We are open to new markets for procurement and supply of products and would solicit any enquiries and offers, which would receive immediate and prompt attention.",5.5,test,5,6,6
+We came upon the beached whale at daybreak.,6,train,5,6,
+We can reduce water usage by using rain barrels and taking shorter showers.,4.75,train,4.5,5,
+We do our best to ship all items within 1 business day however we do not ship on weekends or holidays.,4.5,train,2.5,3,
+"We don't have dolphins at our shelter, unfortunately. But we do have kittens and puppies waiting for homes! Would you like to meet them?",4.25,train,4,4.5,
+We have an abundant amount of apples because we have a few apple trees.,4.25,train,3.5,5,
+"We have lemon-lime soda, lemonade, orange juice, apple juice and fruit punch. Do you want to try any of them?",3,train,3,3,
+We have to have a strong commitment to succeed.,4.5,test,5,4,3
+"We have two permanent exhibits: the archeological hall and the historical hall. Now, how many tickets can I get you?",4,train,3.5,4.5,
+We need commitment and motivation.,4.25,test,4.5,4,4
+We need to address our bias and be more inclusive.,4.5,test,4,3,5
+We need to be more aware of our own biases and work to overcome them.,5,train,5,5,
+We need to set aside our biases and be more accepting of all people.,4,train,4,4,
+We read books.,1,train,1,1,
+We seek to trouble the monolithic notion of the immigrant figure.,6,train,6,6,
+We should try to be more aware of our own biases and try to be more open-minded.,4,train,4,4,
+We should try to remove our own biases and consider others' opinions.,4.5,train,3,4,
+We talk on the phone every night.,2,train,2,2,
+We walked up the hill.,2.375,train,3,2,
+We went to a beautiful island.,2,test,2,2,2
+We'll see you then!,2.5,test,3,2,2
+"We've got a great assortment of milk, including whole milk, skim milk, soy milk, almond milk, rice milk, cashew milk, oat milk, and chocolate milk.",4,train,3,2.5,
+Were the packages that haven't been delivered yet included in our inventory count?,5.5,test,6,5,4.5
+what,1,train,1,1,
+What about drawing? Have you done any drawing? Have you ever done any art that you've gotten complimented on? Or any that you're really proud of?,5,test,5,5,4.5
+What are some of the qualities that your family members have in common?,4,train,2,3,
+What are you doing tomorrow?,2,train,2,2,
+What are you studying in school?,2.75,train,3,2.5,
+what do you mean?,2.5,test,2,3,1
+What do you think of The Rolling Stones? Their song Satisfaction is one of my favorites.,3.25,test,3,3.5,2.5
+What does it take to be a great athlete?,4,test,4,4.5,3
+"What happened recently? We had to reply to many emails this week. Yes, we received a lot.",3,test,3.5,2,2.5
+What in the world happened here this past week when I was out? This place looks totally messed up now and it would take a tremendous amount of time and resources to get back to where we were.,5,train,6,5,
+What is the most endangered cat in Africa?,3.75,test,4.5,3,4
+What is your name?,1,test,1,1,1
+What types of rock do you listen to? I like classic rock -- artists like the Rolling Stones and Queen are a couple of my favorites.,3.5,test,3.5,3.5,2.5
+What's something you have drawn recently that you are proud of?,4.75,train,5,4.5,
+What's the basis of his argument? Is it even logically valid?,4.5,test,6,6,4
+What’s the main reason you want to leave your current job?,4,test,4,4,2
+what's up,2,test,2,2,2
+"When I do, let's go to one of our favorite spots in the park, where we can watch the ducks waddle and feed breadcrumbs to the squirrels.",4.5,test,4,4,5
+"When the bonds mature, the issuer must repay in full.",6,test,6,6,4.5
+When were you in the city?,2.25,train,2.5,2,
+"When you activate SendGrid management for a subsite, that site will not be able to send emails until the admin updates the SendGrid settings on that subsite.",4.75,train,5,4.5,
+Where are you from?,1,test,1,2,1
+Where can we find food?,2.5,train,2,2,
+Where did you buy it? At a supermarket. I go there every day.,2,train,2.5,1,
+Where did you go?,2,train,2,2,
+"Whether diseases start at home or abroad, are curable or preventable, chronic or acute, or from human activity or deliberate attack, CDC responds to America's most pressing health threats.",5.5,test,5,6,6
+Which one do you like?,2.75,test,2,2,2
+Who organized this party? It's so fun! I'm glad you came!,2.5,train,3,2,
+Who's that guy?,2,test,2,2,2
+Who's your favorite character from this movie? My favorite character is Hansel. He is awesome!,3.5,train,3,4,
+"With a positive attitude, you'll get it done.",3.5,train,3.5,3.5,
+"With Blue Grape, an ingredient that's significantly rich in antioxidant anthocyanins and tannins, and efficiently protects epidermal cells from photo-ageing.",6,test,4,5,6
+"With hard work, perseverance, and a good attitude.",4.5,test,4,5,3.5
+"With the right training, they could have a lot of potential.",4.25,train,4,4.5,
+Within these additional degrees of freedom more heat energy in the form of vibrations can be stored.,6,train,6,6,
+Would you care for a sugar substitute like agave syrup with your coffee instead of sugar?,5,train,5,5,
+Would you concur with a view that one condition of being a good colleague is self-sacrificing in the interest of achieving a larger goal as a team?,6,test,6,6,6
+"Would you like to go somewhere special for lunch, or should we just pick a restaurant near the park?",4,test,4,4,4
+Wow! Mine is 'The Simpsons'. Are you familiar with it?,2.5,test,3,2,3
+yeah could be,3,test,3,3,4
+"Yeah I love that movie because of the characters, like Derek Zoolander, Maury Ballstein, Hansel and Jacobim Mugatu, they are so ridiculous.",4.25,train,4,4.5,
+"Yeah, it's quite a controversy!",4.75,test,5,4.5,4
+"Yeah, they are. They have such cute and unique characters, I especially love their noses. What do you like about Otters?",4,test,4,4,4
+yes a long time ago,2,test,2.5,1,2
+yes for sure! I'll be there in my best kimono.,3.5,test,3.5,3.5,2
+Yes i could,2.25,test,2.5,2,1
+yes I have,2.25,test,2,2.5,1
+Yes I like it,1,train,1,1,
+yes I like reading,2,train,2.5,1,
+yes I like that idea,2,train,2,2,
+yes I like to Talk about it,2.75,train,3,2.5,
+yes I play piano,1.5,test,2,1,1
+yes I think so,2.75,test,2.5,3,2
+Yes I use my laptop computer for work.,3,train,3,3,
+yes I will pay with cash,2.75,train,3,2.5,
+yes of course I need it,2.5,test,2.5,2.5,2
+yes okay,1,train,1,1,
+yes please I need your help,2,test,2,2,1
+yes there are,1.5,train,1,2,
+yes very much,1,test,1,1,1
+yes we do,1.5,test,2,1,1
+Yes we should.,2.25,train,2,2.5,
+yes yes it's okay,1,train,1,1,
+"Yes, and I recommend it!",2.75,train,2.5,3,
+"Yes, business not pleasure.",3.75,test,3.5,4,3
+"Yes, but patience is a virtue that I need to work on.",4,test,4,4,5
+"Yes, his comments resonated with me deeply. I had faced the same situation before.",6,test,6,6,5
+"Yes, I agree. It's very amazing.",2.25,test,2,2.5,1
+"Yes, I just got a new account.",2.5,train,2,2,
+"Yes, I'm certain that's the way.",4,train,3.5,4.5,
+"Yes, I'm very conscious of the problems we tackle.",4.5,train,5,4,
+"Yes, I'm very proud of my achievement.",3.25,train,3.5,3,
+"Yes, I've been waiting for you to get ready.",3,test,3,2,2
+"Yes, I've made a significant amount of progress on my project.",3.5,train,3.5,3.5,
+"Yes, it used to be the residence of a famous writer.",4.5,test,2.5,3,5
+"Yes, it's three stops away.",3.5,train,3.5,3.5,
+"Yes, please",1,train,1,1,
+"Yes, so I'm studying hard now to avoid having to cram at the last minute.",4.75,test,3.5,4.5,5
+Yes! I am so relieved that you found it.,4,train,4,5,
+Yes. For once I wish they had written less comprehensive instructions.,5,test,5,5,4
+Yes. Please help.,1,test,1,1,1
+Yes. We're close.,2.5,test,3,2,2
+You are tall.,1,train,1,1,
+You are welcome!,1,train,1,1,
+"You could learn. There are classes, or you can try teaching yourself using You-tube videos of other people playing. It's super fun, and a good way to build hand coordination.",4,train,4,4,
+"You could try using adjectives such as 'vast', 'infinite', or 'mysterious.'",4.75,train,5,4.5,
+"You got it! We have whole milk, 2% or skim. Which would you like? By the way, what is your name? You can call me Bearnard.",3,train,3.5,2.5,
+You have to take it to the dump.,3.5,train,3,2.5,
+"You mean my hood? ... aha! There are my keys! Now I can get back into my igloo! Thanks, friend!",3.75,train,3.5,4,
+You need to download it to your phone.,3,train,3.5,4,
+You should make sure to respect diversity and treat everyone equally.,4.25,train,4.5,4,
+You should see that film!,2.25,train,2.5,2,
+"You think she can help us? Yes, definitely. That's right in her wheelhouse.",4.5,test,6,6,4.5
+You too,1,test,1,1,1
+"You will be working with at least one, but maybe more, content managers at several different institutions or units, or you will have both roles yourself.",5,test,5,5,4.5
+"You'll be eating at a great time - the sunset will be beautiful, and the restaurant will be empty enough to have very good service!",4.5,test,4,5,2.5
+you're right,2,test,2,2,1
+"You're right, business prospects are bleak. I'm ready to talk turkey.",6,train,6,6,
+You're welcome! It was a pleasure to talk to you. Bye!,3.5,test,3.5,3.5,3
+You're welcome.,1,train,1,1,
+your hat,1,train,1,1,
+your house,1,train,1,2.5,
