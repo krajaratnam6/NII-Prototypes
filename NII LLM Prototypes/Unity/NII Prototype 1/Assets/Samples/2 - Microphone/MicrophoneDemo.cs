@@ -17,7 +17,8 @@ namespace Whisper.Samples
         public bool streamSegments = true;
         public bool printLanguage = true;
 
-        public OllamaInterface ollamaInterface;
+        // public OllamaInterface ollamaInterface;
+        public ClientManager clientManager;
 
         [Header("UI")] 
         public Button button;
@@ -90,7 +91,7 @@ namespace Whisper.Samples
                 text += $"\n\nLanguage: {res.Language}";
             
             outputText.text = text;
-            ollamaInterface.Chat(text);
+            clientManager.SendServerMessage(text);
             UiUtils.ScrollDown(scroll);
         }
         

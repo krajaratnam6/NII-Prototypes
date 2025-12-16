@@ -337,7 +337,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &146902120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -566,6 +566,55 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 246599926}
   m_CullTransparentMesh: 1
+--- !u!1 &302106927
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 302106929}
+  - component: {fileID: 302106928}
+  m_Layer: 0
+  m_Name: ClientManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &302106928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302106927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69f6321d25ae9014bb1f6116cadbf821, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ipAddress: localhost
+  port: 12345
+  cefrLevel: A1
+  output: {fileID: 428803726}
+  canSend: 1
+--- !u!4 &302106929
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302106927}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 704.3746, y: 1055.2534, z: -4.1140475}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &326716702
 GameObject:
   m_ObjectHideFlags: 0
@@ -878,7 +927,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: What do you want to use English for?
+  m_Text: 
 --- !u!114 &428803727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -917,8 +966,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.05, y: 1}
   m_AnchorMax: {x: 0.95, y: 1}
-  m_AnchoredPosition: {x: 0, y: -467}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -3, y: -467}
+  m_SizeDelta: {x: 6, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &433860683
 GameObject:
@@ -1232,7 +1281,7 @@ MonoBehaviour:
   initOnAwake: 1
   useGpu: 0
   flashAttention: 0
-  language: auto
+  language: en
   translateToEnglish: 0
   strategy: 0
   noContext: 1
@@ -3204,8 +3253,8 @@ MonoBehaviour:
   whisper: {fileID: 587639199}
   microphoneRecord: {fileID: 1337591123}
   streamSegments: 1
-  printLanguage: 1
-  ollamaInterface: {fileID: 146902120}
+  printLanguage: 0
+  clientManager: {fileID: 302106928}
   button: {fileID: 2099288375}
   buttonText: {fileID: 1431014845}
   outputText: {fileID: 1194114916}
@@ -3729,7 +3778,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1400360879
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3905,7 +3954,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1425433664
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4166,7 +4215,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &1535893992
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4683,3 +4732,4 @@ SceneRoots:
   - {fileID: 2098053319}
   - {fileID: 1535893994}
   - {fileID: 146902121}
+  - {fileID: 302106929}

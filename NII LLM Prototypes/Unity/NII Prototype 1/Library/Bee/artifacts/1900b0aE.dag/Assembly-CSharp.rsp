@@ -395,6 +395,7 @@
 "Assets/Samples/3 - Languages/LanguagesDemo.cs"
 "Assets/Samples/4 - Subtitles/SubtitlesDemo.cs"
 "Assets/Samples/5 - Streaming/StreamingSampleMic.cs"
+"Assets/Scripts/ClientManager.cs"
 "Assets/Scripts/OllamaInterface.cs"
 -langversion:9.0
 
