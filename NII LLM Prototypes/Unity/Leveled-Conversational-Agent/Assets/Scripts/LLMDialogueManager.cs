@@ -15,6 +15,7 @@ using System.Text;
 /// </summary>
 public class LLMDialogueManager : MonoBehaviour
 {
+    ClientManager clientmgr; 
     private string apiKey;
     private string apiUrl = "https://api.openai.com/v1/chat/completions";
 
@@ -104,6 +105,8 @@ public class LLMDialogueManager : MonoBehaviour
         // The OnAudioPlayback is a static event so nomatter which instance of TextToSpeech triggers it, this will be notified
         // The event will be triggered either when playback starts or ends with a boolean parameter
         TextToSpeech.OnAudioPlayback += HandleAudioPlayback;
+
+        clientmgr = GetComponent<ClientManager>();
     }
 
     void OnDestroy()
@@ -128,7 +131,8 @@ public class LLMDialogueManager : MonoBehaviour
         // Manage conversation history length
         TrimConversationHistory();
 
-        StartCoroutine(SendRequest(userMessage));
+        // StartCoroutine(SendRequest(userMessage));
+        SendMessage(userMessage);
     }
 
     // Cut conversation history to save tokens
@@ -138,6 +142,17 @@ public class LLMDialogueManager : MonoBehaviour
         {
             conversationHistory.RemoveRange(1, 2);
         }
+    }
+
+    void SendMessage(string userMessage)
+    {
+        clientmgr.SendServerMessage(userMessage);
+    }
+
+    public void ReceiveMessage(string userMessage)
+    {
+        conversationHistory.Add(new Message { role = "assistant", content = userMessage });
+        HandleRespond(userMessage, "neutral");
     }
 
     private IEnumerator SendRequest(string userMessage)

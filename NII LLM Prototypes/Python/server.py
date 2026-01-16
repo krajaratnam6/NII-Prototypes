@@ -28,7 +28,7 @@ def serve(connection, address):
                 response = f"'{msg}' is not a recognized CEFR level. Try again."
         else:
             if not agent:
-                agent = lv.LeveledAgentWithFeedback(max_iter=5, min_lv_ratio=0.66, user_cefr_level=cefr_level, verbosity=False)
+                agent = lv.LeveledAgentWithFeedback(max_iter=5, min_lv_ratio=0.66, user_cefr_level=cefr_level, verbosity=True)
             response = agent.chat_to_agent(msg)
         connection.send((response + "\n").encode('utf-8'))
     connection.close()

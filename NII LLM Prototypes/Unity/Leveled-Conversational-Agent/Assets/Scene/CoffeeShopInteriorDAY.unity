@@ -12111,6 +12111,7 @@ GameObject:
   - component: {fileID: 347361753}
   - component: {fileID: 347361752}
   - component: {fileID: 347361748}
+  - component: {fileID: 347361754}
   m_Layer: 0
   m_Name: AIManager
   m_TagString: Untagged
@@ -12213,6 +12214,22 @@ MonoBehaviour:
   systemPromptAsset: {fileID: 4900000, guid: 0744be8f8565e6a4e8c35c6d487c2da9, type: 3}
   animator: {fileID: 5866666019853322228}
   PlayEmotionAnimations: 1
+--- !u!114 &347361754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347361746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6a9a6241aca714c86915bcf2be2ee9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClientManager
+  ipAddress: 192.168.86.33
+  port: 12345
+  cefrLevel: A2
+  canSend: 1
 --- !u!1 &355034716
 GameObject:
   m_ObjectHideFlags: 0

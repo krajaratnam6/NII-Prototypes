@@ -249,7 +249,7 @@ public class Transcribe : MonoBehaviour
         }
 
         // Check clip length to ditch too short recordings
-        if (audioClip.length < 1.0f)
+        if (audioClip.length < 0.3f)
         {
             Debug.LogWarning("Audio is too short to upload");
             canRecord = true;
