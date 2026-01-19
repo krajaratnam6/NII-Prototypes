@@ -12228,7 +12228,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClientManager
   ipAddress: 192.168.86.33
   port: 12345
-  cefrLevel: A2
+  cefrLevel: A1
   canSend: 1
 --- !u!1 &355034716
 GameObject:
@@ -63565,6 +63565,7 @@ GameObject:
   - component: {fileID: 1551450950}
   - component: {fileID: 1551450949}
   - component: {fileID: 1551450952}
+  - component: {fileID: 1551450953}
   m_Layer: 0
   m_Name: Flat Camera
   m_TagString: Untagged
@@ -63800,6 +63801,23 @@ MonoBehaviour:
   sensX: 400
   sensY: 400
   orientation: {fileID: 1621029827}
+--- !u!114 &1551450953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1551450946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Core.Runtime::UnityEngine.Rendering.Volume
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 4594f4a3fb14247e192bcca6dc23c8ed, type: 2}
 --- !u!1 &1553259328
 GameObject:
   m_ObjectHideFlags: 0

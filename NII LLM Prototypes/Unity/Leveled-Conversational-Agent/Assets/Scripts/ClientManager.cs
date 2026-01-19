@@ -104,12 +104,28 @@ public class ClientManager : MonoBehaviour
         Disconnect();
     }
 
+    private void OnApplicationQuit()
+    {
+        Disconnect();
+    }
+
     void Disconnect()
     {
-        if (client != null)
+        if (client != null && client.Connected)
         {
-            SendServerMessage("END");
+            try
+            {
+                byte[] messageAsByteArray = Encoding.ASCII.GetBytes("END");
+                stream.Write(messageAsByteArray, 0, messageAsByteArray.Length);
+                Debug.Log("Sent to server: END");
+            }
+            catch (System.Exception e)
+            {
+                Debug.Log("Socket write exception: " + e);
+            }
+
             client.Close();
+            client = null;
         }
         if (clientReceiveThread != null)
         {

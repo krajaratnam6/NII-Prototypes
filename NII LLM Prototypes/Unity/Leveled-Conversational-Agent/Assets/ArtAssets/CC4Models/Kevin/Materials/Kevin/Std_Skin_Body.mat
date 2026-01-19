@@ -178,7 +178,7 @@ Material:
     - _DetailNormalScale: 0.581
     - _DetailSmoothnessScale: 0
     - _DiffusionProfile: 0
-    - _DiffusionProfileHash: 3.6477203
+    - _DiffusionProfileHash: 3.026026
     - _DisplacementLockObjectScale: 1
     - _DisplacementLockTilingScale: 1
     - _DisplacementMode: 0
@@ -270,7 +270,7 @@ Material:
     m_Colors:
     - _BaseColor: {r: 0.99999994, g: 0.99999994, b: 0.99999994, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DiffusionProfileAsset: {r: 0.000007811633, g: -1.6874267e-36, b: -4.0477928e+21, a: 8.3947815e+11}
+    - _DiffusionProfileAsset: {r: 4.8920075e-33, g: -0.00000023366336, b: 4.965128e-15, a: 224979.9}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
@@ -298,5 +298,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_DiffusionProfileReferences:
-  - {fileID: 11400000, guid: b50e0337e68c0f84696e5be3cc744353, type: 2}
+  - {fileID: 11400000, guid: bf34cb09e5e47ab439e3b227fab45b48, type: 2}
   m_MaterialReferences: []

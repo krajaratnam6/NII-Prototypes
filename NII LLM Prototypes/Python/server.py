@@ -17,8 +17,10 @@ def serve(connection, address):
     while True:
         buf = connection.recv(buffer_size).decode('utf-8').replace('\n',' ').replace('\r','')
         if (buf[0:3] == 'END'):
+            print(f"Closing connection from {address}")
             break
         msg = buf[5:-1]
+        # TODO: response handling should be in different thread, user can spam or end during level iteration
         response = ""
         if cefr_level < 0:
             try:
@@ -33,6 +35,7 @@ def serve(connection, address):
         connection.send((response + "\n").encode('utf-8'))
     connection.close()
 
+print("Server initialized.")
 while True:  
     connection,address = sock.accept()  
     thread = threading.Thread(target=serve, args=(connection, address))

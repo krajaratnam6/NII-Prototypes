@@ -88,12 +88,13 @@
       "url": "https://packages.unity.com"
     },
     "com.soupday.cc3_unity_tools": {
-      "version": "file:E:/游戏素材/Character_Creator_and_iClone_Auto_Setup_1.4.6_for_Unity_HDRP12",
+      "version": "https://github.com/soupday/CCiC-Unity-Tools.git",
       "depth": 0,
-      "source": "local",
+      "source": "git",
       "dependencies": {
-        "com.unity.render-pipelines.high-definition": "12.0.0"
-      }
+        "com.unity.nuget.newtonsoft-json": "3.0.0"
+      },
+      "hash": "7e54747cd321cf05015ec66941e7318c8e00636a"
     },
     "com.unity.ai.navigation": {
       "version": "2.0.9",
@@ -245,7 +246,7 @@
     },
     "com.unity.nuget.newtonsoft-json": {
       "version": "3.2.1",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -348,8 +349,8 @@
       "depth": 2,
       "source": "registry",
       "dependencies": {
-        "com.unity.collections": "2.4.2",
-        "com.unity.burst": "1.7.2"
+        "com.unity.burst": "1.7.2",
+        "com.unity.collections": "2.4.2"
       },
       "url": "https://packages.unity.com"
     },

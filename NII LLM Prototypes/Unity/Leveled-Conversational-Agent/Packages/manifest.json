@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.meta.xr.sdk.all": "83.0.0",
-    "com.soupday.cc3_unity_tools": "file:E:/游戏素材/Character_Creator_and_iClone_Auto_Setup_1.4.6_for_Unity_HDRP12",
+    "com.soupday.cc3_unity_tools": "https://github.com/soupday/CCiC-Unity-Tools.git",
     "com.unity.charactercontroller": "1.3.12",
     "com.unity.collab-proxy": "2.9.3",
     "com.unity.feature.development": "1.0.2",
