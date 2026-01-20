@@ -15,7 +15,8 @@ using System.Text;
 /// </summary>
 public class LLMDialogueManager : MonoBehaviour
 {
-    ClientManager clientmgr; 
+    ClientManager clientmgr;
+    Transcribe transcribe;
     private string apiKey;
     private string apiUrl = "https://api.openai.com/v1/chat/completions";
 
@@ -107,6 +108,7 @@ public class LLMDialogueManager : MonoBehaviour
         TextToSpeech.OnAudioPlayback += HandleAudioPlayback;
 
         clientmgr = GetComponent<ClientManager>();
+        transcribe = GetComponent<Transcribe>();
     }
 
     void OnDestroy()
@@ -296,6 +298,7 @@ public class LLMDialogueManager : MonoBehaviour
     public void StopTalkingAnimation()
     {
         animator.SetBool(emotionCache, false);
+        transcribe.canTranscribe = true;
     }
 }
 

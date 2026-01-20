@@ -14,6 +14,8 @@ public class ClientManager : MonoBehaviour
     public int port = 12345;
     public string cefrLevel = "A1";
     public bool canSend = true;
+    public GameObject waitingAnimation, spacebarMsg;
+    public Transcribe transcribe;
 
     private TcpClient client;
     private NetworkStream stream;
@@ -53,6 +55,8 @@ public class ClientManager : MonoBehaviour
             Debug.Log("Connected to server!");
             SendServerMessage(cefrLevel);
 
+            transcribe.canTranscribe = true;
+
             while (client.Connected)
             {
                 int bytesRead = stream.Read(receiveBuffer, 0, receiveBuffer.Length);
@@ -76,7 +80,7 @@ public class ClientManager : MonoBehaviour
     {
         canSend = true;
         llmdialoguemgr.ReceiveMessage(str);
-        // output.text = "> " + str;
+        waitingAnimation.SetActive(false);
     }
 
     public void SendServerMessage(string message, bool locking = true)
@@ -88,7 +92,8 @@ public class ClientManager : MonoBehaviour
                 byte[] messageAsByteArray = Encoding.ASCII.GetBytes("MSG: " + message + " ");
                 stream.Write(messageAsByteArray, 0, messageAsByteArray.Length);
                 Debug.Log("Sent to server: " + message);
-                // output.text = "waiting for server response...";
+                waitingAnimation.SetActive(true);
+                transcribe.canTranscribe = false;
                 if (locking)
                     canSend = false;
             }
@@ -139,6 +144,15 @@ public class ClientManager : MonoBehaviour
         {
             ReceiveMessage(incoming);
             incoming = "";
+        }
+
+        if (transcribe.canTranscribe && !spacebarMsg.activeInHierarchy)
+        {
+            spacebarMsg.SetActive(true);
+        }
+        else if (!transcribe.canTranscribe && spacebarMsg.activeInHierarchy)
+        {
+            spacebarMsg.SetActive(false);
         }
     }
 }

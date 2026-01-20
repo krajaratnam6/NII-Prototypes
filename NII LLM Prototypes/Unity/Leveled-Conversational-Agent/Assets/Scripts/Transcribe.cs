@@ -40,6 +40,8 @@ public class Transcribe : MonoBehaviour
 
     [Space]
     public LLMDialogueManager dialogueManager;
+    public bool canTranscribe = false;
+    public GameObject recordingMsg;
 
     public enum LanguageMode
     {
@@ -203,7 +205,7 @@ public class Transcribe : MonoBehaviour
         }
         else
         {
-            if (canRecord)
+            if (canRecord && canTranscribe)
                 StartRecording();
             else
                 Debug.LogWarning("Cannot start recording now");
@@ -225,10 +227,12 @@ public class Transcribe : MonoBehaviour
 
     private void StartRecording()
     {
+        recordingMsg.SetActive(true);
         Debug.Log("-> StartRecording() - " + deviceName);
         audioClip = Microphone.Start(deviceName, false, CLIP_LENGTH, CLIP_FREQUENCY);
         isRecording = true;
         canRecord = false;
+        canTranscribe = false;
     }
 
     private void StopRecording()
@@ -239,6 +243,7 @@ public class Transcribe : MonoBehaviour
             Microphone.End(deviceName);
             audioClip.name = "Recording";
             isRecording = false;
+            recordingMsg.SetActive(false);
         }
         TrimSilence();
 
