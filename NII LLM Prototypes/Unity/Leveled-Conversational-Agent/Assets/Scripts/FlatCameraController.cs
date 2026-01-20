@@ -8,6 +8,8 @@ public class FlatCameraController : MonoBehaviour
 
     float xRotation, yRotation;
 
+    public GameObject paused;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -18,6 +20,9 @@ public class FlatCameraController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (paused.activeInHierarchy)
+            return;
+
         float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * sensX;
         float mouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * sensY;
 

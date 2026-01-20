@@ -41,7 +41,7 @@ public class Transcribe : MonoBehaviour
     [Space]
     public LLMDialogueManager dialogueManager;
     public bool canTranscribe = false;
-    public GameObject recordingMsg;
+    public GameObject recordingMsg, paused;
 
     public enum LanguageMode
     {
@@ -184,6 +184,28 @@ public class Transcribe : MonoBehaviour
             OnStopButtonPressed();
         }
 
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (paused.activeInHierarchy)
+            {
+                paused.SetActive(false);
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
+
+            }
+            else
+            {
+                paused.SetActive(true);
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.Q) && paused.activeInHierarchy)
+        {
+            Application.Quit();
+        }
+
         // Stop recording when the sample limit was reached
         if (isRecording)
         {
@@ -205,7 +227,7 @@ public class Transcribe : MonoBehaviour
         }
         else
         {
-            if (canRecord && canTranscribe)
+            if (canRecord && canTranscribe && !paused.activeInHierarchy)
                 StartRecording();
             else
                 Debug.LogWarning("Cannot start recording now");
