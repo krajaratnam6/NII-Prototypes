@@ -278,8 +278,10 @@ public class Transcribe : MonoBehaviour
         // Check clip length to ditch too short recordings
         if (audioClip.length < 0.3f)
         {
-            Debug.LogWarning("Audio is too short to upload");
+            /*Debug.LogWarning("Audio is too short to upload");
             canRecord = true;
+            canTranscribe = true;*/
+            dialogueManager.GenerateDialogue("...");
             return;
         }
 
@@ -442,14 +444,18 @@ public class Transcribe : MonoBehaviour
                 }
                 else
                 {
-                    canRecord = true;
-                    Debug.LogWarning("Text field is empty");
+                    /* canRecord = true;
+                    canTranscribe = true;
+                    Debug.LogWarning("Text field is empty");*/
+                    dialogueManager.GenerateDialogue("...");
                 }
             }
             else
             {
-                canRecord = true;
-                Debug.LogError("Transcribe failed " + request.error);
+                /*  canRecord = true;
+                 canTranscribe = true;
+                 Debug.LogError("Transcribe failed " + request.error);*/
+                dialogueManager.GenerateDialogue("...");
             }
 
             if (File.Exists(filePath))

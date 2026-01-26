@@ -88,6 +88,8 @@ public class LLMDialogueManager : MonoBehaviour
     }
     string emotionCache;
 
+    private float timer = 0;
+
     private void Start()
     {
         // Load Api Key
@@ -109,6 +111,11 @@ public class LLMDialogueManager : MonoBehaviour
 
         clientmgr = GetComponent<ClientManager>();
         transcribe = GetComponent<Transcribe>();
+    }
+
+    private void Update()
+    {
+        timer += Time.deltaTime;
     }
 
     void OnDestroy()
@@ -148,11 +155,13 @@ public class LLMDialogueManager : MonoBehaviour
 
     void SendMessage(string userMessage)
     {
+        timer = 0;
         clientmgr.SendServerMessage(userMessage);
     }
 
     public void ReceiveMessage(string userMessage)
     {
+        Debug.Log("Latency: " + timer);
         conversationHistory.Add(new Message { role = "assistant", content = userMessage });
         HandleRespond(userMessage, "neutral");
     }

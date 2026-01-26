@@ -63,7 +63,6 @@ class LeveledAgentWithFeedback():
         self.verbosity = verbosity
         self.min_level_ratio = min_lv_ratio
         self.max_iter = max_iter
-        self.user_cefr_level = user_cefr_level
         task = "Your name is John and you are a seasoned traveler and digital nomad who works as a remote software engineer.\n"
         task += "You have recently moved to Tokyo, and don't know any Japanese.\n"
         task += "You are 30 years old, college educated, and speak English natively and quite articulately, using big words quite frequently.\n"
@@ -77,6 +76,31 @@ class LeveledAgentWithFeedback():
         task += "Don't blurt out your personal information in conversation; instead use it to inform your personality and guide your responses.\n"
         task += "Stick to just talking. Do not roleplay anything other than conversational smalltalk.\n"
         self.messages = [{'role': 'system', 'content': task}]
+        self.set_level(user_cefr_level)
+
+    def set_level(self, level):
+        if level == 'unfiltered':
+            self.user_cefr_level = 5
+            self.messages.append({'role': 'system', 'content': 'The user has now indicated that they are a native speaker of English. You do not need to simplify your language.'})
+        else:
+            task = f'The user has indicated that they speak at a {level} level on the CEFR scale. Please try to keep your language appropriate for that level.\n'
+            task += f'Examples sentences for this level:\n'
+            examples = \
+                {
+                    'A1' : 'I love rock.\n'
+                            'It is brown.\n'
+                            'Hi. I\'m Joe. I am a doctor.\n',
+                    'A2' : 'I was reading a mystery novel yesterday. Do you enjoy mysteries?\n'
+                            'Did you read the news yesterday?\n'
+                            'I love to cook. I can make dinner for you tonight. What do you like to eat?\n',
+                    'B1' : 'Do you think your parents have many secrets? I\'m sure they do! Maybe it\'s good that we don\'t know those.\n'
+                            'Do you like crime shows, like CSI? If so, why do you like those type of shows?\n'
+                            'I saw many reporters on the street doing some research.'
+                }
+            
+            task += examples[level]
+            self.messages.append({'role': 'system', 'content': task})
+            self.user_cefr_level = cefr_levels.index(level)
 
     def chat_to_agent(self, user_input):
         self.messages.append({'role': 'user', 'content': user_input})
