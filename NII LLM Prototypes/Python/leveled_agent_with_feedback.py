@@ -6,8 +6,8 @@ from typing import Literal
 import re
 import nltk
 import torch
-from torch import nn
-from transformers import BertTokenizer, BertModel, get_linear_schedule_with_warmup 
+# from torch import nn
+# from transformers import BertTokenizer, BertModel, get_linear_schedule_with_warmup 
 import numpy as np
 
 llm_model = "gpt-oss:120b-cloud" #"gpt-oss:20b"
@@ -23,56 +23,56 @@ def chat(model, messages, think=None, options=None):
         reasoning={"effort": "minimal"}
     )
 
-class BERTClassifier(nn.Module):
-    def __init__(self, bert_model_name, num_classes):
-        super(BERTClassifier, self).__init__()
-        self.bert = BertModel.from_pretrained(bert_model_name)
-        self.dropout = nn.Dropout(0.1)
-        self.fc = nn.Linear(self.bert.config.hidden_size, num_classes)
+# class BERTClassifier(nn.Module):
+#     def __init__(self, bert_model_name, num_classes):
+#         super(BERTClassifier, self).__init__()
+#         self.bert = BertModel.from_pretrained(bert_model_name)
+#         self.dropout = nn.Dropout(0.1)
+#         self.fc = nn.Linear(self.bert.config.hidden_size, num_classes)
 
-    def forward(self, input_ids, attention_mask):
-            outputs = self.bert(input_ids=input_ids, attention_mask=attention_mask)
-            pooled_output = outputs.pooler_output
-            x = self.dropout(pooled_output)
-            logits = self.fc(x)
-            return logits
+#     def forward(self, input_ids, attention_mask):
+#             outputs = self.bert(input_ids=input_ids, attention_mask=attention_mask)
+#             pooled_output = outputs.pooler_output
+#             x = self.dropout(pooled_output)
+#             logits = self.fc(x)
+#             return logits
 
-level_model_pth = "acecefr/bert_classifier_v3.pth"
-bert_model_name = 'bert-base-uncased'
-num_classes = 6
-max_length = 512
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+# level_model_pth = "acecefr/bert_classifier_v3.pth"
+# bert_model_name = 'bert-base-uncased'
+# num_classes = 6
+# max_length = 512
+# device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-level_model = BERTClassifier(bert_model_name, num_classes).to(device)
-tokenizer = BertTokenizer.from_pretrained(bert_model_name)
-level_model.load_state_dict(torch.load(level_model_pth, weights_only=True), strict=False)
-level_model.eval()
+# level_model = BERTClassifier(bert_model_name, num_classes).to(device)
+# tokenizer = BertTokenizer.from_pretrained(bert_model_name)
+# level_model.load_state_dict(torch.load(level_model_pth, weights_only=True), strict=False)
+# level_model.eval()
 
-def predict_cefr(text):
-    #level_model.eval()
-    encoding = tokenizer(text, return_tensors='pt', max_length=max_length, padding='max_length', truncation=True)
-    input_ids = encoding['input_ids'].to(device)
-    attention_mask = encoding['attention_mask'].to(device)
-    with torch.no_grad():
-        outputs = level_model(input_ids=input_ids, attention_mask=attention_mask)
-        _, preds = torch.max(outputs, dim=1)
-    return preds.item()
+# def predict_cefr(text):
+#     #level_model.eval()
+#     encoding = tokenizer(text, return_tensors='pt', max_length=max_length, padding='max_length', truncation=True)
+#     input_ids = encoding['input_ids'].to(device)
+#     attention_mask = encoding['attention_mask'].to(device)
+#     with torch.no_grad():
+#         outputs = level_model(input_ids=input_ids, attention_mask=attention_mask)
+#         _, preds = torch.max(outputs, dim=1)
+#     return preds.item()
 
-def level_ratio(text, level):
-    sentences = nltk.sent_tokenize(text)
-    print("split into sentences")
-    preds = []
-    at_level = 0
-    for s in sentences: 
-         print(f"predicting sentence: {s}")
-         predicted = predict_cefr(s)
-         print(f"level {predicted}")
-         preds.append(predicted)
-         if predicted <= level:
-             at_level += 1
-         elif predicted == level+1:
-             at_level += 0.5
-    return (at_level / len(sentences), preds)
+# def level_ratio(text, level):
+#     sentences = nltk.sent_tokenize(text)
+#     print("split into sentences")
+#     preds = []
+#     at_level = 0
+#     for s in sentences: 
+#          print(f"predicting sentence: {s}")
+#          predicted = predict_cefr(s)
+#          print(f"level {predicted}")
+#          preds.append(predicted)
+#          if predicted <= level:
+#              at_level += 1
+#          elif predicted == level+1:
+#              at_level += 0.5
+#     return (at_level / len(sentences), preds)
 
 class LeveledAgentWithFeedback():
     def __init__(self, min_lv_ratio, max_iter, user_cefr_level, verbosity, lrfxn):

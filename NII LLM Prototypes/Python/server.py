@@ -3,20 +3,24 @@ import threading
 import leveled_agent_with_feedback as lv
 import time
 import unicodedata
+import multiprocessing
 
-sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-port = 12345  
-sock.bind(('0.0.0.0', port))  
-sock.listen(5)
+if __name__ == "__main__":
+    global sock, port, threads, buffer_size, cefr_levels, phase_times, intro_level, user_began_chatting
 
-threads = []
-buffer_size = 32768
-cefr_levels = ["A1","A2","B1","B2", "C1", "C2"]
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    port = 12345  
+    sock.bind(('0.0.0.0', port))  
+    sock.listen(5)
 
-phase_times = [10, 11, 12]
-intro_level = 'A1'
+    threads = []
+    buffer_size = 32768
+    cefr_levels = ["A1","A2","B1","B2", "C1", "C2"]
 
-user_began_chatting = False
+    phase_times = [10, 11, 12]
+    intro_level = 'A1'
+
+    user_began_chatting = False
 
 def recv_msg(connection, agent, stop_event):
     global user_began_chatting
@@ -102,7 +106,7 @@ def sock_accept():
         print("Initializing new agent.")
         agent = lv.LeveledAgentWithFeedback(max_iter=5, min_lv_ratio=0.66, user_cefr_level=intro_level, verbosity=True, lrfxn=custom_level_ratio)
         agent.chat_to_agent("...")
-        lv.level_ratio("testing 1 2 3", 0)
+        custom_level_ratio("testing 1 2 3", 0)
         print("Agent initialized. Ready to accept new connections.")
         connection,address = sock.accept()
         print(f"Connection received from {address}.")
@@ -112,32 +116,98 @@ def sock_accept():
     sock.close()
 
 def custom_level_ratio(text, lvl):
+    global level_req
+    global level_ansq
+
     while True:
-        global level_event
-        global answ_event
-        global level_req
-        global level_answ
-        if level_event.is_set():
+        # global level_req
+        # global level_ansq
+        if len(level_req) > 0:
             time.sleep(0.05)
             continue
-        level_req = (text, lvl)
-        level_event.set()
-        answ_event.wait()
-        answ_event = threading.Event()
-        return level_answ
+        break
+    
+    if True:
+        # global level_req
+        level_req.insert(0, (text, lvl))
 
-        
-answ_event = threading.Event()
-level_event = threading.Event()
-level_req = ""
-level_answ = -1
+    while True:
+        # global level_req
+        # global level_ansq
+        if len(level_ansq) > 0:
+            ret = level_ansq[0]
+            level_req.pop(0)
+            return ret
+        time.sleep(0.05)
 
-thread = threading.Thread(target=sock_accept)
-threads.append(thread)
-thread.start()
 
-while True:
-    level_event.wait()
-    level_answ = lv.level_ratio(level_req[0], level_req[1])
-    answ_event.set()
-    level_event = threading.Event()
+
+import nltk
+import torch
+from torch import nn
+from transformers import BertTokenizer, BertModel, get_linear_schedule_with_warmup 
+
+class BERTClassifier(nn.Module):
+    def __init__(self, bert_model_name, num_classes):
+        super(BERTClassifier, self).__init__()
+        self.bert = BertModel.from_pretrained(bert_model_name)
+        self.dropout = nn.Dropout(0.1)
+        self.fc = nn.Linear(self.bert.config.hidden_size, num_classes)
+
+    def forward(self, input_ids, attention_mask):
+            outputs = self.bert(input_ids=input_ids, attention_mask=attention_mask)
+            pooled_output = outputs.pooler_output
+            x = self.dropout(pooled_output)
+            logits = self.fc(x)
+            return logits
+
+def level_ratio_process(level_requests, level_answers):
+    level_model_pth = "acecefr/bert_classifier_v3.pth"
+    bert_model_name = 'bert-base-uncased'
+    num_classes = 6
+    max_length = 512
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+    level_model = BERTClassifier(bert_model_name, num_classes).to(device)
+    tokenizer = BertTokenizer.from_pretrained(bert_model_name)
+    level_model.load_state_dict(torch.load(level_model_pth, weights_only=True), strict=False)
+    level_model.eval()
+
+    while True:
+        if len(level_requests) == 0:
+            time.sleep(0.05)
+            continue
+        text, level = level_requests[0]
+        sentences = nltk.sent_tokenize(text)
+        print("split into sentences")
+        preds = []
+        at_level = 0
+        for s in sentences: 
+            print(f"predicting sentence: {s}")
+            encoding = tokenizer(s, return_tensors='pt', max_length=max_length, padding='max_length', truncation=True)
+            input_ids = encoding['input_ids'].to(device)
+            attention_mask = encoding['attention_mask'].to(device)
+            with torch.no_grad():
+                outputs = level_model(input_ids=input_ids, attention_mask=attention_mask)
+                _, prs = torch.max(outputs, dim=1)
+            predicted = prs.item()
+            print(f"level {predicted}")
+            preds.append(predicted)
+            if predicted <= level:
+                at_level += 1
+            elif predicted == level+1:
+                at_level += 0.5
+        level_answers.insert(0, (at_level / len(sentences), preds))
+
+if __name__ == "__main__":
+    multiprocessing.freeze_support()
+    global level_ansq
+    global level_req
+    level_ansq = multiprocessing.Manager().list()
+    level_req = multiprocessing.Manager().list()
+    thread = threading.Thread(target=sock_accept)
+    threads.append(thread)
+    thread.start()
+    lrp = multiprocessing.Process(target=level_ratio_process, args=(level_req, level_ansq))
+    lrp.start()
+    thread.join()
