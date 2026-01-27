@@ -1,4 +1,6 @@
-from ollama import chat
+#from ollama import chat
+from openai import OpenAI
+from dotenv import load_dotenv
 from pydantic import BaseModel
 from typing import Literal
 import re
@@ -10,6 +12,16 @@ import numpy as np
 
 llm_model = "gpt-oss:120b-cloud" #"gpt-oss:20b"
 cefr_levels = ["A1","A2","B1","B2", "C1", "C2"]
+load_dotenv()
+client = OpenAI()
+
+def chat(model, messages, think=None, options=None):
+    global client
+    return client.responses.create(
+        model="gpt-5-mini",
+        input=messages,
+        reasoning={"effort": "minimal"}
+    )
 
 class BERTClassifier(nn.Module):
     def __init__(self, bert_model_name, num_classes):
@@ -34,9 +46,10 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 level_model = BERTClassifier(bert_model_name, num_classes).to(device)
 tokenizer = BertTokenizer.from_pretrained(bert_model_name)
 level_model.load_state_dict(torch.load(level_model_pth, weights_only=True), strict=False)
+level_model.eval()
 
 def predict_cefr(text):
-    level_model.eval()
+    #level_model.eval()
     encoding = tokenizer(text, return_tensors='pt', max_length=max_length, padding='max_length', truncation=True)
     input_ids = encoding['input_ids'].to(device)
     attention_mask = encoding['attention_mask'].to(device)
@@ -47,10 +60,13 @@ def predict_cefr(text):
 
 def level_ratio(text, level):
     sentences = nltk.sent_tokenize(text)
+    print("split into sentences")
     preds = []
     at_level = 0
-    for s in sentences:
+    for s in sentences: 
+         print(f"predicting sentence: {s}")
          predicted = predict_cefr(s)
+         print(f"level {predicted}")
          preds.append(predicted)
          if predicted <= level:
              at_level += 1
@@ -59,10 +75,12 @@ def level_ratio(text, level):
     return (at_level / len(sentences), preds)
 
 class LeveledAgentWithFeedback():
-    def __init__(self, min_lv_ratio, max_iter, user_cefr_level, verbosity):
+    def __init__(self, min_lv_ratio, max_iter, user_cefr_level, verbosity, lrfxn):
         self.verbosity = verbosity
         self.min_level_ratio = min_lv_ratio
         self.max_iter = max_iter
+        self.lrfxn = lrfxn
+        self.ended = False
         task = "Your name is John and you are a seasoned traveler and digital nomad who works as a remote software engineer.\n"
         task += "You have recently moved to Tokyo, and don't know any Japanese.\n"
         task += "You are 30 years old, college educated, and speak English natively and quite articulately, using big words quite frequently.\n"
@@ -105,6 +123,8 @@ class LeveledAgentWithFeedback():
     def chat_to_agent(self, user_input):
         self.messages.append({'role': 'user', 'content': user_input})
 
+        print("Requesting original response.")
+
         response = chat(
             llm_model,
             messages=self.messages,
@@ -112,15 +132,19 @@ class LeveledAgentWithFeedback():
             options=dict(num_predict=1000)
         )
 
+        print("Original response: " + response.output_text)
+
         iter = 1
         feedback_messages = self.messages.copy()
-        ratio, preds = level_ratio(response.message.content, self.user_cefr_level)
+        print("calculating level ratio")
+        ratio, preds = self.lrfxn(response.output_text, self.user_cefr_level)
+        print(f"level ratio {ratio}")
         best_score = (ratio, np.mean(preds))
-        best_response = response.message.content
+        best_response = response.output_text
         while iter < self.max_iter and ratio < self.min_level_ratio:
             if self.verbosity:
                 print(f"\n\n***Leveling Iteration {iter+1} of {self.max_iter}***\n\n")
-                print(f"Potential response: '{response.message.content}'\n\n")
+                print(f"Potential response: '{response.output_text}'\n\n")
                 print(f"Sentence-level CEFR predictions: {[cefr_levels[p] for p in preds]}.\n")
                 print(f"On-level ratio {ratio}, lower than desired {self.min_level_ratio}.\n")
 
@@ -138,7 +162,7 @@ class LeveledAgentWithFeedback():
             prompt += "C1: These speakers are proficient in the language and can understand a wide range of content, including demanding sentences with longer clauses and subtext.\n"
             prompt += "C2: These speakers are the most advanced proficient users and can easily understand nearly anything in the target language.\n"
             prompt += f"The user has an assessed level of {cefr_levels[self.user_cefr_level]} and we would like to keep content at that level or lower.\n"
-            prompt += f"The following content was rated to be above this level: '{response.message.content}'\n"
+            prompt += f"The following content was rated to be above this level: '{response.output_text}'\n"
             prompt += f"Please give helpful feedback to help a writer rewrite this phrase to be more level-appropriate.\n"
             prompt += f"Avoid using emojis and adopting a conversational tone. Be direct and honest with the feedback.\n"
             prompt += f"Be brief, as well. Don't give examples for correcting the sentence, only justify the rating it was given.\n"
@@ -150,11 +174,11 @@ class LeveledAgentWithFeedback():
             )
 
             if self.verbosity:
-                print(f"Generated Feedback: '{feedback.message.content}'\n\n")
+                print(f"Generated Feedback: '{feedback.output_text}'\n\n")
 
-            prompt = f"You tried responding: '{response.message.content}'\n"
+            prompt = f"You tried responding: '{response.output_text}'\n"
             prompt = f"This response has been assessed to be above the user's CEFR ability level of {cefr_levels[self.user_cefr_level]}.\n"
-            prompt += f"The following feedback has been given: '{feedback.message.content}'\n"
+            prompt += f"The following feedback has been given: '{feedback.output_text}'\n"
             prompt += "Try rephrasing the response to be simpler. The user has not yet heard your response.\n"
             prompt += "Do not acknowledge these messages and remember to stay in character. Simplify your language and keep going.\n"
             prompt += "Be sure to still answer the user's questions and stay on topic. Don't oversimplify to absurdity.\n"
@@ -168,13 +192,14 @@ class LeveledAgentWithFeedback():
                 options=dict(num_predict=1000)
             )
 
-            ratio, preds = level_ratio(response.message.content, self.user_cefr_level)
+            ratio, preds = self.lrfxn(response.output_text, self.user_cefr_level)
 
             if ratio >= best_score[0] or np.mean(preds) <= best_score[1]:
                 best_score = (ratio, np.mean(preds))
-                best_response = response.message.content
+                best_response = response.output_text
 
         self.messages.append({'role': 'assistant', 'content': best_response})
+        print("Returning best response.")
         return best_response
 
 def cmdline():
