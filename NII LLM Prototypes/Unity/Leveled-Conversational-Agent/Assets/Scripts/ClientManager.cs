@@ -16,8 +16,9 @@ public class ClientManager : MonoBehaviour
     public bool canSend = true;
     public GameObject waitingAnimation, spacebarMsg;
     public Transcribe transcribe;
+    public StartScreenManager ssm;
 
-    private TcpClient client;
+    private TcpClient client = null;
     private NetworkStream stream;
     private byte[] receiveBuffer = new byte[1024];
     private Thread clientReceiveThread;
@@ -45,42 +46,69 @@ public class ClientManager : MonoBehaviour
         }
     }
 
-    // Runs in a separate thread to listen for incoming data
-    private void ListenForData()
+    public void Connect(string ipAddress, int port, string cefrLevel, string permutation)
     {
         try
         {
             client = new TcpClient(ipAddress, port);
             stream = client.GetStream();
-            Debug.Log("Connected to server!");
-            SendServerMessage(cefrLevel);
-
-            transcribe.canTranscribe = true;
-
-            while (client.Connected)
-            {
-                int bytesRead = stream.Read(receiveBuffer, 0, receiveBuffer.Length);
-                if (bytesRead > 0)
-                {
-                    string receivedData = Encoding.ASCII.GetString(receiveBuffer, 0, bytesRead);
-                    // Must use Unity's main thread for UI or game object interaction
-                    // You can use a queue or similar mechanism to pass data safely
-                    Debug.Log("Received from server: " + receivedData);
-                    incoming = receivedData;
-                }
-            }
+            Debug.Log("Connecting to server...");
+            SendServerMessage($"{cefrLevel} {permutation}");
         }
         catch (SocketException socketException)
         {
             Debug.Log("Socket exception: " + socketException);
+            ssm.BadAck();
+        }
+
+    }
+    // Runs in a separate thread to listen for incoming data
+    private void ListenForData()
+    {
+        while (true)
+        {
+            try
+            {
+                if (client != null && stream != null && client.Connected)
+                {
+                    int bytesRead = stream.Read(receiveBuffer, 0, receiveBuffer.Length);
+                    if (bytesRead > 0)
+                    {
+                        string receivedData = Encoding.ASCII.GetString(receiveBuffer, 0, bytesRead);
+                        // Must use Unity's main thread for UI or game object interaction
+                        // You can use a queue or similar mechanism to pass data safely
+                        Debug.Log("Received from server: " + receivedData);
+                        incoming = receivedData;
+                    }
+                }
+            }
+            catch (SocketException socketException)
+            {
+                Debug.Log("Socket exception: " + socketException);
+            }
         }
     }
 
     private void ReceiveMessage(string str)
     {
-        canSend = true;
-        llmdialoguemgr.ReceiveMessage(str);
-        waitingAnimation.SetActive(false);
+        if (ssm.state == 0)
+        {
+            canSend = true;
+            if (str == "Success\n")
+            {
+                ssm.GoodAck();
+            }
+            else
+            {
+                ssm.BadAck();
+            }
+        }
+        else
+        {
+            canSend = true;
+            llmdialoguemgr.ReceiveMessage(str);
+            waitingAnimation.SetActive(false);
+        }
     }
 
     public void SendServerMessage(string message, bool locking = true)
@@ -92,14 +120,19 @@ public class ClientManager : MonoBehaviour
                 byte[] messageAsByteArray = Encoding.ASCII.GetBytes("MSG: " + message + " ");
                 stream.Write(messageAsByteArray, 0, messageAsByteArray.Length);
                 Debug.Log("Sent to server: " + message);
-                waitingAnimation.SetActive(true);
-                transcribe.canTranscribe = false;
+                if (ssm.state != 0)
+                {
+                    waitingAnimation.SetActive(true);
+                    transcribe.canTranscribe = false;
+                }
                 if (locking)
                     canSend = false;
             }
             catch (System.Exception e)
             {
                 Debug.Log("Socket write exception: " + e);
+                // bring up error screen
+                throw e;
             }
         }
     }

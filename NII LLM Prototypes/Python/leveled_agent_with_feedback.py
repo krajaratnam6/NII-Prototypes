@@ -120,10 +120,9 @@ class LeveledAgentWithFeedback():
             self.messages.append({'role': 'system', 'content': task})
             self.user_cefr_level = cefr_levels.index(level)
 
-    def chat_to_agent(self, user_input):
-        self.messages.append({'role': 'user', 'content': user_input})
-
-        print("Requesting original response.")
+    def chat_to_agent(self, user_input, remember=True):
+        if remember:
+            self.messages.append({'role': 'user', 'content': user_input})
 
         response = chat(
             llm_model,
@@ -132,21 +131,24 @@ class LeveledAgentWithFeedback():
             options=dict(num_predict=1000)
         )
 
-        print("Original response: " + response.output_text)
-
         iter = 1
         feedback_messages = self.messages.copy()
-        print("calculating level ratio")
         ratio, preds = self.lrfxn(response.output_text, self.user_cefr_level)
-        print(f"level ratio {ratio}")
         best_score = (ratio, np.mean(preds))
         best_response = response.output_text
-        while iter < self.max_iter and ratio < self.min_level_ratio:
-            if self.verbosity:
-                print(f"\n\n***Leveling Iteration {iter+1} of {self.max_iter}***\n\n")
+
+        if self.verbosity and remember:
+                print(f"\n\n***Leveling Iteration {iter} of {self.max_iter}***\n\n")
                 print(f"Potential response: '{response.output_text}'\n\n")
                 print(f"Sentence-level CEFR predictions: {[cefr_levels[p] for p in preds]}.\n")
-                print(f"On-level ratio {ratio}, lower than desired {self.min_level_ratio}.\n")
+                print(f"On-level ratio {ratio}. Desired ratio is {self.min_level_ratio}.\n")
+
+        while iter < self.max_iter and ratio < self.min_level_ratio:
+            if self.verbosity and remember and iter > 1:
+                print(f"\n\n***Leveling Iteration {iter} of {self.max_iter}***\n\n")
+                print(f"Potential response: '{response.output_text}'\n\n")
+                print(f"Sentence-level CEFR predictions: {[cefr_levels[p] for p in preds]}.\n")
+                print(f"On-level ratio {ratio}. Desired ratio is {self.min_level_ratio}.\n")
 
             iter+=1
 
@@ -173,7 +175,7 @@ class LeveledAgentWithFeedback():
                 options=dict(num_predict=1000)
             )
 
-            if self.verbosity:
+            if self.verbosity and remember:
                 print(f"Generated Feedback: '{feedback.output_text}'\n\n")
 
             prompt = f"You tried responding: '{response.output_text}'\n"
@@ -198,8 +200,8 @@ class LeveledAgentWithFeedback():
                 best_score = (ratio, np.mean(preds))
                 best_response = response.output_text
 
-        self.messages.append({'role': 'assistant', 'content': best_response})
-        print("Returning best response.")
+        if remember:
+            self.messages.append({'role': 'assistant', 'content': best_response})
         return best_response
 
 def cmdline():

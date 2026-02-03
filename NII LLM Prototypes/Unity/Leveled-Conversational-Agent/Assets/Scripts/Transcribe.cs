@@ -236,7 +236,8 @@ public class Transcribe : MonoBehaviour
 
     public void OnStopButtonPressed()
     {
-        stopButtonCoroutine = StartCoroutine(HandleStopButtonPress());
+        if (isRecording)
+            stopButtonCoroutine = StartCoroutine(HandleStopButtonPress());
     }
 
     private IEnumerator HandleStopButtonPress()
