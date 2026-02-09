@@ -42,7 +42,7 @@ public class StartScreenManager : MonoBehaviour
     {
         if (listeningForReturn)
         {
-            if (Input.GetKeyUp(KeyCode.Return))
+            if (Input.GetKeyUp(KeyCode.Return) || Input.GetKeyUp(KeyCode.KeypadEnter))
             {
                 listeningForReturn = false;
                 if (state == 0)
@@ -61,6 +61,11 @@ public class StartScreenManager : MonoBehaviour
                     gameObject.SetActive(false);
                 }
             }
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
         }
     }
 }
