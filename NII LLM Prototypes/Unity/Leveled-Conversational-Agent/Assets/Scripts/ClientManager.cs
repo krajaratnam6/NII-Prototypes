@@ -27,33 +27,23 @@ public class ClientManager : MonoBehaviour
     private void Start()
     {
         llmdialoguemgr = GetComponent<LLMDialogueManager>();
-        ConnectToServer();
     }
 
-    // Call this method to connect to the server
-    public void ConnectToServer()
+    public IEnumerator Connect(string ipAddress, int port, string cefrLevel, string permutation)
     {
-        try
-        {
-            clientReceiveThread = new Thread(new ThreadStart(ListenForData));
-            clientReceiveThread.IsBackground = true;
-            clientReceiveThread.Start();
-            Debug.Log("Client started listening for data...");
-        }
-        catch (System.Exception e)
-        {
-            Debug.Log("On client connect exception: " + e);
-        }
-    }
+        yield return new WaitForSeconds(0.01f);
 
-    public void Connect(string ipAddress, int port, string cefrLevel, string permutation)
-    {
         try
         {
             client = new TcpClient(ipAddress, port);
             stream = client.GetStream();
             Debug.Log("Connecting to server...");
             SendServerMessage($"{cefrLevel} {permutation}");
+
+            clientReceiveThread = new Thread(new ThreadStart(ListenForData));
+            clientReceiveThread.IsBackground = true;
+            clientReceiveThread.Start();
+            Debug.Log("Client started listening for data...");
         }
         catch (SocketException socketException)
         {

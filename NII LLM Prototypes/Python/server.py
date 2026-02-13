@@ -60,15 +60,20 @@ def serve(connection, address, agent):
     if cefr_level < 0:
         try:
             words = msg.split()
-            cefr_level = cefr_levels.index(words[0])
+            target_level = words[0]
+            if (words[0] == "A0"): # clamping target level to be [A1,A2]
+                target_level = "A1"
+            elif (words[0] == "B1"):
+                target_level = "A2"
+            cefr_level = cefr_levels.index(target_level)
             permutation = int(words[1])
             if permutation == 0:
-                phase_levels = [intro_level, words[0], 'unfiltered']
+                phase_levels = [intro_level, target_level, 'unfiltered']
             elif permutation == 1:
-                phase_levels = [intro_level, 'unfiltered', words[0]]
+                phase_levels = [intro_level, 'unfiltered', target_level]
             else:
                 raise ValueError(f"'{permutation}' is an invalid permutation value.")
-            print(f"Target level: {words[0]}. Permutation: {words[1]}")
+            print(f"Declared level: {words[0]}. Target Level: {target_level}. Permutation: {words[1]}")
             response = "Success"
         except:
             response = f"'{msg}' is in an invalid format. Try again."
