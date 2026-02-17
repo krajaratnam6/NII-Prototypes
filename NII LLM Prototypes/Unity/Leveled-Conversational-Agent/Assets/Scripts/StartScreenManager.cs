@@ -3,6 +3,7 @@ using TMPro;
 
 public class StartScreenManager : MonoBehaviour
 {
+    public FLAQuestionnaire fla;
     public Transcribe tr;
     public ClientManager cm;
     public GameObject waitingAnim, initSettings, canDoQuestionnaire;
@@ -158,8 +159,6 @@ public class StartScreenManager : MonoBehaviour
                 {
                     welcomeText.text = "ありがとうございました";
                     canDoQuestionnaire.SetActive(false);
-                    print($"CEFR Listening Answers: {listeningAnswers}, CEFR Speaking Answers: {speakingAnswers}\n");
-                    print($"CEFR Listening: {cefrListening}, CEFR Speaking: {cefrSpeaking}\n");
                     int lvl = Mathf.Min(cefrListening, cefrSpeaking);
                     if (lvl >= 0)
                     {
@@ -170,7 +169,6 @@ public class StartScreenManager : MonoBehaviour
                         cefrLevel = "A0";
                     }
                     canDoQuestionnaire.SetActive(false);
-                    welcomeText.gameObject.SetActive(true);
 
                     finishedCanDo = true;
 
@@ -209,9 +207,17 @@ public class StartScreenManager : MonoBehaviour
 
     public void GoodAck()
     {
+        cm.SendLogToServer($"CEFR Listening Answers: {listeningAnswers}, CEFR Speaking Answers: {speakingAnswers}\n");
+        cm.SendLogToServer($"CEFR Listening: {cefrListening}, CEFR Speaking: {cefrSpeaking}\n");
+        fla.gameObject.SetActive(true);
         state = 1;
-        listeningForReturn = true;
         waitingAnim.SetActive(false);
+    }
+
+    public void SetUpEnd()
+    {
+        welcomeText.gameObject.SetActive(true);
+        listeningForReturn = true;
         returnKeyMsg.text = "リターンキーを押して開始します";
         returnKeyMsg.gameObject.SetActive(true);
     }
@@ -219,6 +225,14 @@ public class StartScreenManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (state == 1 && !listeningForReturn)
+        {
+            if (!fla.gameObject.activeInHierarchy)
+            {
+                SetUpEnd();
+            }
+        }
+
         if (listeningForReturn)
         {
             if (Input.GetKeyUp(KeyCode.Return) || Input.GetKeyUp(KeyCode.KeypadEnter))

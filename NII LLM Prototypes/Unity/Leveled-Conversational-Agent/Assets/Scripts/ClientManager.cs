@@ -101,6 +101,22 @@ public class ClientManager : MonoBehaviour
         }
     }
 
+    public void SendLogToServer(string message)
+    {
+        if (client == null || !client.Connected)
+            return;
+
+        try
+        {
+            byte[] messageAsByteArray = Encoding.ASCII.GetBytes("LOG: " + message + " ");
+            stream.Write(messageAsByteArray, 0, messageAsByteArray.Length);
+        }
+        catch (System.Exception e)
+        {
+            Debug.Log("Socket write exception when logging: " + e);
+        }
+    }
+
     public void SendServerMessage(string message, bool locking = true)
     {
         if (client != null && client.Connected && canSend)
