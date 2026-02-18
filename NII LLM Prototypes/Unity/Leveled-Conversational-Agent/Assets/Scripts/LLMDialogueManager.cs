@@ -15,6 +15,7 @@ using System.Text;
 /// </summary>
 public class LLMDialogueManager : MonoBehaviour
 {
+    public PhaseManager pm;
     ClientManager clientmgr;
     Transcribe transcribe;
     private string apiKey;
@@ -308,6 +309,7 @@ public class LLMDialogueManager : MonoBehaviour
     {
         animator.SetBool(emotionCache, false);
         transcribe.canTranscribe = true;
+        pm.ResponseFinished();
     }
 }
 

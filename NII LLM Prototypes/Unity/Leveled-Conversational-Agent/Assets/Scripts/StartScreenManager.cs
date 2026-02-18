@@ -237,6 +237,12 @@ public class StartScreenManager : MonoBehaviour
         {
             if (Input.GetKeyUp(KeyCode.Return) || Input.GetKeyUp(KeyCode.KeypadEnter))
             {
+                if (initSettings.activeInHierarchy)
+                {
+                    initSettings.SetActive(false);
+                    return;
+                }
+
                 listeningForReturn = false;
                 if (state == 0)
                 {

@@ -110,6 +110,24 @@ public class ClientManager : MonoBehaviour
         {
             byte[] messageAsByteArray = Encoding.ASCII.GetBytes("LOG: " + message + " ");
             stream.Write(messageAsByteArray, 0, messageAsByteArray.Length);
+            print("Sent log to server: " + message);
+        }
+        catch (System.Exception e)
+        {
+            Debug.Log("Socket write exception when logging: " + e);
+        }
+    }
+
+    public void SendRawMessageToServer(string message)
+    {
+        if (client == null || !client.Connected)
+            return;
+
+        try
+        {
+            byte[] messageAsByteArray = Encoding.ASCII.GetBytes(message);
+            stream.Write(messageAsByteArray, 0, messageAsByteArray.Length);
+            print("Sent raw message to server: " + message);
         }
         catch (System.Exception e)
         {
