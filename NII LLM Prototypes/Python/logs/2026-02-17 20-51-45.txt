@@ -1,0 +1,9 @@
+Connection received from ('210.157.192.217', 29013)
+Declared level: A0. Target Level: A1. Permutation: 0
+Conversational introduction (Phase 0) will be leveled to: A1
+Phase 1 will be filtered to: A1
+Phase 2 will be filtered to: unfiltered
+CEFR Listening Answers: 101010, CEFR Speaking Answers: 1010 
+CEFR Listening: -1, CEFR Speaking: -1 
+Pre-intervention FLA score: 23, raw responses: 1112312312302
+END received. Closing connection from ('210.157.192.217', 29013)

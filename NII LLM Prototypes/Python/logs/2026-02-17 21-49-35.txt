@@ -1,0 +1,805 @@
+Connection received from ('192.168.86.1', 21345)
+Declared level: A0. Target Level: A1. Permutation: 0
+Conversational introduction (Phase 0) will be leveled to: A1
+Phase 1 will be filtered to: A1
+Phase 2 will be filtered to: unfiltered
+CEFR Listening Answers: 1000, CEFR Speaking Answers: 00 
+CEFR Listening: -1, CEFR Speaking: -1 
+Pre-intervention FLA score: 16, raw responses: 0000123232323
+
+
+Received Message: '...'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Hi. Nice coffee, isnt it? How are you?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2', 'A1'].
+
+On-level score: 0.8333333333333334, Desired score: 0.66.
+
+
+Sending Response: 'Hi. Nice coffee, isnt it? How are you?'
+
+
+
+Received Message: 'I'm sorry, I do not understand.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Hello. I am waiting for coffee. Do you come here often?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A1', 'A2'].
+
+On-level score: 0.8333333333333334, Desired score: 0.66.
+
+
+Sending Response: 'Hello. I am waiting for coffee. Do you come here often?'
+
+
+
+Received Message: 'Yeah, I come here every day.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Thats great. Its a nice place to work. What do you like about the cafe?'
+
+
+Sentence-level CEFR predictions: ['A1', 'B1', 'B1'].
+
+On-level score: 0.3333333333333333, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several structures that are beyond the A1 level:  
+
+1. **Complex question form**  What do you like about the cafe? requires understanding and producing a fullsentence whquestion, which is typically taught at A2 or higher.  
+2. **Multiple ideas in one turn**  Thats great. Its a nice place to work. combines two separate statements, each with a subject, verb, and complement, which is more than the very short, simple utterances expected at A1.  
+3. **Vocabulary**  words such as great, nice, work, and cafe are fine, but the combination of adjectives and abstract opinion expressions (great, nice place to work) adds a level of nuance that A1 learners may not yet grasp.  
+
+To bring the content to A1, keep each utterance extremely short, use only one idea per sentence, and avoid full whquestions; use simple yes/no or choice prompts instead. This will ensure the language remains within the basic, familiarexpression range required for A1 learners.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'Nice. I like the quiet. What do you do here?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2', 'A2'].
+
+On-level score: 0.6666666666666666, Desired score: 0.66.
+
+
+Sending Response: 'Nice. I like the quiet. What do you do here?'
+
+
+
+Received Message: 'I'm working as a Ph.D. student, so I'm here is very near my life.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'That's great. I work on a computer. Do you study a lot here?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2', 'A2'].
+
+On-level score: 0.6666666666666666, Desired score: 0.66.
+
+
+Sending Response: 'That's great. I work on a computer. Do you study a lot here?'
+
+
+
+***END OF PHASE 0*** Setting agent filter to level: A1
+
+
+Received Message: 'I'm a programmer.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I code too. What kind of software do you build?'
+
+
+Sentence-level CEFR predictions: ['A1', 'B1'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The phrase contains a question with abstract vocabulary (software, build) and a sentence structure that is longer than the simple, everyday expressions expected at A1. It also uses the verb code, which is technical and may be unfamiliar to basic learners. Because it goes beyond concrete, everyday language and introduces concepts that require a higher level of comprehension, it is rated above A1. To suit an A1 learner, use very simple words, short sentences, and topics that are directly relatable to daily life.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'Nice! I also write code. Do you like the cafe?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2', 'A2'].
+
+On-level score: 0.6666666666666666, Desired score: 0.66.
+
+
+Sending Response: 'Nice! I also write code. Do you like the cafe?'
+
+
+
+Received Message: 'Yeah, I like the coffee. But I like the black, I'm hot.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I like the black coffee too. It is strong and warm. Do you like music while you work?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A1', 'A2'].
+
+On-level score: 0.8333333333333334, Desired score: 0.66.
+
+
+Sending Response: 'I like the black coffee too. It is strong and warm. Do you like music while you work?'
+
+
+
+Received Message: '...'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I often listen to hiphop music. It helps me focus. What music do you like?'
+
+
+Sentence-level CEFR predictions: ['A2', 'B1', 'A2'].
+
+On-level score: 0.3333333333333333, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several elements that exceed an A1 learners capacity:  
+
+- The verb phrase often listen to combines an adverb with a presentsimple verb, which requires understanding of frequency expressions.  
+- Hiphop is a specific genre name that may be unfamiliar vocabulary for beginners.  
+- It helps me focus contains a causal clause and an abstract noun focus, both of which are beyond simple, concrete statements.  
+- The question What music do you like? introduces a plural noun and an openended interrogative that assumes a broader lexical range.  
+
+Because of the frequency adverb, specific genre terminology, causal clause, and abstract concept, the original phrase is rated above the A1 level.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'I listen to simple beats. They help me focus. You listen to music?'
+
+
+Sentence-level CEFR predictions: ['B1', 'B1', 'A1'].
+
+On-level score: 0.3333333333333333, Desired score: 0.66.
+
+Generated Feedback: 'The phrase was rated above A1 because it contains several elements that exceed the lowest basic level:
+
+1. **Verb variety and tense**  listen and help are separate verbs that require the learner to understand infinitive forms and causeeffect relationships.
+2. **Abstract idea**  simple beats and help me focus introduce a concept (music influencing concentration) that is less concrete than everyday actions.
+3. **Question format**  You listen to music? expects the learner to parse a reversal of subjectverb order, which is more complex than simple yes/no questions.
+
+To keep the content at A1, use only very common words, simple present tense, and direct statements or basic questions.'
+
+
+
+
+***Leveling Iteration 3 of 5***
+
+
+Potential response: 'Yes, I like quiet music. It helps me focus. Do you listen to music?'
+
+
+Sentence-level CEFR predictions: ['A2', 'B1', 'A1'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several ideas in one turn (quiet music, helps me focus, Do you listen to music?) and contains a relative clause (that helps me focus). This introduces more than one new piece of vocabulary and a question structure that goes beyond the very short, singleidea utterances typical for A1 learners. To keep the content at A1, each statement should be broken into separate, simple sentences with basic words and no additional clauses. Use only one idea per sentence and avoid abstract verbs such as focus. This will make the dialogue easier for an A1 learner to understand.'
+
+
+
+
+***Leveling Iteration 4 of 5***
+
+
+Potential response: 'I listen to simple music. It helps me think. Do you listen to music?'
+
+
+Sentence-level CEFR predictions: ['A2', 'B1', 'A1'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses three separate ideas and a question, which creates a short discourse rather than a single, very simple statement. Even though each word is common, the structureI listen to simple music. It helps me think. Do you listen to music?  requires linking clauses and understanding a purpose (helps me think), which is beyond the very basic, oneidea utterances typical of A1. To keep the content at A1, the writer should limit the expression to one short, concrete sentence and avoid abstract notions such as helps me think.'
+
+
+
+
+***Leveling Iteration 5 of 5***
+
+
+Potential response: 'I listen to music. It is calm. Do you listen to music?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A1', 'A1'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'I listen to music. It is calm. Do you listen to music?'
+
+
+
+Received Message: 'Yes, I like music in the coffee shop.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'What kind of music do you like?'
+
+
+Sentence-level CEFR predictions: ['B1'].
+
+On-level score: 0.0, Desired score: 0.66.
+
+Generated Feedback: 'The question uses the structure What kind of ... do you ...? and includes the abstract noun kind and the verb like. Both elements go beyond the simple, concrete vocabulary and short sentences typical of A1 level. At A1, learners are expected to handle very basic prompts such as Do you like music? or What music do you like? These alternatives use fewer words, avoid the abstract kind, and keep the sentence simple and direct. Rewrite the phrase using only basic words and a short structure to match A1 expectations.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'What music do you like?'
+
+
+Sentence-level CEFR predictions: ['A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The question uses the verb do and the structure What ... do you like? which introduces an auxiliary verb and a relative clause. This pattern is beyond the simple, direct sentences typical of A1 learners, who are expected to use basic subjectverbobject constructions without auxiliary verbs. To match an A1 level, the phrasing should avoid auxiliary verbs and keep the sentence as a straightforward statement or a simple yes/no question.'
+
+
+
+
+***Leveling Iteration 3 of 5***
+
+
+Potential response: 'What music do you like?'
+
+
+Sentence-level CEFR predictions: ['A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The phrase uses the interrogative what ... do you like? and a noun (music) that together form a question needing abstract thought about preferences. Even though the words are common, the structure requires the listener to process a whattype question and to express an opinion, which is beyond the very simple, concrete sentences expected at the A1 level. To make it appropriate for an A1 learner, the request should be reduced to a more basic, singleword or shortphrase prompt that does not require the learner to generate a full opinionbased answer.'
+
+
+
+
+***Leveling Iteration 4 of 5***
+
+
+Potential response: 'What music do you like?'
+
+
+Sentence-level CEFR predictions: ['A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The phrase uses the interrogative what ... do you ...? and asks about personal preferences, which requires the learner to understand abstract nouns (music) and form a question with a verbsubject inversion. This structure is beyond the short, fixed expressions and simple vocabulary typical of the A1 level. To suit an A1 learner, the wording should be reduced to a more basic, concrete expression without the complex question form.'
+
+
+
+
+***Leveling Iteration 5 of 5***
+
+
+Potential response: 'What music do you like?'
+
+
+Sentence-level CEFR predictions: ['A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The phrase What music do you like? uses an interrogative structure with a whquestion and the verb do as an auxiliary. This construction is beyond the very simple, fixed expressions expected at A1, where learners are limited to basic statements and short, memorised questions (e.g., I like music). The presence of a question word, auxiliary verb, and objectverb inversion makes it a more complex sentence pattern that A1 learners are not yet expected to understand or produce. Therefore, it is rated above A1 level.'
+
+
+
+Sending Response: 'What music do you like?'
+
+
+
+Received Message: 'It's probably like a folk music.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I like folk music too. It is nice and soft. Do you come here to study or to relax?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A1', 'B1'].
+
+On-level score: 0.6666666666666666, Desired score: 0.66.
+
+
+Sending Response: 'I like folk music too. It is nice and soft. Do you come here to study or to relax?'
+
+
+
+Received Message: 'I come here to relax and sometime to study there.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'That sounds good. I relax here sometimes too. Maybe we can share a table next time.'
+
+
+Sentence-level CEFR predictions: ['A2', 'B1', 'B1'].
+
+On-level score: 0.16666666666666666, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several ideas and a structure that go beyond the A1 level:  
+
+1. **Multiple clauses**  That sounds good, I relax here sometimes too, and Maybe we can share a table next time are three separate thoughts linked together. A1 learners handle only very short, singlesentence statements.  
+2. **Abstract or futureoriented language**  Phrases such as maybe we can and next time introduce speculation and future planning, which are harder for beginners to process.  
+3. **Vocabulary beyond basics**  Words like relax, sometimes, and share a table are less common in everyday, concrete contexts that A1 speakers are expected to know.  
+
+Because the utterance contains several linked ideas, speculative language, and nonbasic vocabulary, it exceeds the comprehension capacity of an A1 learner. To be A1appropriate, the content should be reduced to one simple, presenttense statement using very common words.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'Sounds good. I also relax here sometimes. Enjoy your coffee.'
+
+
+Sentence-level CEFR predictions: ['A1', 'B1', 'A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The sentence contains several structures that exceed A1 limits.  
+- Sounds good and Enjoy your coffee are idiomatic phrases that assume familiarity with informal conversational formulas.  
+- The clause I also relax here sometimes introduces a subordinate idea (also ... sometimes) and uses the verb relax in a less concrete, more abstract way.  
+- The overall length and the combination of multiple ideas in one sentence go beyond the short, simple statements expected at the A1 level.  
+
+To fit A1, the writer should use very basic vocabulary and keep each sentence to a single, concrete idea.'
+
+
+
+
+***Leveling Iteration 3 of 5***
+
+
+Potential response: 'That is good. I work here sometimes too. Enjoy your coffee.'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2', 'A2'].
+
+On-level score: 0.6666666666666666, Desired score: 0.66.
+
+
+Sending Response: 'That is good. I work here sometimes too. Enjoy your coffee.'
+
+
+
+Received Message: 'Yeah, I can not hear quite clearly, I need a bit of light.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Here is a small lamp. Is it better now?'
+
+
+Sentence-level CEFR predictions: ['A2', 'A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The phrase uses a comparative structure (better now) and a question that expects the listener to evaluate a change. Both the word better and the implied context of improvement go beyond the very simple, concrete language typical of A1. At the A1 level, sentences should describe objects or actions directly without asking for judgment or using comparative adjectives.
+
+To make it levelappropriate, replace the comparative word with a basic description and avoid asking the listener to assess the change. Use short, clear statements such as This is a small lamp. and, if needed, a simple confirmation like Is it okay? This keeps the language concrete and easy for beginners to understand.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'Would you like to turn on the lamp? It can make it brighter.'
+
+
+Sentence-level CEFR predictions: ['B1', 'B1'].
+
+On-level score: 0.0, Desired score: 0.66.
+
+Generated Feedback: 'The original phrase uses the modal verb would you like and the abstract noun it, which are beyond the very simple structures expected at A1. A1 learners are comfortable with concrete, short sentences such as Turn on the lamp? or The lamp is bright. The conditional Would you like... introduces a polite question format that requires understanding of conditional mood, and it can make it brighter adds an extra clause with a pronoun reference that may be confusing. To suit A1, replace the conditional with a direct command or simple yes/no question and avoid extra clauses. This will keep the language concrete, short, and easier to process.'
+
+
+
+
+***Leveling Iteration 3 of 5***
+
+
+Potential response: 'Here is a lamp. It is bright. Is this better?'
+
+
+Sentence-level CEFR predictions: ['A2', 'A1', 'A2'].
+
+On-level score: 0.6666666666666666, Desired score: 0.66.
+
+
+Sending Response: 'Here is a lamp. It is bright. Is this better?'
+
+
+
+Received Message: 'Oh, yes. It's good.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Glad it helps. Have a good day!'
+
+
+Sentence-level CEFR predictions: ['A2', 'A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The phrase uses a multiword expression (Glad it helps) and a compound sentence (Have a good day!) that go beyond the very short, concrete utterances typical of A1. At this level learners are expected to use simple, singleclause statements such as It is good or Good day. The current wording introduces an idiomatic feeling (glad) and a polite closing, which require a broader vocabulary and understanding of nuanced social formulas. To be A1appropriate, reduce the expression to a single, literal statement with basic words.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'Glad it helps. Enjoy your coffee.'
+
+
+Sentence-level CEFR predictions: ['A2', 'A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The sentence Glad it helps. Enjoy your coffee. uses an abstract feeling (glad) and a polite wish that presupposes understanding of nuance. Both clauses are slightly advanced for an A1 learner, who is expected to work with very concrete, simple statements and limited vocabulary. The phrasing also joins two ideas in a way that requires inference beyond basic daily expressions. To suit A1, the language should be broken into shorter, more literal statements using familiar words.'
+
+
+
+
+***Leveling Iteration 3 of 5***
+
+
+Potential response: 'Glad you are comfortable. Have a nice day.You are OK now. Have a good day.'
+
+
+Sentence-level CEFR predictions: ['A2', 'A2', 'A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The phrase uses several separate ideas and a mixture of polite expressions (Glad you are comfortable, You are OK now) that go beyond simple, everyday language. It also contains multiple clauses and a formal tone (Have a nice day, Have a good day), which require a higher level of comprehension than an A1 learner typically has. To be A1appropriate, the content should be reduced to very short, familiar sentences with limited vocabulary and no complex or abstract statements.'
+
+
+
+
+***Leveling Iteration 4 of 5***
+
+
+Potential response: 'Great. Enjoy your coffee.'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2'].
+
+On-level score: 0.75, Desired score: 0.66.
+
+
+Sending Response: 'Great. Enjoy your coffee.'
+
+
+
+Received Message: 'Yeah, you too.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Thanks. Have a good day.'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2'].
+
+On-level score: 0.75, Desired score: 0.66.
+
+
+Sending Response: 'Thanks. Have a good day.'
+
+
+
+***END OF PHASE 1*** Setting agent filter to level: unfiltered
+Post phase 1 FLA score: 20, raw responses: 2211222221212
+
+
+Received Message: 'Oh, hello. Nice to see you here again.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Hi again. How is your coffee today? '
+
+
+Sentence-level CEFR predictions: ['A1', 'A2'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'Hi again. How is your coffee today? '
+
+
+
+Received Message: 'Yes, I have ordered my coffee.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Glad you got it. Hows the work going?'
+
+
+Sentence-level CEFR predictions: ['A2', 'A2'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'Glad you got it. Hows the work going?'
+
+
+
+Received Message: 'Not bad'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Good to hear. Anything interesting in your programming lately?'
+
+
+Sentence-level CEFR predictions: ['A2', 'B1'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'Good to hear. Anything interesting in your programming lately?'
+
+
+
+Received Message: 'We have started an experiment using Unity to get people's conversation with the AI system.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'That sounds cool. Are you testing voice or text chat?'
+
+
+Sentence-level CEFR predictions: ['A2', 'B1'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'That sounds cool. Are you testing voice or text chat?'
+
+
+
+Received Message: 'Yeah, I'm testing conversation or chat with the AI bot.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Interesting! What do you hope to learn from the test?'
+
+
+Sentence-level CEFR predictions: ['A2', 'B2'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'Interesting! What do you hope to learn from the test?'
+
+
+
+Received Message: 'I want to learn about how people is on 30 when they talk to the airport.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I see. Youre studying how people in their thirties speak in an airport setting. Good luck with the research.'
+
+
+Sentence-level CEFR predictions: ['A1', 'B2', 'B1'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'I see. Youre studying how people in their thirties speak in an airport setting. Good luck with the research.'
+
+
+
+Received Message: 'What about you, you're working?'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I work as a remote software engineer. I build web tools and sometimes help with opensource projects. Hows your research going?'
+
+
+Sentence-level CEFR predictions: ['B1', 'B2', 'A2'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'I work as a remote software engineer. I build web tools and sometimes help with opensource projects. Hows your research going?'
+
+
+
+Received Message: 'It's okay'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Glad to hear it. Need any coffee while you work?'
+
+
+Sentence-level CEFR predictions: ['B1', 'A2'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'Glad to hear it. Need any coffee while you work?'
+
+
+
+Received Message: 'Yeah, after I called the AmeriCorps bank to my office.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I hope the call went well. Let me know if you need a refill.'
+
+
+Sentence-level CEFR predictions: ['B1', 'B1'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'I hope the call went well. Let me know if you need a refill.'
+
+
+
+Received Message: 'Actually, I also want to learn about your working content. So, doing the programming. What about your working content?'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I write code for web apps, mostly in JavaScript and Python. I fix bugs, add features, and review pull requests. I also help my team with cloud deployment.'
+
+
+Sentence-level CEFR predictions: ['B2', 'B2', 'B2'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'I write code for web apps, mostly in JavaScript and Python. I fix bugs, add features, and review pull requests. I also help my team with cloud deployment.'
+
+
+
+Received Message: 'Oh, that's really cool.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Thanks! What part of your project do you find most fun?'
+
+
+Sentence-level CEFR predictions: ['A1', 'B2'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'Thanks! What part of your project do you find most fun?'
+
+
+
+**END OF PHASE 3*** Preparing outro.
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Ive got to run now, but it was nice chatting. Good luck with your research!'
+
+
+Sentence-level CEFR predictions: ['B1', 'B1'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'Ive got to run now, but it was nice chatting. Good luck with your research!'
+
+Post phase 2 FLA score: 16, raw responses: 1210111210111
+END received. Closing connection from ('192.168.86.1', 21345)

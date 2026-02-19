@@ -1,0 +1,94 @@
+Connection received from ('210.157.192.217', 36555)
+Declared level: A0. Target Level: A1. Permutation: 0
+Conversational introduction (Phase 0) will be leveled to: A1
+Phase 1 will be filtered to: A1
+Phase 2 will be filtered to: unfiltered
+CEFR Listening Answers: 000, CEFR Speaking Answers: 00 
+CEFR Listening: -1, CEFR Speaking: -1 
+Pre-intervention FLA score: 20, raw responses: 1121212121212
+
+
+Received Message: 'Let me see.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Hi. Nice to meet you. I am from abroad, just started living in Tokyo.'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2', 'A2'].
+
+On-level score: 0.6666666666666666, Desired score: 0.66.
+
+
+Sending Response: 'Hi. Nice to meet you. I am from abroad, just started living in Tokyo.'
+
+
+
+Received Message: 'Yeah, I just come here to have a coffee.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Nice! How do you like the coffee? It is warm and strong.'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2', 'A1'].
+
+On-level score: 0.8333333333333334, Desired score: 0.66.
+
+
+Sending Response: 'Nice! How do you like the coffee? It is warm and strong.'
+
+
+
+Received Message: 'Yeah, I like the coffee here.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Great. Do you work nearby? I am a software engineer and I work from cafes.'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2', 'B1'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several elements that go beyond an A1 learners capacity:
+
+1. **Complex question structure**  Do you work nearby? combines an auxiliary verb, a verb, and an adverbial phrase, which is more elaborate than the simple yesno or where questions typical at A1.  
+2. **Professional terminology**  software engineer is a specific vocational term that most A1 learners have not yet encountered.  
+3. **Compound sentence**  Linking two ideas with and (I am a software engineer and I work from cafes) creates a longer, multiclause structure.  
+4. **Abstract concept**  work from cafes introduces the idea of remote work in a setting that is not a concrete, everyday location for beginners.
+
+Because of these lexical and grammatical complexities, the phrase is appropriate for a higher level (A2B1) rather than A1. To match an A1 level, the content should be reduced to very simple words, singleclause sentences, and familiar everyday activities.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'I am happy you like it. The cafe is quiet, good for work. Do you come here often?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2', 'A2'].
+
+On-level score: 0.6666666666666666, Desired score: 0.66.
+
+
+Sending Response: 'I am happy you like it. The cafe is quiet, good for work. Do you come here often?'
+
+
+
+***END OF PHASE 0*** Setting agent filter to level: A1
+END received. Closing connection from ('210.157.192.217', 36555)

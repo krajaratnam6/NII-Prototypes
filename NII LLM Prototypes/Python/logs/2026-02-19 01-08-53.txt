@@ -1,0 +1,8 @@
+Connection received from ('192.168.86.1', 51661)
+Declared level: A0. Target Level: A1. Permutation: 0
+Conversational introduction (Phase 0) will be leveled to: A1
+Phase 1 will be filtered to: A1
+Phase 2 will be filtered to: unfiltered
+CEFR Listening Answers: 1000---------------------, CEFR Speaking Answers: 1100------------- 
+CEFR Listening: -1, CEFR Speaking: -1 
+END received. Closing connection from ('192.168.86.1', 51661)

@@ -43,6 +43,9 @@ public class Transcribe : MonoBehaviour
     public bool canTranscribe = false;
     public GameObject recordingMsg, paused;
 
+    public float maxSilenceTime = 20f;
+    float silenceTimer = 0;
+
     public enum LanguageMode
     {
         AutoDetect,
@@ -177,11 +180,25 @@ public class Transcribe : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             OnStartButtonPressed();
+            return;
         }
 
         if (Input.GetKeyUp(KeyCode.Space))
         {
             OnStopButtonPressed();
+            return;
+        }
+
+        if (canRecord && canTranscribe && !paused.activeInHierarchy)
+        {
+            silenceTimer += Time.deltaTime;
+            if (silenceTimer >= maxSilenceTime)
+            {
+                silenceTimer = 0f;
+                canRecord = false;
+                canTranscribe = false;
+                dialogueManager.GenerateDialogue("...");
+            }
         }
 
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -242,8 +259,8 @@ public class Transcribe : MonoBehaviour
 
     private IEnumerator HandleStopButtonPress()
     {
-        Debug.Log("Stop button pressed, waiting for 0.5 second to confirm.");
-        yield return new WaitForSeconds(0.5f);
+        Debug.Log("Stop button pressed, waiting for 0.25 seconds to confirm.");
+        yield return new WaitForSeconds(0.25f);
         StopRecording();
         stopButtonCoroutine = null;
     }
@@ -256,6 +273,7 @@ public class Transcribe : MonoBehaviour
         isRecording = true;
         canRecord = false;
         canTranscribe = false;
+        silenceTimer = 0f;
     }
 
     private void StopRecording()

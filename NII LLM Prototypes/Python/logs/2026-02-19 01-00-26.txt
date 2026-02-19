@@ -1,0 +1,9 @@
+Connection received from ('192.168.86.1', 51440)
+Declared level: B1. Target Level: A2. Permutation: 0
+Conversational introduction (Phase 0) will be leveled to: A1
+Phase 1 will be filtered to: A2
+Phase 2 will be filtered to: unfiltered
+CEFR Listening Answers: 111111111--11111111-1111-, CEFR Speaking Answers: 1111-11111-11111- 
+CEFR Listening: 2, CEFR Speaking: 2 
+Pre-intervention FLA score: 20, raw responses: 0122222222222
+END received. Closing connection from ('192.168.86.1', 51440)

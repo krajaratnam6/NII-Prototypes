@@ -1,0 +1,210 @@
+Connection received from ('192.168.86.1', 50719)
+Declared level: A0. Target Level: A1. Permutation: 1
+Conversational introduction (Phase 0) will be leveled to: A1
+Phase 1 will be filtered to: unfiltered
+Phase 2 will be filtered to: A1
+CEFR Listening Answers: 000, CEFR Speaking Answers: 00 
+CEFR Listening: -1, CEFR Speaking: -1 
+Pre-intervention FLA score: 9, raw responses: 0000000000000
+
+
+Received Message: 'Hi, nice to meet you.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Hi, nice to meet you too. I am drinking coffee and working on a project. How are you?'
+
+
+Sentence-level CEFR predictions: ['A2', 'B1', 'A1'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several ideas in one line (drinking coffee and working on a project), which introduces a compound structure and abstract content that exceeds A1 simplicity. It also contains a question that expects a detailed personal response, and the phrase nice to meet you is a polite formula that may be unfamiliar to beginners. To suit A1, keep each utterance short, focus on one concrete action, and use only the most basic greetings and questions.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'Hi. I am happy to be here. How are you?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2', 'A1'].
+
+On-level score: 0.8333333333333334, Desired score: 0.66.
+
+
+Sending Response: 'Hi. I am happy to be here. How are you?'
+
+
+
+Received Message: 'I'm good, thank you, how about you?'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I am well, thank you. Nice coffee, isnt it?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2'].
+
+On-level score: 0.75, Desired score: 0.66.
+
+
+Sending Response: 'I am well, thank you. Nice coffee, isnt it?'
+
+
+
+Received Message: 'Yes, it's good. What's your name?'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'My name is John. Nice to meet you.'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2'].
+
+On-level score: 0.75, Desired score: 0.66.
+
+
+Sending Response: 'My name is John. Nice to meet you.'
+
+
+
+Received Message: 'What do you do for work?'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I write computer programs. I work from here.'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2'].
+
+On-level score: 0.75, Desired score: 0.66.
+
+
+Sending Response: 'I write computer programs. I work from here.'
+
+
+
+Received Message: 'what type of programs you write.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I mostly make websites and tools for other people. It helps them do their work.'
+
+
+Sentence-level CEFR predictions: ['B2', 'B2'].
+
+On-level score: 0.0, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses abstract nouns (tools, work) and a compound verb structure (helps them do their work) that go beyond the simple, concrete language expected at A1. It also contains a relative clause (for other people) which adds complexity. At the A1 level, learners understand short, direct statements with basic verbs and concrete objects; the current phrasing is too detailed and uses higherlevel vocabulary. Rewrite it using very simple words, a single verb, and no extra clauses.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'I write programs for websites and apps. They help people do things online.'
+
+
+Sentence-level CEFR predictions: ['B1', 'B1'].
+
+On-level score: 0.0, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several abstract nouns (programs, websites, apps) and a relative clause (that help people do things online). These words and the structure are beyond the simple, concrete vocabulary and short sentences expected at A1. Learners at this level need everyday expressions and straightforward ideas expressed in oneclause sentences. Therefore the original phrasing is too complex for an A1 user.'
+
+
+
+
+***Leveling Iteration 3 of 5***
+
+
+Potential response: 'I make apps for web sites. They help people do things on the internet.'
+
+
+Sentence-level CEFR predictions: ['A2', 'B1'].
+
+On-level score: 0.25, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses abstract vocabulary (apps, web sites, help people do things) and combines several ideas into one statement. These words and the compound structure go beyond the simple, concrete language and short sentences expected at the A1 level. To fit an A1 learner, the wording should be limited to very basic, everyday terms and expressed in shorter, separate sentences.'
+
+
+
+
+***Leveling Iteration 4 of 5***
+
+
+Potential response: 'I make apps for the internet. They help people do tasks.'
+
+
+Sentence-level CEFR predictions: ['A2', 'B2'].
+
+On-level score: 0.25, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses abstract nouns (apps, internet) and a complex verb phrase (help people do tasks). At an A1 level, learners understand only concrete, everyday words and simple structures. Words like apps and internet are still vocabulary beyond basic daily life, and the clause they help people do tasks contains a relative pronountype idea and a nounverbobject pattern that is too long for beginner comprehension. To be A1appropriate, replace abstract terms with familiar, concrete words and use very short, simple sentences. Keep each sentence to a subjectverbobject format with common vocabulary.'
+
+
+
+
+***Leveling Iteration 5 of 5***
+
+
+Potential response: 'I make apps for web sites. They help people see data.'
+
+
+Sentence-level CEFR predictions: ['A2', 'B2'].
+
+On-level score: 0.25, Desired score: 0.66.
+
+Generated Feedback: 'The phrase uses abstract nouns (apps, data) and a compound verb structure (make apps for web sites) that are not part of everyday, concrete vocabulary expected at A1. A1 learners need short, simple sentences with familiar words such as I build programs for websites. They help people see information. The original wording is too technical and contains multiple ideas in one sentence, making it harder for beginners to understand. Simplify the vocabulary and break the thought into two very short sentences.'
+
+
+
+Sending Response: 'I make apps for web sites. They help people see data.'
+
+
+
+***END OF PHASE 0*** Setting agent filter to level: unfiltered
+
+
+Received Message: 'Sorry, what type of work do you do again?'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I write software for websites. It lets people view and use information online.'
+
+
+Sentence-level CEFR predictions: ['A2', 'B1'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'I write software for websites. It lets people view and use information online.'
+
+END received. Closing connection from ('192.168.86.1', 50719)

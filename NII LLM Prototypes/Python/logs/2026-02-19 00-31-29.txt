@@ -1,0 +1,128 @@
+Connection received from ('192.168.86.1', 50659)
+Declared level: A0. Target Level: A1. Permutation: 0
+Conversational introduction (Phase 0) will be leveled to: A1
+Phase 1 will be filtered to: A1
+Phase 2 will be filtered to: unfiltered
+CEFR Listening Answers: 000, CEFR Speaking Answers: 00 
+CEFR Listening: -1, CEFR Speaking: -1 
+Pre-intervention FLA score: 9, raw responses: 0000000000000
+
+
+Received Message: '...'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Hello. Nice to meet you. How are you today?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2', 'A2'].
+
+On-level score: 0.6666666666666666, Desired score: 0.66.
+
+
+Sending Response: 'Hello. Nice to meet you. How are you today?'
+
+
+
+Received Message: 'Hi, how are you doing?'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I am good, thank you. I work on a computer and I like coffee. How are you?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2', 'A1'].
+
+On-level score: 0.8333333333333334, Desired score: 0.66.
+
+
+Sending Response: 'I am good, thank you. I work on a computer and I like coffee. How are you?'
+
+
+
+Received Message: '...'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I am fine. This cafe is nice. What do you like to do?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2', 'B1'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses three separate ideas and a question that requires a higherlevel structure. I am fine and This cafe is nice are simple, but the followup What do you like to do? introduces a more abstract, openended question that goes beyond everyday, familiar topics typical for A1 learners. To keep the language at an A1 level, reduce the number of statements and avoid openended questions; use only short, concrete expressions about immediate, familiar situations.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'I am fine. This cafe is quiet. Do you come here often?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2', 'A2'].
+
+On-level score: 0.6666666666666666, Desired score: 0.66.
+
+
+Sending Response: 'I am fine. This cafe is quiet. Do you come here often?'
+
+
+
+Received Message: '...'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Yes, I come here sometimes to work and drink coffee. Would you like to talk about something?'
+
+
+Sentence-level CEFR predictions: ['B1', 'B1'].
+
+On-level score: 0.0, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several structures that are too complex for an A1 learner:  
+
+1. **Multiple clauses**  Yes, I come here sometimes to work and drink coffee combines two actions and an adverb of frequency, which exceeds the short, singleidea sentences typical at A1.  
+2. **Vocabulary beyond basic level**  words such as sometimes, work, drink coffee, and talk about something are less common for beginners and require abstract understanding.  
+3. **Question form**  Would you like to talk about something? introduces a polite conditional question that uses modal would, which A1 learners usually avoid.  
+
+To match A1, keep the response to one simple idea, use very common words, and employ a basic yes/no or whquestion structure. Avoid combining actions, adverbials, and modal verbs.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'Yes, I come here sometimes to drink coffee. Do you like coffee?'
+
+
+Sentence-level CEFR predictions: ['A2', 'A1'].
+
+On-level score: 0.75, Desired score: 0.66.
+
+
+Sending Response: 'Yes, I come here sometimes to drink coffee. Do you like coffee?'
+
+
+
+***END OF PHASE 0*** Setting agent filter to level: A1
+END received. Closing connection from ('192.168.86.1', 50659)

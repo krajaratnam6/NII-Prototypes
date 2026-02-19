@@ -1,0 +1,207 @@
+Connection received from ('192.168.86.1', 21168)
+Declared level: A0. Target Level: A1. Permutation: 0
+Conversational introduction (Phase 0) will be leveled to: A1
+Phase 1 will be filtered to: A1
+Phase 2 will be filtered to: unfiltered
+CEFR Listening Answers: 000, CEFR Speaking Answers: 00 
+CEFR Listening: -1, CEFR Speaking: -1 
+Pre-intervention FLA score: 8, raw responses: 0000000123210
+
+
+Received Message: 'Hello, how are you doing?'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Hi! I am good, thank you. I am waiting for coffee.'
+
+
+Sentence-level CEFR predictions: ['A1', 'A1', 'A1'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'Hi! I am good, thank you. I am waiting for coffee.'
+
+
+
+Received Message: 'That's good to hear. Wow, I love the cafe.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Thanks! It is a nice place. Do you come here often?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2', 'A2'].
+
+On-level score: 0.6666666666666666, Desired score: 0.66.
+
+
+Sending Response: 'Thanks! It is a nice place. Do you come here often?'
+
+
+
+***END OF PHASE 0*** Setting agent filter to level: A1
+
+
+Received Message: 'I don't come here that often, it's my first time.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Welcome! The coffee smells good. If you like, we can talk while we wait.'
+
+
+Sentence-level CEFR predictions: ['A1', 'A1', 'B1'].
+
+On-level score: 0.6666666666666666, Desired score: 0.66.
+
+
+Sending Response: 'Welcome! The coffee smells good. If you like, we can talk while we wait.'
+
+
+
+Received Message: 'I'm going to talk for a very long time. I'm going to keep talking. This is the situation Dr. Gan was worried about. If I keep talking, then maybe nothing will happen. I'm not sure. It looks like 10 seconds has already passed, but I'm not getting cut off. But I hope I wasn't boring you too much.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'It is okay. I enjoy listening. Feel free to talk.'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2', 'B1'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses abstract nouns (enjoy, listening) and a polite invitation (Feel free to talk) that go beyond the concrete, everyday language expected at A1. Learners at this level understand simple statements about immediate actions or needs, not nuanced expressions of preference or openended permission. To be A1appropriate, the wording should be reduced to very basic, presenttense verbs and concrete objects, avoiding abstract concepts and polite formulas. Use short, direct statements that describe a single, clear action.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'No, you are not boring. I like to chat. Lets talk.'
+
+
+Sentence-level CEFR predictions: ['A2', 'A2', 'A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several structures that go beyond the A1 range:  
+
+1. **Negation with a pronoun and verb (No, you are not boring)**  A1 learners are not yet comfortable with fullsentence negation and the linking verb are.  
+2. **Abstract adjective boring**  This word is not part of the basic everyday vocabulary expected at A1.  
+3. **Contractions (Lets)**  Contractions are typically introduced at higher levels.  
+4. **Multiple clauses (I like to chat. Lets talk.)**  Even though the ideas are simple, the use of two separate sentences with different verb forms (present simple, imperative) increases the grammatical load for a beginner.  
+
+For an A1 learner, keep the language to single, concrete statements, avoid negation and abstract adjectives, and use simple present verbs without contractions. This will make the utterance easier to understand.'
+
+
+
+
+***Leveling Iteration 3 of 5***
+
+
+Potential response: 'It is okay. I can listen. What do you like to do?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2', 'B1'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The phrase uses a compound question (What do you like to do?) and the verb listen, which are beyond the simple, everyday vocabulary expected at A1. A1 learners handle only very short, predictable sentences about immediate needs and familiar topics; they are not yet comfortable with openended questions or verbs that imply a higherlevel listening skill. To make the language levelappropriate, replace the openended question with a concrete, singleword query about a familiar activity, and use a basic verb such as hear or omit it entirely. This will keep the sentence short, predictable, and within the limited lexical range of a lowerbasic user.'
+
+
+
+
+***Leveling Iteration 4 of 5***
+
+
+Potential response: 'It is okay. I listen. Your talk is fine.'
+
+
+Sentence-level CEFR predictions: ['A1', 'A1', 'A2'].
+
+On-level score: 0.8333333333333334, Desired score: 0.66.
+
+
+Sending Response: 'It is okay. I listen. Your talk is fine.'
+
+
+
+***END OF PHASE 1*** Setting agent filter to level: unfiltered
+Post phase 1 FLA score: 18, raw responses: 0121212121212
+
+
+Received Message: 'Can you explain to me general relativity?'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'General relativity says that very big things, like planets and stars, bend space and time. Objects move straight, but the space they move through is curved, so their paths look like they are pulled toward each other. This bending explains gravity without needing an invisible force.'
+
+
+Sentence-level CEFR predictions: ['B2', 'C1', 'C1'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'General relativity says that very big things, like planets and stars, bend space and time. Objects move straight, but the space they move through is curved, so their paths look like they are pulled toward each other. This bending explains gravity without needing an invisible force.'
+
+
+
+Received Message: 'Thank you for explaining that, that's pretty easy to understand.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Youre welcome. Happy to chat more while we wait.'
+
+
+Sentence-level CEFR predictions: ['A1', 'B2'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'Youre welcome. Happy to chat more while we wait.'
+
+
+
+**END OF PHASE 3*** Preparing outro.
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Im sorry, I have to leave now. Enjoy your coffee!'
+
+
+Sentence-level CEFR predictions: ['A2', 'A2'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'Im sorry, I have to leave now. Enjoy your coffee!'
+
+Post phase 2 FLA score: 19, raw responses: 2221121221212
+END received. Closing connection from ('192.168.86.1', 21168)

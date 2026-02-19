@@ -1,0 +1,9 @@
+Connection received from ('185.223.152.209', 29604)
+Declared level: A0. Target Level: A1. Permutation: 0
+Conversational introduction (Phase 0) will be leveled to: A1
+Phase 1 will be filtered to: A1
+Phase 2 will be filtered to: unfiltered
+CEFR Listening Answers: 000, CEFR Speaking Answers: 00 
+CEFR Listening: -1, CEFR Speaking: -1 
+Pre-intervention FLA score: 9, raw responses: 0000000000000
+END received. Closing connection from ('185.223.152.209', 29604)

@@ -1,0 +1,814 @@
+Connection received from ('133.106.33.106', 58455)
+Declared level: A0. Target Level: A1. Permutation: 0
+Conversational introduction (Phase 0) will be leveled to: A1
+Phase 1 will be filtered to: A1
+Phase 2 will be filtered to: unfiltered
+CEFR Listening Answers: 000, CEFR Speaking Answers: 00 
+CEFR Listening: -1, CEFR Speaking: -1 
+Pre-intervention FLA score: 17, raw responses: 1212120321012
+
+
+Received Message: 'Hi, how are you doing?'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Hi, I'm good, thanks. I am waiting for my coffee. How are you?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A1', 'A1'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'Hi, I'm good, thanks. I am waiting for my coffee. How are you?'
+
+
+
+Received Message: 'I'm doing good, thank you. What type of coffee do you like?'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I like lightroast Peruvian coffee. It is smooth and a bit bright. What about you?'
+
+
+Sentence-level CEFR predictions: ['A2', 'B2', 'A2'].
+
+On-level score: 0.3333333333333333, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several words and structures that are beyond the A1 level:  
+
+- **Vocabulary**  lightroast, Peruvian, smooth, bright are not basic everyday words for beginners.  
+- **Adjectival detail**  Describing the coffee with multiple adjectives adds complexity that A1 learners are not expected to process easily.  
+- **Openended question**  What about you? requires the listener to produce a comparable description, which is a higherlevel communicative task.  
+
+To make the content A1appropriate, keep the wording simple, use only common nouns and adjectives, and limit the sentence to a short statement followed by a basic, direct question. The current phrasing is therefore rated above the target level.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'I like strong coffee, black and hot. What do you like?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2'].
+
+On-level score: 0.75, Desired score: 0.66.
+
+
+Sending Response: 'I like strong coffee, black and hot. What do you like?'
+
+
+
+Received Message: 'I don't actually like coffee that much.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Thats fine. Do you drink tea or something else?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2'].
+
+On-level score: 0.75, Desired score: 0.66.
+
+
+Sending Response: 'Thats fine. Do you drink tea or something else?'
+
+
+
+Received Message: 'Yeah, I drink tea.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'What kind of tea do you like?'
+
+
+Sentence-level CEFR predictions: ['A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The phrase What kind of tea do you you like? was rated above A1 because it contains a question word (what), a comparative structure (kind of), and a verb phrase (do you ... like) that together form a multipart interrogative sentence. This construction is more complex than the short, fixed expressions typical of A1 learners, who are expected to use very simple, singleword or twoword questions (e.g., Tea? or Do you like tea?). The vocabulary and grammar go beyond the limited, everyday phrases that A1 speakers can comfortably understand.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'What tea do you like?'
+
+
+Sentence-level CEFR predictions: ['A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The phrase What tea do you like? uses a question structure (What ... do you ...?) that goes beyond the simple, short sentences typical for A1 learners. It also includes the verb like combined with a noun phrase, which requires understanding of subjectverb inversion and a broader vocabulary. To suit an A1 level, the expression should be reduced to a basic, direct statement or a very simple yes/no question using familiar words. Keep the language short and avoid the what...doyou pattern.'
+
+
+
+
+***Leveling Iteration 3 of 5***
+
+
+Potential response: 'Nice. What tea do you like?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2'].
+
+On-level score: 0.75, Desired score: 0.66.
+
+
+Sending Response: 'Nice. What tea do you like?'
+
+
+
+Received Message: 'My favorite is black tea. I really like English breakfast tea, but I like all sorts of tea. Do you know a good spot for English breakfast tea?'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Ive seen an Englishstyle tea room a short walk from here. Its quiet and they serve good English Breakfast tea. Would you like directions?'
+
+
+Sentence-level CEFR predictions: ['B2', 'B1', 'A2'].
+
+On-level score: 0.16666666666666666, Desired score: 0.66.
+
+Generated Feedback: 'The sentence was judged above A1 because it contains several features that exceed a beginners vocabulary and sentence structure:
+
+- **Complex nouns and phrases** such as Englishstyle tea room, English Breakfast tea, and directions are not typical of the limited word set expected at A1.
+- **Compound sentence** with a relative clause (a short walk from here) adds grammatical complexity beyond short, simple statements.
+- **Abstract concepts** like quiet and serve good require understanding of adjectives and verbobject constructions that A1 learners may not yet master.
+
+To match an A1 level, the wording should be reduced to very common, concrete words and simple, singleclause sentences.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'There is a small tea shop near this cafe. It is a few blocks away and has many kinds of tea, including English breakfast. You can walk there in about five minutes.'
+
+
+Sentence-level CEFR predictions: ['B1', 'B2', 'B1'].
+
+On-level score: 0.0, Desired score: 0.66.
+
+Generated Feedback: 'The passage uses several features that go beyond the A1 level:
+
+- **Complex noun phrases** (a small tea shop near this cafe, many kinds of tea, including English breakfast) contain multiple modifiers and a parenthetical example, which are hard for A1 learners to parse.
+- **Relative time expression** (a few blocks away) and the phrase in about five minutes add detail that requires understanding of distance and approximate time, concepts that are usually introduced after A1.
+- **Passivestyle linking** (It is a few blocks away and has many kinds of tea) joins two independent ideas in a single sentence, demanding the ability to follow conjunctions and multiple verbs.
+
+These elements increase lexical and grammatical complexity, making the sentence unsuitable for an A1 learner. Simplify the content by using single, short statements with basic vocabulary and concrete, familiar concepts.'
+
+
+
+
+***Leveling Iteration 3 of 5***
+
+
+Potential response: 'I think there is a small shop nearby. They have black tea and English breakfast tea. You can try it.'
+
+
+Sentence-level CEFR predictions: ['B1', 'A2', 'A2'].
+
+On-level score: 0.3333333333333333, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several words and structures that are beyond an A1 learners range. It contains a relative clause (that is nearby), two specific types of tea, and the modal you can try, all of which require vocabulary and grammar that A1 learners have not yet mastered. To fit the A1 level, the wording should be reduced to very simple, familiar words and short sentences, avoiding details such as English breakfast tea and conditional phrases like you can try it.'
+
+
+
+
+***Leveling Iteration 4 of 5***
+
+
+Potential response: 'There is a small shop nearby that serves English breakfast tea. It is easy to find from here. Would you like directions?'
+
+
+Sentence-level CEFR predictions: ['B1', 'B1', 'A2'].
+
+On-level score: 0.16666666666666666, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several structures that go beyond the A1 range:
+
+* **Complex noun phrase**  a small shop nearby that serves English breakfast tea combines multiple modifiers and a relative clause (that serves...) which is too advanced for beginners.  
+* **Abstract verb phrase**  It is easy to find from here requires understanding of easy together with an infinitive construction, both beyond simple presenttense statements.  
+* **Polite offer with a question**  Would you like directions? introduces a modal verb in a conditional form, which A1 learners typically have not mastered.
+
+To suit an A1 learner, the content should be broken into short, simple sentences with basic vocabulary and no relative clauses or modal verbs.'
+
+
+
+
+***Leveling Iteration 5 of 5***
+
+
+Potential response: 'There is a small shop near this cafe. They have English breakfast tea. It is close and easy to find.'
+
+
+Sentence-level CEFR predictions: ['B1', 'A1', 'B2'].
+
+On-level score: 0.3333333333333333, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several structures that exceed A1 limits.  
+- It contains a relative clause (near this cafe) and a compound noun (English breakfast tea), both of which require vocabulary and syntax beyond simple everyday phrases.  
+- The verb have is used in a way that implies possession of a specific product, adding a level of abstraction not typical at the lowest level.  
+- The description It is close and easy to find combines two adjectives with a linking verb, forming a more complex sentence than the short, singleidea statements expected at A1.  
+
+To match A1, the content should be broken into very short, simple sentences using only basic nouns and verbs. No further examples are provided as requested.'
+
+
+
+Sending Response: 'There is a small shop near this cafe. They have English breakfast tea. It is close and easy to find.'
+
+
+
+***END OF PHASE 0*** Setting agent filter to level: A1
+
+
+Received Message: 'That sounds really nice. What do you do for work?'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I work as a software engineer, mostly on a computer. I work remotely, so I can be here in Tokyo. What about you?'
+
+
+Sentence-level CEFR predictions: ['B1', 'B1', 'A2'].
+
+On-level score: 0.16666666666666666, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several words and structures that are beyond the A1 level:
+
+- **Vocabulary** such as software engineer, remotely, and Tokyo are not basic, everyday terms for beginners.
+- The phrase **mostly on a computer** adds a relative clause that extends the sentence beyond a simple statement.
+- The question **What about you?** is acceptable, but it follows a complex statement, making the whole utterance harder to process for an A1 learner.
+
+Because of the specialized job title, the abstract concept of remote work, and the multiclause construction, the utterance is rated above A1. To suit an A1 learner, use only very common words and keep each sentence short and simple.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'I write code for computers. I work from home and travel. Do you work here?'
+
+
+Sentence-level CEFR predictions: ['A2', 'A2', 'A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The sentence contains several ideas and vocabulary that go beyond the A1 level:
+
+- **I write code for computers.**  write code and computers are technical terms that are not part of everyday basic vocabulary.
+- **I work from home and travel.**  The phrase combines two separate actions with a conjunction, creating a longer, more complex sentence structure.
+- **Do you work here?**  While the question itself is simple, it is attached to the previous complex statements, making the overall utterance too long for an A1 learner.
+
+Overall, the passage uses multiple clauses and specialized words, which exceed the short, simple, and familiar expressions expected at A1. Reducing the content to one simple idea per sentence and using only everyday words would bring it to the appropriate level.'
+
+
+
+
+***Leveling Iteration 3 of 5***
+
+
+Potential response: 'I write programs for computers. I work from home and travel. How about you?'
+
+
+Sentence-level CEFR predictions: ['A2', 'A2', 'A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses abstract nouns (programs, computers) and a compound verb phrase (work from home and travel) that are beyond everyday, concrete language typically mastered at A1. It also contains two independent ideas joined in one sentence, which demands more processing than simple, short statements. For an A1 learner, the content should be limited to very basic, familiar activities expressed with simple, singleverb sentences.'
+
+
+
+
+***Leveling Iteration 4 of 5***
+
+
+Potential response: 'I work on a computer. I write programs for people. It is my job.'
+
+
+Sentence-level CEFR predictions: ['A2', 'A2', 'A1'].
+
+On-level score: 0.6666666666666666, Desired score: 0.66.
+
+
+Sending Response: 'I work on a computer. I write programs for people. It is my job.'
+
+
+
+Received Message: 'Is that why you're in Tokyo?'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Yes, I moved here to work and to see the city.I also want to learn about Tokyo life.'
+
+
+Sentence-level CEFR predictions: ['B1'].
+
+On-level score: 0.0, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several clauses linked by and and to, and includes abstract ideas (to see the city, learn about Tokyo life) that require a broader vocabulary and more complex sentence structure than an A1 learner can comfortably process. It also contains a proper noun (Tokyo) and the infinitive form to learn, which are beyond the simple, shortsentence patterns expected at the A1 level. Therefore, the phrase is rated above A1.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'Yes. I work from here and send the code online. It lets me live in Tokyo.'
+
+
+Sentence-level CEFR predictions: ['A1', 'B1', 'A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several structures that go beyond the A1 level:
+
+- **Verb work from here** and the phrase **send the code online** involve abstract actions and vocabulary (work, send, code, online) that are not in the basic everyday vocabulary expected at A1.
+- The connector **It lets me live in Tokyo** introduces a causeeffect relationship and a complex idea (using work to enable living somewhere) that requires understanding of let + infinitive and a longer clause.
+- The overall length and the combination of multiple ideas in one sentence make it harder for an A1 learner to follow.
+
+Because of the abstract terminology, the multistep reasoning, and the compound structure, the sentence is rated above A1. It should be rewritten using very simple, concrete words and single, short sentences.'
+
+
+
+
+***Leveling Iteration 3 of 5***
+
+
+Potential response: 'Yes, I can work from anywhere. Tokyo is a nice place to live.'
+
+
+Sentence-level CEFR predictions: ['B1', 'B1'].
+
+On-level score: 0.0, Desired score: 0.66.
+
+Generated Feedback: 'The sentence was rated above A1 because it contains two complete ideas linked by a conjunction (Yes, I can work from anywhere. Tokyo is a nice place to live.). Even though the words themselves are simple, the structure is more complex than the short, singleidea utterances typical of A1 learners. A1 speech usually consists of brief, isolated statements such as I can work anywhere. or Tokyo is nice. The use of multiple clauses and the abstract notion of anywhere goes beyond the very basic, concrete expressions expected at the A1 level. To match an A1 learners comprehension, keep each statement short, use only one idea per sentence, and avoid linking clauses.'
+
+
+
+
+***Leveling Iteration 4 of 5***
+
+
+Potential response: 'Yes. I can work from anywhere, so I chose Tokyo.I like the city and the food here. It feels good.'
+
+
+Sentence-level CEFR predictions: ['A1', 'B1', 'A1'].
+
+On-level score: 0.6666666666666666, Desired score: 0.66.
+
+
+Sending Response: 'Yes. I can work from anywhere, so I chose Tokyo.I like the city and the food here. It feels good.'
+
+
+
+Received Message: 'That's nice. What other cities do you like?'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I liked New York for its buildings. I liked Barcelona for its streets. I also liked Kyoto for the calm.'
+
+
+Sentence-level CEFR predictions: ['A2', 'A2', 'B2'].
+
+On-level score: 0.3333333333333333, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several abstract nouns (buildings, streets, calm) and a comparative structure (I liked ... for its ...). It also contains three separate ideas in one long sentence. A1 learners are comfortable with very simple, concrete statements and short sentences. The vocabulary here is beyond everyday basics, and the sentence length and structure are too complex for an A1 level. Reduce the vocabulary to familiar words, keep each idea in a separate short sentence, and avoid the for its ... construction.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'I liked London. I liked New York. I also liked Berlin. They feel big and busy.'
+
+
+Sentence-level CEFR predictions: ['A1', 'A1', 'A2', 'A2'].
+
+On-level score: 0.75, Desired score: 0.66.
+
+
+Sending Response: 'I liked London. I liked New York. I also liked Berlin. They feel big and busy.'
+
+
+
+Received Message: 'That's cool, I like those cities as well. But honestly, I also like small towns.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I agree. Small towns are calm and nice. Do you have a favorite town?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2', 'A2'].
+
+On-level score: 0.6666666666666666, Desired score: 0.66.
+
+
+Sending Response: 'I agree. Small towns are calm and nice. Do you have a favorite town?'
+
+
+
+Received Message: 'It's hard to say, but I do like my hometown.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'That sounds nice. Where is your hometown?'
+
+
+Sentence-level CEFR predictions: ['A2', 'A1'].
+
+On-level score: 0.75, Desired score: 0.66.
+
+
+Sending Response: 'That sounds nice. Where is your hometown?'
+
+
+
+Received Message: 'It's this place called Winter Haven. It's in Central Florida in the U.S.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Winter Haven sounds warm. I have never been there. Thank you for sharing.'
+
+
+Sentence-level CEFR predictions: ['A2', 'A2', 'A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several abstract ideas and a pastperfect construction that go beyond simple, everyday language. Phrases like sounds warm, I have never been there, and Thank you for sharing each contain multiple clauses and vocabulary (e.g., warm, never, sharing) that are not typical of the most basic level. To match an A1 learner, the wording should be reduced to very short, concrete statements with minimal verb forms and limited adjectives. Focus on one simple idea per sentence and use the most common words.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'Winter Haven sounds warm. Do you visit often?'
+
+
+Sentence-level CEFR predictions: ['A2', 'A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The phrase uses the adjective **warm** to describe a place, which is an abstract, evaluative term that goes beyond concrete, everyday vocabulary typical of A1 learners. Additionally, the question **Do you visit often?** contains the adverb often and the auxiliary do in a question structure that is slightly more complex than the simple presenttense statements expected at A1. Consequently, the wording is too sophisticated for an A1 level, prompting the higher rating. To suit an A1 learner, replace abstract descriptors and reduce question complexity.'
+
+
+
+
+***Leveling Iteration 3 of 5***
+
+
+Potential response: 'Winter Haven sounds nice. I have never been there.
+
+Url: https://worldwidescience.org/topicpages/p/port+savona+italy.html'
+
+
+Sentence-level CEFR predictions: ['A2', 'A2', 'B2'].
+
+On-level score: 0.3333333333333333, Desired score: 0.66.
+
+Generated Feedback: 'The sentence is marked as above A1 because it uses vocabulary and structures that go beyond the simplest everyday words. Phrases such as sounds nice and I have never been there introduce abstract feelings and a pastperfect construction that are not typical for a beginner. Additionally, including a URL adds unnecessary complexity for an A1 learner. To make the content suitable for an A1 level, keep the wording to concrete, familiar nouns and verbs, use very short sentences, and omit extraneous information like web links.'
+
+
+
+
+***Leveling Iteration 4 of 5***
+
+
+Potential response: 'Winter Haven sounds nice. I have not been there. Thank you for sharing.'
+
+
+Sentence-level CEFR predictions: ['A2', 'A2', 'A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several complete ideas linked together (Winter Haven sounds nice, I have not been there, Thank you for sharing). Even though each word is simple, the structure contains three separate clauses and a pasttense verb (have not been), which goes beyond the short, singleidea statements typical of A1 learners. To be A1appropriate, the expression should be broken into very short, single sentences using presenttense or basic present perfect without extra clauses. Keep each utterance to one simple thought and use the most common verb forms.'
+
+
+
+
+***Leveling Iteration 5 of 5***
+
+
+Potential response: 'Winter Haven sounds nice. I have not been there. What do you like about it?'
+
+
+Sentence-level CEFR predictions: ['A2', 'A2', 'B1'].
+
+On-level score: 0.3333333333333333, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several structures that exceed the A1 range: it contains a conditional clause (I have not been there) and a question that requires abstract thinking (What do you like about it?). Both the pastperfectlike construction and the openended what ... about it question involve vocabulary and syntax that are beyond simple, everyday expressions. To keep the language at A1, use only very basic presenttense statements and short, concrete questions that rely on familiar words. The feedback should guide the writer to replace the complex clause and the abstract question with simple, direct phrases.'
+
+
+
+Sending Response: 'Winter Haven sounds nice. I have not been there. Thank you for sharing.'
+
+
+
+Received Message: 'What's your hometown?'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I am from a small town in the United States. It's not far from a big city.'
+
+
+Sentence-level CEFR predictions: ['B1', 'B2'].
+
+On-level score: 0.0, Desired score: 0.66.
+
+Generated Feedback: 'The sentence was rated above A1 because it contains several elements that exceed the basicuser range:
+
+1. **Complex ideas**  It combines two separate pieces of information (origin and proximity to a city) in one sentence, which is more abstract than the simple, singleidea statements expected at A1.  
+2. **Vocabulary**  Words like small town, United States, and big city are not the most elementary vocabulary for beginners; they introduce geopolitical and sizecomparison concepts that A1 learners may not yet grasp.  
+3. **Sentence length**  The clause Its not far from a big city adds extra length and a relative clause, making the structure more demanding than the short, straightforward sentences typical of A1 level.
+
+To lower the level, keep each idea separate, use very common words, and limit the sentence to a single, simple statement.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'I am from a small town in the United States. It is far from here.'
+
+
+Sentence-level CEFR predictions: ['B1', 'A2'].
+
+On-level score: 0.25, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses a complex structure (I am from a small town in the United States) and includes a relative clause (that is far from here). Both the phrase small town and the geographic reference in the United States add unnecessary vocabulary for an A1 learner, and the longer clause makes the sentence harder to process. To suit an A1 level, keep the language to very basic words, a single simple verb, and a short statement about location. Reduce the sentence to a minimal, familiar expression that a beginner can understand instantly.'
+
+
+
+
+***Leveling Iteration 3 of 5***
+
+
+Potential response: 'I am from a town in the United States, but I do not talk about it much.'
+
+
+Sentence-level CEFR predictions: ['B2'].
+
+On-level score: 0.0, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several elements that exceed an A1 learners capacity:  
+- town in the United States combines a specific location phrase with a country name, introducing vocabulary (United States) that is beyond basic everyday words.  
+- The contrastive structure but I do not talk about it much adds a subordinate clause and the abstract notion of not talking about something, which requires understanding of conjunctions and nuanced expression.  
+
+These features make the sentence too complex for an A1 level, which should consist of very short, concrete statements with limited vocabulary and no subclauses. The phrase should be simplified to single, familiar ideas and basic words.'
+
+
+
+
+***Leveling Iteration 4 of 5***
+
+
+Potential response: 'I am from a city in the United States. It is a medium size town.'
+
+
+Sentence-level CEFR predictions: ['A2', 'A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The sentence was judged above A1 because it contains several elements that exceed the simplest beginner level:
+
+- **city vs. town**  the contrast introduces two location nouns that may be confusing for an A1 learner.
+- **medium size**  the adjective phrase uses a comparative concept (medium) that is not part of the basic vocabulary taught at A1.
+- **Complex sentence structure**  two independent clauses are linked without a simple connector, making the sentence longer than the short, singleidea statements expected at A1.
+
+To bring the content to A1, reduce the vocabulary to the most common words and keep the sentence short, stating only one clear fact about where you live.'
+
+
+
+
+***Leveling Iteration 5 of 5***
+
+
+Potential response: 'I am from a small town in the United States.'
+
+
+Sentence-level CEFR predictions: ['B1'].
+
+On-level score: 0.0, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses a relative clause (in the United States) and the abstract noun small town. Both elements require vocabulary and grammatical structures beyond the simple, concrete language expected at the A1 level. A1 learners are comfortable with very basic statements about themselves, such as I am from a town. Introducing the country name and the size descriptor adds unnecessary complexity for this proficiency. Reduce the sentence to the most essential, concrete information to match A1 expectations.'
+
+
+
+Sending Response: 'I am from a city in the United States. It is a medium size town.'
+
+
+
+Received Message: 'Did you find it hard to adjust to Tokyo?'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'It was a little hard at first. Everything is new. Now I learn a little each day.'
+
+
+Sentence-level CEFR predictions: ['B2', 'A1', 'B1'].
+
+On-level score: 0.3333333333333333, Desired score: 0.66.
+
+Generated Feedback: 'The wording uses abstract ideas (hard, new, each day) and a multiclause structure (It was a little hard at first, everything is new, now I learn a little each day). A1 learners expect very simple, concrete sentences with limited vocabulary and no linking of several thoughts in one sentence. To match A1, break the ideas into short, isolated statements and replace lesscommon words with basic equivalents. This will keep the message understandable for beginners.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'Yes, it was a little hard. The streets are big and the language is new. I learn a little each day.'
+
+
+Sentence-level CEFR predictions: ['B1', 'A2', 'B1'].
+
+On-level score: 0.16666666666666666, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several structures that go beyond A1:
+
+- **Multiple clauses** (Yes, it was a little hard and The streets are big and the language is new) create compound ideas that are hard for beginners to follow.
+- **Vocabulary such as little hard, streets, language, new, learn** is moderately abstract; A1 learners are comfortable with concrete, everyday words only.
+- **Verb forms** like was and are are mixed, and the progressive learn a little each day adds a timefrequency expression that A1 users rarely handle.
+
+To fit an A1 level, keep the statement to one simple idea, use very basic words, and limit each sentence to a single verbsubjectobject structure. This will make the content easier for an A1 learner to understand.'
+
+
+
+
+***Leveling Iteration 3 of 5***
+
+
+Potential response: 'It was a little hard at first. The streets are big. The language is new. But I learn a little each day.'
+
+
+Sentence-level CEFR predictions: ['B2', 'A2', 'A1', 'B1'].
+
+On-level score: 0.375, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several structures that go beyond the A1 level:
+
+1. **Verb forms**  was, are, and learn are mixed tenses that require understanding of past, present, and progressive aspects, which A1 learners typically have not yet mastered.  
+2. **Abstract nouns**  hard, big, and new are descriptive adjectives that assume the reader can compare and evaluate concepts, a skill usually developed at A2.  
+3. **Compound ideas**  The clause But I learn a little each day combines a contrast (but) with a time reference (each day), creating a more complex sentence than the short, simple statements expected at A1.  
+
+Because the passage contains varied tenses, abstract vocabulary, and compound structures, it is too advanced for an A1 learner. It should be simplified to singleverb, presenttense statements with concrete, everyday words.'
+
+
+
+
+***Leveling Iteration 4 of 5***
+
+
+Potential response: 'Yes, it was a little hard. The city is big and the language is new. I learn a little each day.'
+
+
+Sentence-level CEFR predictions: ['B1', 'A2', 'B1'].
+
+On-level score: 0.16666666666666666, Desired score: 0.66.
+
+Generated Feedback: 'The sentence is rated above A1 because it contains several multiword ideas and grammatical structures that go beyond very basic English:
+
+- **It was a little hard** uses the abstract adjective *hard* with a degree modifier *a little*, which is more complex than simple good / bad / ok.
+- **The city is big and the language is new** joins two separate clauses with *and* and introduces the abstract noun *language* and the adjective *new*, both of which are not typical A1 vocabulary.
+- **I learn a little each day** employs the presentsimple tense with an adverbial phrase *each day*, a time expression that is more advanced than the simple today / yesterday.  
+
+A1 learners need short, concrete sentences with very common words (e.g., The city is big. I study a bit.). The current phrasing is too detailed and uses vocabulary and structures that exceed the A1 level. Reduce the number of ideas, keep each sentence very short, and use only the most basic words.'
+
+
+
+
+***Leveling Iteration 5 of 5***
+
+
+Potential response: 'At first it was hard. I learn a little every day. The city is big, but I like it.'
+
+
+Sentence-level CEFR predictions: ['B1', 'A2', 'A2'].
+
+On-level score: 0.3333333333333333, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several structures that go beyond the simplest A1 level:  
+
+- **Verb tense variation**  was hard, learn (present), and like (present) in one short paragraph introduces past and present forms that A1 learners may not yet combine comfortably.  
+- **Abstract phrasing**  hard, big, and like it are fine individually, but the overall idea requires linking multiple ideas (difficulty, daily learning, city size, personal preference), which exceeds the short, concrete expressions expected at A1.  
+
+To match A1, keep each sentence to a single, direct idea, use only presentsimple verbs, and limit the vocabulary to very common words. This will make the text easier for beginner learners to grasp.'
+
+
+
+Sending Response: 'At first it was hard. I learn a little every day. The city is big, but I like it.'
+
+
+
+Received Message: 'Testing, one, two, three.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'All good, the connection works. How can I help?'
+
+
+Sentence-level CEFR predictions: ['A2', 'B1'].
+
+On-level score: 0.25, Desired score: 0.66.
+
+Generated Feedback: 'The phrase uses abstract wording (All good) and a polite, multiword question (How can I help?). At an A1 level, learners are comfortable with very concrete, short sentences and simple vocabulary. All good is an idiomatic expression that may be unclear, and How can I help? combines a modal verb with a question structure that is more advanced than basic greetings. To match A1, the text should be broken into brief, literal statements using familiar words (e.g., simple confirmation and a direct offer). This will make it easier for beginners to understand.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'Hello, I can hear you. How can I help?'
+
+
+Sentence-level CEFR predictions: ['A2', 'B1'].
+
+On-level score: 0.25, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several words and a structure that exceed the A1 vocabulary and grammar range. Hello and I can hear you are fine, but the phrase How can I help? introduces a question form that requires understanding of modal verbs and abstract intent, which A1 learners typically have not yet mastered. To match an A1 level, the wording should be limited to very simple, concrete expressions and short sentences that use only familiar nouns, verbs, and basic question forms. Reduce the content to the most essential, everyday words and avoid modal constructions.'
+
+
+
+
+***Leveling Iteration 3 of 5***
+
+
+Potential response: 'Hello. I can hear you. How are you?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2', 'A1'].
+
+On-level score: 0.8333333333333334, Desired score: 0.66.
+
+
+Sending Response: 'Hello. I can hear you. How are you?'
+
+
+
+***END OF PHASE 1*** Setting agent filter to level: unfiltered

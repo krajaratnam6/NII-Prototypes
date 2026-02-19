@@ -129,6 +129,7 @@ public class StartScreenManager : MonoBehaviour
                         {
                             speakingAnswers += "-";
                         }
+                        canDoQuestion++;
                     }
                 }
 
@@ -146,6 +147,24 @@ public class StartScreenManager : MonoBehaviour
             else
             {
                 print("Below can-do threshold");
+
+                while (canDoLevel < questionBank.Length)
+                {
+                    while (canDoQuestion < questionBank[canDoLevel].Length)
+                    {
+                        if (canDoStage == 0)
+                        {
+                            listeningAnswers += "-";
+                        }
+                        else
+                        {
+                            speakingAnswers += "-";
+                        }
+                        canDoQuestion++;
+                    }
+                    canDoQuestion = 0;
+                    canDoLevel++;
+                }
             }
 
             if (canDoLevel >= questionBank.Length || belowThreshold)

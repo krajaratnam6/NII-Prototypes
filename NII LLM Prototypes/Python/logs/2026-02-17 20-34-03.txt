@@ -1,0 +1,152 @@
+Connection received from ('185.223.152.209', 19451)
+Declared level: A0. Target Level: A1. Permutation: 0
+Conversational introduction (Phase 0) will be leveled to: A1
+Phase 1 will be filtered to: A1
+Phase 2 will be filtered to: unfiltered
+CEFR Listening Answers: 000, CEFR Speaking Answers: 00 
+CEFR Listening: -1, CEFR Speaking: -1 
+Pre-intervention FLA score: 17, raw responses: 0123212123120
+
+
+Received Message: 'Hello, how are you doing?'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Hi, I am good, thank you. I am waiting for coffee. How are you?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A1', 'A1'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'Hi, I am good, thank you. I am waiting for coffee. How are you?'
+
+
+
+Received Message: 'Hi, how are you doing?'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I am fine, thank you. I am working on my computer. How are you?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2', 'A1'].
+
+On-level score: 0.8333333333333334, Desired score: 0.66.
+
+
+Sending Response: 'I am fine, thank you. I am working on my computer. How are you?'
+
+
+
+***END OF PHASE 0*** Setting agent filter to level: A1
+
+
+Received Message: 'Do you like coffee?'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Yes, I like coffee. It is strong and warm. What do you like?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A1', 'A2'].
+
+On-level score: 0.8333333333333334, Desired score: 0.66.
+
+
+Sending Response: 'Yes, I like coffee. It is strong and warm. What do you like?'
+
+
+
+Received Message: 'Testing.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'All good. How can I help?'
+
+
+Sentence-level CEFR predictions: ['A1', 'B1'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The phrase All good. How can I help? uses two separate clauses and an idiomatic expression (All good). Even at A1, learners are comfortable with very short, concrete sentences like I am fine or Can I help? The first clause adds a colloquial, abstract reassurance that is not part of everyday, literal communication, and the question follows a more complex structure. This makes the overall utterance slightly beyond the simple, singleidea sentences expected at the A1 level. Keep the language to one short, clear statement or question.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'Okay. How can I help?'
+
+
+Sentence-level CEFR predictions: ['A1', 'B1'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The phrase Okay. How can I help? contains a multiword question and a modal verb (can) that go beyond the very simple, familiar expressions expected at A1. A1 learners are comfortable with short, concrete statements such as What do you need? or Help me, please. The use of Okay as a filler and the structure of How can I help? introduce a level of abstraction and politeness that is more appropriate for A2 or higher. To suit an A1 level, the wording should be reduced to a single, direct request or statement using basic vocabulary and simple sentence patterns.'
+
+
+
+
+***Leveling Iteration 3 of 5***
+
+
+Potential response: 'Okay, lets talk. What do you think about this cafe?'
+
+
+Sentence-level CEFR predictions: ['A2', 'B1'].
+
+On-level score: 0.25, Desired score: 0.66.
+
+Generated Feedback: 'The phrase uses a contraction (lets) and the abstract noun think, which are beyond the simple, concrete language expected at the A1 level. It also contains a multiword question (What do you think about this cafe?) that requires comprehension of a longer sentence structure and the concept of giving an opinion. For an A1 learner, keep sentences short, avoid contractions, and use basic verbs like like or dont like. This will make the expression easier to understand.'
+
+
+
+
+***Leveling Iteration 4 of 5***
+
+
+Potential response: 'Okay. How can I help?'
+
+
+Sentence-level CEFR predictions: ['A1', 'B1'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The phrase Okay. How can I help? uses a polite interrogative structure and a compound sentence. Even though the words are common, the combination creates a slightly more formal and abstract interaction than the simple, concrete statements typical for A1 learners. At the A1 level, learners benefit from brief, singleclause utterances that directly reference the immediate context. To lower the level, replace the multiword question with a single, straightforward statement or request that uses very basic vocabulary and avoids optional politeness markers. This will make the sentence easier for an A1 learner to process and produce.'
+
+
+
+
+***Leveling Iteration 5 of 5***
+
+
+Potential response: 'Okay. I am here. What do you want to talk about?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A1', 'B1'].
+
+On-level score: 0.6666666666666666, Desired score: 0.66.
+
+
+Sending Response: 'Okay. I am here. What do you want to talk about?'
+
+END received. Closing connection from ('185.223.152.209', 19451)

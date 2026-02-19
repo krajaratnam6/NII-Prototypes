@@ -1,0 +1,70 @@
+Connection received from ('133.106.33.106', 58046)
+Declared level: A0. Target Level: A1. Permutation: 0
+Conversational introduction (Phase 0) will be leveled to: A1
+Phase 1 will be filtered to: A1
+Phase 2 will be filtered to: unfiltered
+CEFR Listening Answers: 000, CEFR Speaking Answers: 00 
+CEFR Listening: -1, CEFR Speaking: -1 
+Pre-intervention FLA score: 16, raw responses: 1111111111111
+
+
+Received Message: '...'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Hi, how are you? I am just waiting for my coffee. Nice day, isnt it?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2', 'A2'].
+
+On-level score: 0.6666666666666666, Desired score: 0.66.
+
+
+Sending Response: 'Hi, how are you? I am just waiting for my coffee. Nice day, isnt it?'
+
+
+
+Received Message: 'Testing. How are you doing?'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Im good, thank you. Just waiting for coffee and checking work. How about you?'
+
+
+Sentence-level CEFR predictions: ['A1', 'B1', 'A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several elements that are too advanced for an A1 learner:
+
+1. **Compound verb phrase**  waiting for coffee and checking work links two actions with and, which is beyond the simple, singleverb structures expected at A1.
+2. **Abstract noun coffee as a location or activity**  the phrase implies a routine activity that may be unfamiliar to beginners.
+3. **Polite inquiry How about you?**  this is a more sophisticated way of asking a question, requiring understanding of an idiomatic expression rather than a direct You? or What about you?
+
+Because the sentence contains multiple clauses, a coordinating conjunction, and an idiomatic question, it exceeds the simplicity required at the A1 level. The content should be reduced to single, short sentences with basic vocabulary.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'I am good, thank you. Just waiting for coffee. How are you?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2', 'A1'].
+
+On-level score: 0.8333333333333334, Desired score: 0.66.
+
+
+Sending Response: 'I am good, thank you. Just waiting for coffee. How are you?'
+
+END received. Closing connection from ('133.106.33.106', 58046)
