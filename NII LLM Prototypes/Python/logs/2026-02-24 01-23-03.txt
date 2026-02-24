@@ -1,0 +1,250 @@
+Connection received from ('126.166.137.175', 5011)
+Declared level: A1. Target Level: A1. Permutation: 1
+Conversational introduction (Phase 0) will be leveled to: A1
+Phase 1 will be filtered to: unfiltered
+Phase 2 will be filtered to: A1
+CEFR Listening Answers: 111111111--100-----------, CEFR Speaking Answers: 1111-11111-101111 
+CEFR Listening: 0, CEFR Speaking: 2 
+Pre-intervention FLA score: 23, raw responses: 322222111010112
+
+
+Received Message: 'Testing, one, two, three.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Hi. Im John. Nice to meet you.'
+
+
+Sentence-level CEFR predictions: ['A1', 'A1', 'A2'].
+
+On-level score: 0.8333333333333334, Desired score: 0.66.
+
+
+Sending Response: 'Hi. Im John. Nice to meet you.'
+
+
+
+Received Message: '...'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Hello. How are you?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A1'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'Hello. How are you?'
+
+
+
+Received Message: '...'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Im good, thanks. How are you?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A1'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'Im good, thanks. How are you?'
+
+
+
+Received Message: '...'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Im doing well, thank you. Do you come to this cafe often?'
+
+
+Sentence-level CEFR predictions: ['A2', 'A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses a polite formula (Im doing well, thank you) and an idiomatic question (Do you come to this cafe often?). Both parts contain abstract concepts (wellbeing, frequency) and a phrasal verb (come to) that are beyond the simple, concrete vocabulary expected at A1. The structure also includes a relative clause and a polite, multiword response, which requires more grammatical knowledge than lowerbasic learners possess. Consequently, the phrase exceeds the A1 level.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'I like this coffee. Do you like coffee?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A1'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'I like this coffee. Do you like coffee?'
+
+
+
+***END OF PHASE 0*** Setting agent filter to level: unfiltered
+
+
+Received Message: '...'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Yes, I love coffee. Its a good way to start the day. What do you think?'
+
+
+Sentence-level CEFR predictions: ['A1', 'B2', 'A2'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'Yes, I love coffee. Its a good way to start the day. What do you think?'
+
+
+
+Received Message: '...'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Nice to meet you. Do you work nearby?'
+
+
+Sentence-level CEFR predictions: ['A2', 'A2'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'Nice to meet you. Do you work nearby?'
+
+
+
+Received Message: '...'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I work remotely as a software engineer, so I can sit here in the cafe. What about you? Are you studying or working nearby?'
+
+
+Sentence-level CEFR predictions: ['B2', 'A2', 'B1'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'I work remotely as a software engineer, so I can sit here in the cafe. What about you? Are you studying or working nearby?'
+
+
+
+Received Message: '...'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Im just visiting the area. Do you have any favorite places to eat or walk nearby?'
+
+
+Sentence-level CEFR predictions: ['A2', 'B1'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'Im just visiting the area. Do you have any favorite places to eat or walk nearby?'
+
+
+
+Received Message: '...'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Theres a small park two blocks away, nice for a short walk. And a ramen shop on the corner that has great broth. Have you tried any Japanese food yet?'
+
+
+Sentence-level CEFR predictions: ['B2', 'B2', 'A2'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'Theres a small park two blocks away, nice for a short walk. And a ramen shop on the corner that has great broth. Have you tried any Japanese food yet?'
+
+
+
+Received Message: '...'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Ive tried ramen, its tasty. If you like a walk, the park is quiet and nice. Let me know if you want to go sometime.'
+
+
+Sentence-level CEFR predictions: ['B2', 'B2', 'B1'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'Ive tried ramen, its tasty. If you like a walk, the park is quiet and nice. Let me know if you want to go sometime.'
+
+
+
+Received Message: '...'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Sure, Im up for a walk later. When would you like to meet?'
+
+
+Sentence-level CEFR predictions: ['B1', 'B1'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'Sure, Im up for a walk later. When would you like to meet?'
+
+
+
+***END OF PHASE 1*** Setting agent filter to level: A1
+END received. Closing connection from ('126.166.137.175', 5011)

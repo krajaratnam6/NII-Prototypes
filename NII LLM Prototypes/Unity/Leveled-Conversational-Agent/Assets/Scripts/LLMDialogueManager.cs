@@ -131,18 +131,18 @@ public class LLMDialogueManager : MonoBehaviour
     }
 
     //Generate dialogue
-    public void GenerateDialogue(string userMessage)
+    public void GenerateDialogue(string userMessage, bool isRawMessage = false)
     {
         if (!canGenerateDialogue) return;   // Just for safety
 
         // Add user message to the conversation history
-        conversationHistory.Add(new Message { role = "user", content = userMessage });
+        conversationHistory.Add(new Message { role = (isRawMessage ? "system" : "user"), content = userMessage });
 
         // Manage conversation history length
         TrimConversationHistory();
 
         // StartCoroutine(SendRequest(userMessage));
-        SendMessage(userMessage);
+        SendServerMessage(userMessage, isRawMessage);
     }
 
     // Cut conversation history to save tokens
@@ -154,10 +154,10 @@ public class LLMDialogueManager : MonoBehaviour
         }
     }
 
-    void SendMessage(string userMessage)
+    void SendServerMessage(string userMessage, bool isRawMessage)
     {
         timer = 0;
-        clientmgr.SendServerMessage(userMessage);
+        clientmgr.SendServerMessage(userMessage, true, !isRawMessage);
     }
 
     public void ReceiveMessage(string userMessage)

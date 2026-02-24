@@ -1,0 +1,79 @@
+Connection received from ('192.168.86.1', 37030)
+Declared level: B1. Target Level: A2. Permutation: 0
+Conversational introduction (Phase 0) will be leveled to: A1
+Phase 1 will be filtered to: A2
+Phase 2 will be filtered to: unfiltered
+CEFR Listening Answers: 111111111--11111111-1111-, CEFR Speaking Answers: 1111-11111-11111- 
+CEFR Listening: 2, CEFR Speaking: 2 
+Pre-intervention FLA score: 21, raw responses: 333333300000000
+
+
+Received Message: 'Hi, how are you?'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Hi! I am good, thank you. I like coffee and music.'
+
+
+Sentence-level CEFR predictions: ['A1', 'A1', 'A1'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'Hi! I am good, thank you. I like coffee and music.'
+
+
+
+Received Message: 'SILENCE'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Nice to meet you. How do you like the cafe?'
+
+
+Sentence-level CEFR predictions: ['A2', 'A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The phrase uses a polite greeting (Nice to meet you) and an openended question (How do you like the cafe?) that contains several abstract elements (politeness formula, comparative structure). This requires comprehension of social conventions and the ability to process a question with a subordinate clause, which goes beyond the limited vocabulary and simple sentence structures expected at A1. To match an A1 level, the language should be reduced to very basic, concrete words and short statements.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'Are you enjoying the cafe?'
+
+
+Sentence-level CEFR predictions: ['A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The phrase uses the presentcontinuous are you enjoying...? and the abstract noun cafe. Both the verb form and the vocabulary go beyond the very basic, shortsentence structures typical of A1. To match an A1 level, the wording should be simpler, avoiding progressive tenses and less common nouns.'
+
+
+
+
+***Leveling Iteration 3 of 5***
+
+
+Potential response: 'Hello. How do you like the cafe?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2'].
+
+On-level score: 0.75, Desired score: 0.66.
+
+
+Sending Response: 'Hello. How do you like the cafe?'
+
+END received. Closing connection from ('192.168.86.1', 37030)

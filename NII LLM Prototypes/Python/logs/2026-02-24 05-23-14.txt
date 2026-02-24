@@ -1,0 +1,45 @@
+Connection received from ('133.106.164.46', 41075)
+Declared level: A0. Target Level: A1. Permutation: 0
+Conversational introduction (Phase 0) will be leveled to: A1
+Phase 1 will be filtered to: A1
+Phase 2 will be filtered to: unfiltered
+
+
+Received Message: <user silence>
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Hello. How are you today?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2'].
+
+On-level score: 0.75, Desired score: 0.66.
+
+
+Sending Response: 'Hello. How are you today?'
+
+
+
+Received Message: <user silence>
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I'm good, thank you. Nice coffee, isnt it?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2'].
+
+On-level score: 0.75, Desired score: 0.66.
+
+
+Sending Response: 'I'm good, thank you. Nice coffee, isnt it?'
+

@@ -5,7 +5,7 @@ public class PhaseManager : MonoBehaviour
     public FlatCameraController fcm;
     public Transcribe tr;
     public ClientManager cm;
-    public GameObject intermission, intermissionTxt, fla, endScreen, startScreen, pauseScreen;
+    public GameObject intermission, intermissionTxt, intermissionTxtIntro, fla, endScreen, startScreen, pauseScreen;
     public float[] phaseTimes;
     public int currPhase = 0;
     public bool paused = true, waitingForResponse = false;
@@ -25,15 +25,14 @@ public class PhaseManager : MonoBehaviour
         if (!waitingForResponse)
             return;
 
-        if (currPhase > 0)
-        {
-            fcm.enabled = false;
-            tr.canTranscribe = false;
-        }
+
+        fcm.enabled = false;
+        tr.canTranscribe = false;
 
         if (waitingForEnd)
         {
             intermissionTxt.SetActive(false);
+            intermissionTxtIntro.SetActive(false);
             intermission.SetActive(true);
             waitingForFla = true;
             Cursor.lockState = CursorLockMode.None;
@@ -49,15 +48,13 @@ public class PhaseManager : MonoBehaviour
         if (currPhase < phaseTimes.Length)
         {
             waitingForResponse = false;
-            if (currPhase > 1)
-            {
-                intermissionTxt.SetActive(false);
-                intermission.SetActive(true);
-                waitingForFla = true;
-                Cursor.lockState = CursorLockMode.None;
-                Cursor.visible = true;
-                fla.SetActive(true);
-            }
+            intermissionTxt.SetActive(false);
+            intermissionTxtIntro.SetActive(false);
+            intermission.SetActive(true);
+            waitingForFla = true;
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+            fla.SetActive(true);
         }
         else
         {
@@ -108,7 +105,16 @@ public class PhaseManager : MonoBehaviour
                     return;
                 }
 
-                intermissionTxt.SetActive(true);
+                if (currPhase >= 2)
+                {
+                    intermissionTxt.SetActive(true);
+                    intermissionTxtIntro.SetActive(false);
+                }
+                else
+                {
+                    intermissionTxtIntro.SetActive(true);
+                    intermissionTxt.SetActive(false);
+                }
                 waitingForReturn = true;
             }
             return;

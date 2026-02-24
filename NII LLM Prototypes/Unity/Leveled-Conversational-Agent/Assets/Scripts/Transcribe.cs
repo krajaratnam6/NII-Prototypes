@@ -197,7 +197,7 @@ public class Transcribe : MonoBehaviour
                 silenceTimer = 0f;
                 canRecord = false;
                 canTranscribe = false;
-                dialogueManager.GenerateDialogue("...");
+                dialogueManager.GenerateDialogue("SILENCE", true);
             }
         }
 

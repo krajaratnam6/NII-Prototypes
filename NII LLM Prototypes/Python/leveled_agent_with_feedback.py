@@ -114,9 +114,11 @@ class LeveledAgentWithFeedback():
             self.messages.append({'role': 'system', 'content': task})
             self.user_cefr_level = cefr_levels.index(level)
 
-    def chat_to_agent(self, user_input, testing=False, ending=False):
+    def chat_to_agent(self, user_input, testing=False, ending=False, silence=False):
         if ending:
             self.messages.append({'role': 'system', 'content': 'Time is up and you now have to leave. Tell this to the user politely and duck out of the conversation.'})
+        elif silence:
+            self.messages.append({'role': 'system', 'content': 'The user did not respond. Do not pretend that they did. Acknowledge the silence but try to keep the conversataion going. You change the topic if necessary.'})
         else:
             self.messages.append({'role': 'user', 'content': user_input})
 
@@ -181,6 +183,7 @@ class LeveledAgentWithFeedback():
             prompt += "Try rephrasing the response to be simpler. The user has not yet heard your response.\n"
             prompt += "Do not acknowledge these messages and remember to stay in character. Simplify your language and keep going.\n"
             prompt += "Be sure to still answer the user's questions and stay on topic. Don't oversimplify to absurdity.\n"
+            prompt += "You are free to change the topic if it is too complex, but try to stay natural."
             
             feedback_messages.append({'role': 'system', 'content': prompt})
 

@@ -4,6 +4,8 @@ public class FlatCameraController : MonoBehaviour
 {
     public float sensX, sensY;
 
+    public float xMax = 45f, xMin = -45f, yMax = 45f, yMin = -45; 
+
     public Transform orientation;
 
     float xRotation, yRotation;
@@ -28,7 +30,8 @@ public class FlatCameraController : MonoBehaviour
 
         yRotation += mouseX;
         xRotation -= mouseY;
-        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+        xRotation = Mathf.Clamp(xRotation, xMin, xMax);
+        yRotation = Mathf.Clamp(yRotation, yMin, yMax);
 
         transform.rotation = Quaternion.Euler(xRotation, yRotation, 0);
         orientation.rotation = Quaternion.Euler(0, yRotation, 0);

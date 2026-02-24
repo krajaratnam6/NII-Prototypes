@@ -1,0 +1,187 @@
+Connection received from ('185.223.152.200', 20898)
+Declared level: A0. Target Level: A1. Permutation: 0
+Conversational introduction (Phase 0) will be leveled to: A1
+Phase 1 will be filtered to: A1
+Phase 2 will be filtered to: unfiltered
+CEFR Listening Answers: 000----------------------, CEFR Speaking Answers: 00--------------- 
+CEFR Listening: -1, CEFR Speaking: -1 
+Pre-intervention FLA score: 27, raw responses: 102222332221100
+
+
+Received Message: 'Hello, how are you doing?'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Hello! I am good, thank you. How are you?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A1', 'A1'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'Hello! I am good, thank you. How are you?'
+
+
+
+Received Message: '...'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I am well, thank you. Nice place, isnt it?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2'].
+
+On-level score: 0.75, Desired score: 0.66.
+
+
+Sending Response: 'I am well, thank you. Nice place, isnt it?'
+
+
+
+Received Message: 'What's your name?'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'My name is John. Nice to meet you.'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2'].
+
+On-level score: 0.75, Desired score: 0.66.
+
+
+Sending Response: 'My name is John. Nice to meet you.'
+
+
+
+Received Message: '...'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I work from here sometimes. What do you do?'
+
+
+Sentence-level CEFR predictions: ['A2', 'A1'].
+
+On-level score: 0.75, Desired score: 0.66.
+
+
+Sending Response: 'I work from here sometimes. What do you do?'
+
+
+
+***END OF PHASE 0*** Setting agent filter to level: A1
+
+
+Received Message: '...'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I am a software engineer. I work on a computer. And you?'
+
+
+Sentence-level CEFR predictions: ['A2', 'A2', 'A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several abstract nouns (software engineer, computer) and a compound question structure (And you?). At the A1 level, learners are expected to use only very familiar, concrete words and simple, singleclause sentences. Technical job titles and the linking word and create a level of complexity that exceeds basic everyday vocabulary. To be appropriate for A1, the content should replace specialized terms with simple, everyday language and limit the utterance to one short sentence. This will ensure the statement is easily understood by learners at the lowest basic level.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'I write computer programs. And you?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2'].
+
+On-level score: 0.75, Desired score: 0.66.
+
+
+Sending Response: 'I write computer programs. And you?'
+
+
+
+Received Message: '...'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I make software. What is your job?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A1'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'I make software. What is your job?'
+
+
+
+Received Message: '...'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I am a software engineer. What do you do?'
+
+
+Sentence-level CEFR predictions: ['A2', 'A1'].
+
+On-level score: 0.75, Desired score: 0.66.
+
+
+Sending Response: 'I am a software engineer. What do you do?'
+
+
+
+Received Message: '...'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I work on computers. Do you like technology?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2'].
+
+On-level score: 0.75, Desired score: 0.66.
+
+
+Sending Response: 'I work on computers. Do you like technology?'
+
+END received. Closing connection from ('185.223.152.200', 20898)

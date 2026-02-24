@@ -1,0 +1,64 @@
+Connection received from ('192.168.86.1', 36874)
+Declared level: B1. Target Level: A2. Permutation: 1
+Conversational introduction (Phase 0) will be leveled to: A1
+Phase 1 will be filtered to: unfiltered
+Phase 2 will be filtered to: A2
+CEFR Listening Answers: 111111111--11111111-1111-, CEFR Speaking Answers: 1111-11111-11111- 
+CEFR Listening: 2, CEFR Speaking: 2 
+Pre-intervention FLA score: 18, raw responses: 333300000000000
+
+
+Received Message: 'Hi, how are you doing?'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Hi, Im good, thank you. Just waiting for coffee. How are you?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2', 'A1'].
+
+On-level score: 0.8333333333333334, Desired score: 0.66.
+
+
+Sending Response: 'Hi, Im good, thank you. Just waiting for coffee. How are you?'
+
+
+
+Received Message: 'SILENCE'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Nice to meet you. Are you a regular here?'
+
+
+Sentence-level CEFR predictions: ['A2', 'A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The phrase uses a polite, multiword greeting (Nice to meet you) and a question with the idiom a regular here. Both the vocabulary (regular) and the structure are beyond basicuser (A1) familiarity. A1 learners understand very simple, everyday expressions and short sentences such as Hello or I am.... The original sentence is therefore too complex for someone at that level. Reduce the language to isolated, common words and keep the sentence very short.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'Nice, thanks. Do you come here often?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2'].
+
+On-level score: 0.75, Desired score: 0.66.
+
+
+Sending Response: 'Nice, thanks. Do you come here often?'
+
+END received. Closing connection from ('192.168.86.1', 36874)

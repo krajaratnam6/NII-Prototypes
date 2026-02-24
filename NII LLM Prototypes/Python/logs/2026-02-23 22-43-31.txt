@@ -1,0 +1,913 @@
+Connection received from ('185.223.152.200', 45901)
+Declared level: A0. Target Level: A1. Permutation: 1
+Conversational introduction (Phase 0) will be leveled to: A1
+Phase 1 will be filtered to: unfiltered
+Phase 2 will be filtered to: A1
+CEFR Listening Answers: 111111111--111100--------, CEFR Speaking Answers: 00--------------- 
+CEFR Listening: 0, CEFR Speaking: -1 
+Pre-intervention FLA score: 25, raw responses: 111122222211221
+
+
+Received Message: 'Hi, how are you doing?'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Hi, Im good, thanks. Just waiting for my coffee. How are you?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2', 'A1'].
+
+On-level score: 0.8333333333333334, Desired score: 0.66.
+
+
+Sending Response: 'Hi, Im good, thanks. Just waiting for my coffee. How are you?'
+
+
+
+Received Message: 'I'm doing good, thanks. What type of coffee do you like?'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I like lightroast coffee, a little strong but not bitter. What about you?'
+
+
+Sentence-level CEFR predictions: ['B2', 'A2'].
+
+On-level score: 0.25, Desired score: 0.66.
+
+Generated Feedback: 'The sentence contains several features that exceed the A1 level:
+
+1. **Compound adjective (lightroast)**  combines two words to create a specific description that is not yet typical for beginners.  
+2. **Contrastive structure (a little strong but not bitter)**  uses a coordinating conjunction but to link two opposing qualities, which requires understanding of more complex sentence patterns.  
+3. **Openended question (What about you?)**  expects the listener to produce a comparable response, a discourse move that is beyond simple, predictable exchanges.
+
+For A1 learners, keep language to single, concrete nouns and adjectives, short statements, and avoid contrasting clauses. Use a simple statement about coffee preference and a basic question. This will make the content easier to comprehend and produce.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'I like strong black coffee, not sweet. What do you like?'
+
+
+Sentence-level CEFR predictions: ['A2', 'A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several features that exceed an A1 learners capacity:
+
+- **Vocabulary**  words like strong, black, and sweet are not basic, everyday terms for beginners.
+- **Structure**  the negative construction not sweet and the question What do you like? create a more complex idea than simple I like coffee. Do you like it?.
+- **Length**  two clauses are combined in one sentence, which is longer than the short, simple statements typical at A1.
+
+To match A1 level, the language should be limited to very common words, use only simple positive statements, and keep sentences very short.'
+
+
+
+
+***Leveling Iteration 3 of 5***
+
+
+Potential response: 'I like plain black coffee. It is simple and strong. What do you like?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2', 'A2'].
+
+On-level score: 0.6666666666666666, Desired score: 0.66.
+
+
+Sending Response: 'I like plain black coffee. It is simple and strong. What do you like?'
+
+
+
+Received Message: 'I like tea more than coffee.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Tea is nice. Do you drink it often?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2'].
+
+On-level score: 0.75, Desired score: 0.66.
+
+
+Sending Response: 'Tea is nice. Do you drink it often?'
+
+
+
+Received Message: 'every day.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Thats great. Do you have a favorite flavor?'
+
+
+Sentence-level CEFR predictions: ['A1', 'B1'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The phrase uses a question that invites an openended response (Do you have a favorite flavor?) and includes the word favorite, which is abstract and not part of the limited core vocabulary expected at A1. It also contains a polite interjection (Thats great) that adds a clause beyond simple, concrete statements. Together these elements make the utterance too complex for a learner at the lowerbasic (A1) level.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'That is good. Do you have a favorite tea?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2'].
+
+On-level score: 0.75, Desired score: 0.66.
+
+
+Sending Response: 'That is good. Do you have a favorite tea?'
+
+
+
+Received Message: 'I like breakfast tea, like black tea.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Breakfast tea is great. Do you work nearby?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2'].
+
+On-level score: 0.75, Desired score: 0.66.
+
+
+Sending Response: 'Breakfast tea is great. Do you work nearby?'
+
+
+
+***END OF PHASE 0*** Setting agent filter to level: unfiltered
+
+
+Received Message: 'Yeah, I'm a student on an internship.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'That sounds interesting. What are you studying?'
+
+
+Sentence-level CEFR predictions: ['A2', 'A2'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'That sounds interesting. What are you studying?'
+
+
+
+Received Message: 'foreign language anxiety.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'That must be a challenging field. Do you study it at a university?'
+
+
+Sentence-level CEFR predictions: ['B2', 'A2'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'That must be a challenging field. Do you study it at a university?'
+
+
+
+Received Message: 'I'm sorry, what was that?'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'No problem. I asked if you study it at a university. Are you?'
+
+
+Sentence-level CEFR predictions: ['A2', 'B1', 'A1'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'No problem. I asked if you study it at a university. Are you?'
+
+
+
+Received Message: 'Sort of. I am a graduate student, so I do research.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Graduate research sounds intense. What part of language anxiety are you most interested in?'
+
+
+Sentence-level CEFR predictions: ['B2', 'B2'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'Graduate research sounds intense. What part of language anxiety are you most interested in?'
+
+
+
+Received Message: 'I'm interested in seeing if people feel more anxious when you use more complicated language.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'That is a fascinating question. I often notice people feel uneasy when the words get very complex. Do you plan to test this with real conversations?'
+
+
+Sentence-level CEFR predictions: ['B2', 'B2', 'B2'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'That is a fascinating question. I often notice people feel uneasy when the words get very complex. Do you plan to test this with real conversations?'
+
+
+
+Received Message: 'You might say I'm testing it right now.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Interesting! Ill try to keep things simple then. Let me know how it feels for you.'
+
+
+Sentence-level CEFR predictions: ['A2', 'B2', 'B1'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'Interesting! Ill try to keep things simple then. Let me know how it feels for you.'
+
+
+
+Received Message: 'No, no, no, please don't. Just speak as you normally would.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Alright, Ill speak naturally. How's the coffee here?'
+
+
+Sentence-level CEFR predictions: ['B1', 'A2'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'Alright, Ill speak naturally. How's the coffee here?'
+
+
+
+Received Message: 'I actually haven't ordered yet. What do you think about the coffee?'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Its solidsmooth with a slight bite. I usually go for a light roast, but its decent either way. Have you tried any Japanese cafes yet?'
+
+
+Sentence-level CEFR predictions: ['B2', 'B2', 'B1'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'Its solidsmooth with a slight bite. I usually go for a light roast, but its decent either way. Have you tried any Japanese cafes yet?'
+
+
+
+Received Message: 'Yeah, just a few around here. My research institute is nearby.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Nice location. The area has good vibe and quiet spots for work. Let me know if you need a recommendation for a place to study.'
+
+
+Sentence-level CEFR predictions: ['A2', 'B2', 'B2'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'Nice location. The area has good vibe and quiet spots for work. Let me know if you need a recommendation for a place to study.'
+
+
+
+Received Message: 'What do you do?'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I work remotely as a software engineer, mostly coding web apps. I also enjoy hiking on weekends and listening to hiphop. How about you?'
+
+
+Sentence-level CEFR predictions: ['B2', 'B1', 'A2'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'I work remotely as a software engineer, mostly coding web apps. I also enjoy hiking on weekends and listening to hiphop. How about you?'
+
+
+
+Received Message: 'I do research, like I said before. That's pretty cool. Do you work for a Japanese company?'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'No, Im freelance and work for companies overseas. I just enjoy the Tokyo atmosphere while I code.'
+
+
+Sentence-level CEFR predictions: ['B2', 'B2'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'No, Im freelance and work for companies overseas. I just enjoy the Tokyo atmosphere while I code.'
+
+
+
+***END OF PHASE 1*** Setting agent filter to level: A1
+Post phase 1 FLA score: 18, raw responses: 0112111211121012
+
+
+Received Message: 'You know, hi, I'm back.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Welcome back! How was your coffee?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A1'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'Welcome back! How was your coffee?'
+
+
+
+Received Message: '...'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'It was goodnice and smooth. Hows your day going?'
+
+
+Sentence-level CEFR predictions: ['A2', 'A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses a hyphenated phrase (nice and smooth) and an idiomatic contraction (Hows), which introduce vocabulary and a grammatical structure beyond the very simple words and short sentences expected at the A1 level. Additionally, the phrase It was good combines a pasttense verb with an abstract adjective, making it harder for a beginning learner to process. To meet A1 standards, the wording should be limited to basic, concrete words and simple presenttense sentences without contractions or compound descriptors.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'It was good, thanks. Anything new with your research?'
+
+
+Sentence-level CEFR predictions: ['A1', 'B1'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: '**Feedback:**  
+The original sentence contains a compound question and the phrase anything new with your research, which are beyond the simple, everyday expressions expected at the A1 level. A1 learners are comfortable with short, direct statements and very basic questions that use familiar vocabulary. The use of anything new and the abstract concept of research introduces unnecessary complexity for this level. To be levelappropriate, simplify the topic and keep the structure to one short, concrete sentence.'
+
+
+
+
+***Leveling Iteration 3 of 5***
+
+
+Potential response: 'I managed to get a cupit's bright and a bit acidic. Hows your day going?'
+
+
+Sentence-level CEFR predictions: ['B2', 'A2'].
+
+On-level score: 0.25, Desired score: 0.66.
+
+Generated Feedback: 'The phrase uses several words and structures beyond an A1 learners range. Managed to get is a phrasal verb that implies nuanced past ability, which is beyond simple past I got. Bright and acidic are descriptive adjectives that are not part of everyday basic vocabulary. The question Hows your day going? is a contracted, informal idiom that adds another layer of complexity. Each of these elements makes the sentence too advanced for an A1 level, which should rely on very simple words, short sentences, and concrete concepts.'
+
+
+
+
+***Leveling Iteration 4 of 5***
+
+
+Potential response: 'I hope it was good. Anything new with your research?'
+
+
+Sentence-level CEFR predictions: ['A2', 'B1'].
+
+On-level score: 0.25, Desired score: 0.66.
+
+Generated Feedback: 'The phrase uses abstract concepts (hope, good, anything new, research) and combines two ideas in one sentence. This requires the listener to understand implied meaning and a broader vocabulary, which is beyond the simple, concrete language expected at the A1 level. To be A1appropriate, the sentence should be broken into shorter, literal statements using familiar, everyday words.'
+
+
+
+
+***Leveling Iteration 5 of 5***
+
+
+Potential response: 'It was good, thanks. Ready to get back to work?'
+
+
+Sentence-level CEFR predictions: ['A1', 'B1'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The sentence includes two separate ideas linked by a question (It was good, thanks. Ready to get back to work?) and uses the pasttense verb was together with a polite thanks. This combination of statements and a followup question, plus the abstract notion of getting back to work, creates a structure that is more complex than the short, singleidea expressions typical of A1 learners. To suit an A1 level, the wording should be broken into very simple, singlesentence statements using presenttense verbs and basic vocabulary.'
+
+
+
+Sending Response: 'It was good, thanks. Ready to get back to work?'
+
+
+
+Received Message: 'I don't understand.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Sorry if that was unclear. I was just asking if you got your coffee and if youre ready to continue with your research. How can I help?'
+
+
+Sentence-level CEFR predictions: ['B2', 'B2', 'B1'].
+
+On-level score: 0.0, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several clauses and abstract wording that go beyond the simple, concrete language expected at the A1 level. Phrases such as if that was unclear, I was just asking, and if youre ready to continue with your research introduce conditional structures and multiple ideas in one long sentence. Additionally, the vocabulary (continue, research, how can I help) is more advanced than the everyday words an A1 learner is comfortable with. To suit an A1 learner, the message should be broken into short, direct statements with basic verbs and familiar nouns, avoiding conditional expressions and abstract concepts. This will make the meaning clearer and easier to process.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'I meant the coffee was good. Are you ready to start working now?'
+
+
+Sentence-level CEFR predictions: ['A2', 'B1'].
+
+On-level score: 0.25, Desired score: 0.66.
+
+Generated Feedback: 'The sentence was rated above A1 because it contains two separate ideas linked by a question, uses the pasttense verb meant, and includes the abstract concept of ready to start working now. These structures and vocabulary go beyond the very simple, concrete expressions expected at the A1 level. To suit an A1 learner, the wording should be reduced to a single, straightforward statement with basic presenttense verbs and familiar nouns.'
+
+
+
+
+***Leveling Iteration 3 of 5***
+
+
+Potential response: 'Sorry. I meant, did you enjoy your coffee?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2'].
+
+On-level score: 0.75, Desired score: 0.66.
+
+
+Sending Response: 'Sorry. I meant, did you enjoy your coffee?'
+
+
+
+Received Message: '...'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'If you havent tried it yet, the lightroast here is smooth and a little bright. Let me know if youd like a recommendation.'
+
+
+Sentence-level CEFR predictions: ['C1', 'B2'].
+
+On-level score: 0.0, Desired score: 0.66.
+
+Generated Feedback: 'The sentence was rated above A1 because it uses several words and structures that are too advanced for a lowerbasic learner.  
+- **If you havent tried it yet** is a complex conditional clause with a negative perfect form, which is beyond the simple present or past tenses expected at A1.  
+- **lightroast** and **smooth and a little bright** are specific vocabulary items (a coffee term and descriptive adjectives) that are not common everyday language for beginners.  
+- **Let me know if youd like a recommendation** contains the polite conditional would you like (youd) and the abstract noun recommendation, both of which require higherlevel comprehension.  
+
+To bring the expression down to A1, replace the conditional and perfect tenses with simple present statements, use basic, familiar words, and keep the sentence short.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'Im asking if you liked the coffee you had. Did you enjoy it?'
+
+
+Sentence-level CEFR predictions: ['B1', 'A2'].
+
+On-level score: 0.25, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several structures that exceed the A1 level:
+
+1. **Complex question format**  Im asking if you liked the coffee you had combines a reporting clause (Im asking if) with a relative clause (the coffee you had). A1 learners are not expected to parse or produce such embedded clauses.
+
+2. **Pasttense variation**  The sentence mixes present (Im asking) with past (liked, had), requiring the learner to understand a shift in time reference.
+
+3. **Abstract verb enjoy**  Did you enjoy it? employs a less concrete verb that is less frequent in beginner vocab lists.
+
+4. **Multiple question marks**  Two questions in one utterance increase cognitive load for an A1 learner.
+
+To make the content appropriate for A1, use a single, simple presenttense question with basic vocabulary and a straightforward word order, such as Did you like the coffee? This removes reporting clauses, relative clauses, and unnecessary verb forms.'
+
+
+
+
+***Leveling Iteration 3 of 5***
+
+
+Potential response: 'Im asking if you liked the coffee you had. Did you enjoy it?'
+
+
+Sentence-level CEFR predictions: ['B1', 'A2'].
+
+On-level score: 0.25, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses abstract verbs (asking, enjoy) and a pasttense question (Did you enjoy it?) which are beyond the simple, concrete vocabulary expected at A1. A1 learners handle only very basic, presenttime expressions and short, concrete sentences. The phrase also contains a clause (Im asking if you liked the coffee you had) that combines two ideas, which adds grammatical complexity unsuitable for A1. Therefore it is rated above the target level.'
+
+
+
+
+***Leveling Iteration 4 of 5***
+
+
+Potential response: 'Im just asking if you liked the coffee you had. How was it?'
+
+
+Sentence-level CEFR predictions: ['B1', 'A1'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The sentence contains a question that uses the pastsimple verb had and the adjective liked. It also includes a relative clause (you had) and two separate questions (How was it?). These structures involve more complex grammar and a broader vocabulary than the simple, everyday expressions expected at the A1 level. To match A1, the language should be reduced to short, very basic sentences with limited verb forms and no embedded clauses.'
+
+
+
+
+***Leveling Iteration 5 of 5***
+
+
+Potential response: 'Yes, it was pleasant. How is your research going today?'
+
+
+Sentence-level CEFR predictions: ['A2', 'A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The phrase uses a complete pasttense clause (It was pleasant) and a presenttense question with abstract vocabulary (research). Both sentences contain more than a single, simple idea and involve concepts (pleasantry, research progress) that are not everyday, concrete topics for beginners. The structure is longer than the short, fixed expressions typical of A1. Therefore it is rated above the learners A1 level.'
+
+
+
+Sending Response: 'Yes, it was pleasant. How is your research going today?'
+
+
+
+Received Message: '...'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Sounds like a busy day. Let me know if you need a quiet spot to work sometime.'
+
+
+Sentence-level CEFR predictions: ['A2', 'B2'].
+
+On-level score: 0.25, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses idiomatic expressions (Sounds like a busy day, let me know) and an abstract concept (a quiet spot to work sometime). These phrases are not concrete, everyday vocabulary and rely on a level of nuance that exceeds the simple, literal language expected at A1. To be A1appropriate, the wording should be limited to basic, familiar words and short, direct sentences without idioms or implied meanings.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'My research is going well. I am collecting data and writing notes. How is your day?'
+
+
+Sentence-level CEFR predictions: ['A2', 'B2', 'A1'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several abstract nouns (research, collecting data, writing notes) and a compound verb phrase (is going well). It also contains a question that shifts topics, which requires the listener to track two separate ideas. These elements are beyond the simple, concrete vocabulary and short structures expected at A1. To suit an A1 learner, the content should be limited to everyday topics with basic words and singleclause sentences.'
+
+
+
+
+***Leveling Iteration 3 of 5***
+
+
+Potential response: 'My work is going well. Im finishing a feature for a client. Hows your study today?'
+
+
+Sentence-level CEFR predictions: ['A2', 'B2', 'A2'].
+
+On-level score: 0.3333333333333333, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several structures that are beyond A1 level. Phrases such as My work is going well, Im finishing a feature for a client, and Hows your study today? contain multiple clauses, abstract vocabulary (feature, client), and a contracted question form (Hows). These elements require broader lexical knowledge and the ability to process longer, more complex sentences, which A1 learners have not yet mastered. Consequently, the content is rated above the target A1 level.'
+
+
+
+
+***Leveling Iteration 4 of 5***
+
+
+Potential response: 'I am fine. Your study good?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2'].
+
+On-level score: 0.75, Desired score: 0.66.
+
+
+Sending Response: 'I am fine. Your study good?'
+
+
+
+Received Message: 'Sorry, what are you asking?'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I was asking if your research is going well today. Hows it coming along?'
+
+
+Sentence-level CEFR predictions: ['B2', 'B2'].
+
+On-level score: 0.0, Desired score: 0.66.
+
+Generated Feedback: 'The original phrase contains several problems for an A1 learner:
+
+1. **Complex vocabulary**  words such as research, going well, and coming along are abstract and not part of everyday basic vocabulary.
+2. **Multiple ideas in one sentence**  the sentence asks two related questions in a single stretch, which can overload a beginners processing capacity.
+3. **Idiomatic expression**  Hows it coming along? is an idiom; idioms are difficult for lowlevel learners because the meaning cannot be inferred from the individual words.
+
+To make the sentence suitable for an A1 level, replace the abstract nouns and idioms with simple, concrete words, and split the content into short, straightforward questions. This reduces lexical difficulty and keeps each sentence short enough for a beginner to understand.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'I was just asking if your research is going well today. How are things?'
+
+
+Sentence-level CEFR predictions: ['B2', 'A1'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several structures that go beyond the A1 level:
+
+- **Complex question format**  I was just asking if your research is going well today combines past continuous (was asking) with a conditional clause (if your research is going well), which requires understanding of multiple tenses and subordinating conjunctions.
+- **Abstract vocabulary**  words such as research, going well, and things are not part of the basic everyday lexicon that A1 learners have mastered.
+- **Length and clause linking**  The sentence contains two independent ideas (I was just asking ... and How are things?) linked together, creating a longer, more demanding utterance.
+
+For an A1 learner, keep the language to short, simple statements or questions, use present simple tense, and limit vocabulary to familiar, concrete words. This will make the content easier to understand.'
+
+
+
+
+***Leveling Iteration 3 of 5***
+
+
+Potential response: 'I was asking how your research is progressing today. How is it going?'
+
+
+Sentence-level CEFR predictions: ['B2', 'A2'].
+
+On-level score: 0.25, Desired score: 0.66.
+
+Generated Feedback: 'The phrase uses idiomatic wording (I was asking how your research is progressing today. How is it going?) and combines two sentences that expect the listener to understand abstract notions of progressing and how it is going. These constructions are typical of B2level speech, not the simple, concrete language required for an A1 learner. For A1, stick to very basic, short sentences with familiar words such as How is your research? or Is your research good? without additional clauses or abstract verbs. This will keep the language within the learners understandable range.'
+
+
+
+
+***Leveling Iteration 4 of 5***
+
+
+Potential response: 'I was asking if your research is going well today. How is it?'
+
+
+Sentence-level CEFR predictions: ['B2', 'A1'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses abstract nouns (research) and a compound question (How is it?) that require the listener to infer context and connect two ideas. This is beyond the simple, concrete expressions expected at the A1 level. To be A1appropriate, the wording should involve everyday, familiar topics and single, short questions with clear, literal meaning. Use basic verbs and nouns that a beginner can recognise without needing to interpret an implied subject.'
+
+
+
+
+***Leveling Iteration 5 of 5***
+
+
+Potential response: 'Im asking if your research is going well today. How is it?'
+
+
+Sentence-level CEFR predictions: ['B2', 'A1'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several structures that are beyond A1 level:  
+
+1. **Complex verb phrase**  Im asking if your research is going well today combines a present progressive (Im asking) with a subordinate clause (if your research is going well), which requires understanding of conditional wording.  
+2. **Abstract concept**  research is a formal, academic term that is not common in everyday, concrete topics typical for A1 learners.  
+3. **Multiple ideas**  The sentence asks two related questions in one utterance (How is it?), demanding the listener to keep track of both parts.  
+
+Because it includes a multiclause structure, a lessfamiliar noun, and a conditional expression, it exceeds the simplicity expected at the A1 level. To match A1, the language should be limited to short, direct questions using familiar vocabulary.'
+
+
+
+Sending Response: 'Im asking if your research is going well today. How is it?'
+
+
+
+**END OF PHASE 3*** Preparing outro.
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Im glad we could chat. I have to get back to work nowtake care and good luck with your research.'
+
+
+Sentence-level CEFR predictions: ['B1', 'B2'].
+
+On-level score: 0.0, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several structures that exceed the A1 level:
+
+- **Complex ideas**  Im glad we could chat combines a feeling expression with a pastaction clause, which is more abstract than simple greetings.
+- **Connector words**  The dash and the phrase take care and good luck with your research join multiple unrelated ideas in one sentence, requiring the ability to follow multipart statements.
+- **Vocabulary**  Words such as glad, research, and the polite closing good luck are beyond the limited everyday vocabulary expected at A1.
+- **Length**  The sentence is fairly long and contains several clauses, making it harder for a beginner to process.
+
+For A1 learners, keep statements short, use very common words, and limit each sentence to a single idea. This will make the content easier to understand.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'Im sorry, but I have to step away now. It was nice chatting with you. Take care.'
+
+
+Sentence-level CEFR predictions: ['B1', 'B1', 'A2'].
+
+On-level score: 0.16666666666666666, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several structures that go beyond A1 proficiency:
+
+- **Complex verb phrase** I have to step away now. The modal have to plus a phrasal verb (step away) is not typical for beginner learners.
+- **Polite closing** It was nice chatting with you. This pasttense clause with a relativelike chatting with you adds extra length and abstract meaning.
+- **Idiomatic farewell** Take care. This expression is idiomatic and not a literal, everyday phrase.
+
+These elements involve multiple clauses, modal verbs, and idiomatic language, which are all beyond the short, concrete sentences expected at the A1 level. The content should be simplified to basic presenttense statements with simple vocabulary.'
+
+
+
+
+***Leveling Iteration 3 of 5***
+
+
+Potential response: 'I have to step away now. It was nice chatting with you. Take care.'
+
+
+Sentence-level CEFR predictions: ['A2', 'B1', 'A2'].
+
+On-level score: 0.3333333333333333, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several separate ideas (step away, nice chatting, take care) linked together with more complex verb forms and abstract nouns. Words such as step away, nice, and take care are beyond the very basic, everyday vocabulary expected at A1, and the structure contains multiple clauses that require a higher level of grammatical understanding. To suit an A1 learner, simplify the wording and keep it to one short, concrete statement.'
+
+
+
+
+***Leveling Iteration 4 of 5***
+
+
+Potential response: 'Im glad we could chat. I have to go now. Take care.'
+
+
+Sentence-level CEFR predictions: ['B1', 'A2', 'A2'].
+
+On-level score: 0.3333333333333333, Desired score: 0.66.
+
+Generated Feedback: 'The phrase uses several multiword expressions (Im glad we could chat, Take care) and combines two complete ideas in one sentence. These constructions are more natural for learners at A2B1 level because they require understanding of pasttense could, contraction Im, and an idiomatic farewell (Take care). For an A1 learner, keep the language to simple, short sentences with basic verbs and nouns, avoiding contractions and idioms. Simplify the content to separate, straightforward statements that use only presenttense verbs and familiar words. This will make the sentence easier for an A1 user to comprehend.'
+
+
+
+
+***Leveling Iteration 5 of 5***
+
+
+Potential response: 'I have to step away now. It was nice chatting. Goodbye.'
+
+
+Sentence-level CEFR predictions: ['A2', 'B1', 'A1'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses several structures that exceed the A1 level:
+
+* **Multiple clauses**  I have to step away now and It was nice chatting are separate ideas linked together, which requires handling of more complex sentence construction.
+* **Past tense with was**  learners at A1 are generally limited to the simple present; the past was adds a tense they are not expected to master yet.
+* **Abstract phrasing**  nice chatting and step away are idiomatic expressions that are not concrete, everyday vocabulary for beginners.
+* **Length**  three short sentences are still more content than the brief, singleidea statements typical for A1 speakers.
+
+To match A1, keep the message to one simple present statement with familiar words, such as a single short sentence that conveys a single idea. This reduces grammatical complexity, tense variety, and idiomatic language.'
+
+
+
+Sending Response: 'I have to step away now. It was nice chatting. Goodbye.'
+
+Post phase 2 FLA score: 26, raw responses: 2121012333333231
+END received. Closing connection from ('185.223.152.200', 45901)

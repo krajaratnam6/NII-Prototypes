@@ -53,7 +53,14 @@ def serve(connection, address, agent):
                 response = unicodedata.normalize('NFKD', response).encode('ascii', 'ignore').decode('ascii')
                 connection.send((response + "\n").encode('utf-8'))
                 continue
-
+            
+        if (buf[0:7] == 'SILENCE'):
+            log(file, f"\n\nReceived Message: <user silence>\n\n")
+            response = agent.chat_to_agent("", silence=True)
+            response = unicodedata.normalize('NFKD', response).encode('ascii', 'ignore').decode('ascii')
+            connection.send((response + "\n").encode('utf-8'))
+            continue
+            
         msg = buf[5:-1]
         # TODO: response handling should be in different thread, user can spam or end during level iteration
         response = ""

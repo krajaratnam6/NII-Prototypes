@@ -1,0 +1,136 @@
+Connection received from ('192.168.86.1', 43965)
+Declared level: A0. Target Level: A1. Permutation: 0
+Conversational introduction (Phase 0) will be leveled to: A1
+Phase 1 will be filtered to: A1
+Phase 2 will be filtered to: unfiltered
+CEFR Listening Answers: 000----------------------, CEFR Speaking Answers: 00--------------- 
+CEFR Listening: -1, CEFR Speaking: -1 
+Pre-intervention FLA score: 21, raw responses: 000000333333333
+
+
+Received Message: '<user did not respond>'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Hi, nice to meet you. How are you?'
+
+
+Sentence-level CEFR predictions: ['A2', 'A1'].
+
+On-level score: 0.75, Desired score: 0.66.
+
+
+Sending Response: 'Hi, nice to meet you. How are you?'
+
+
+
+Received Message: 'Hi, I'm doing good. I just got back from some intense research.'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'That sounds interesting. What did you research?'
+
+
+Sentence-level CEFR predictions: ['A2', 'A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The phrase uses the abstract noun interesting and the question What did you research? Both words are beyond the limited vocabulary expected at the A1 level, and the structure is a twoclause sentence that requires comprehension of a nuance (sounds interesting) and a lesscommon verb (research). To suit an A1 learner, replace the abstract term with a concrete, everyday word and use a simpler verb such as looked at or found out. This will keep the language within familiar, everyday expressions.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'That sounds busy. What did you look at?'
+
+
+Sentence-level CEFR predictions: ['A2', 'A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The phrase uses a complex verb phrase (What did you look at?) and an abstract comment (That sounds busy). Both require the listener to infer meaning beyond a single, concrete idea, which is beyond the simple, everyday language expected at A1. To be levelappropriate, the wording should be broken into short, direct sentences using basic vocabulary and a limited number of words. Focus on one idea at a time and avoid idiomatic or nuanced expressions.'
+
+
+
+
+***Leveling Iteration 3 of 5***
+
+
+Potential response: 'Sounds interesting. What did you look at?'
+
+
+Sentence-level CEFR predictions: ['A2', 'A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: '**Feedback:**  
+The sentence Sounds interesting. What did you look at? contains an idiomatic expression (Sounds interesting) and a phrasal verb (look at) that are not typical at the A1 level. Learners at this stage are expected to use very simple, concrete language and short, literal sentences. The phrase also assumes the ability to understand and produce a followup question about a prior, unspecified activity, which goes beyond A1s familiartopic scope.
+
+**How to make it levelappropriate:**  
+Use basic, direct wording and avoid idioms. Keep the question short and focused on a single, concrete noun. This will align the wording with the limited vocabulary and simple sentence structures expected of A1 learners.'
+
+
+
+
+***Leveling Iteration 4 of 5***
+
+
+Potential response: 'Great! What did you study?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2'].
+
+On-level score: 0.75, Desired score: 0.66.
+
+
+Sending Response: 'Great! What did you study?'
+
+
+
+Received Message: '<user did not respond>'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Sounds interesting. What was it about?'
+
+
+Sentence-level CEFR predictions: ['A2', 'A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The phrase uses the word interesting and the structure What was it about?. Both introduce abstract vocabulary (interesting) and a question with an embedded clause (what ... about), which are beyond the short, concrete expressions typical of A1. A1 learners are expected to use simple, familiar words and direct questions such as What is it? or Tell me. The current wording requires higherlevel lexical and grammatical knowledge, so it is rated above A1.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'Sounds interesting. Do you like coffee too?'
+
+
+Sentence-level CEFR predictions: ['A2', 'A1'].
+
+On-level score: 0.75, Desired score: 0.66.
+
+
+Sending Response: 'Sounds interesting. Do you like coffee too?'
+
+
+
+***END OF PHASE 0*** Setting agent filter to level: A1
+END received. Closing connection from ('192.168.86.1', 43965)

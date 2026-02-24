@@ -1,0 +1,29 @@
+Connection received from ('192.168.86.1', 1875)
+Declared level: A0. Target Level: A1. Permutation: 0
+Conversational introduction (Phase 0) will be leveled to: A1
+Phase 1 will be filtered to: A1
+Phase 2 will be filtered to: unfiltered
+CEFR Listening Answers: 000----------------------, CEFR Speaking Answers: 00--------------- 
+CEFR Listening: -1, CEFR Speaking: -1 
+Pre-intervention FLA score: 30, raw responses: 000333333333333
+
+
+Received Message: 'SILENCE'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Hey, how are you? It's a nice day in the cafe. What do you think of the coffee?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2', 'A2'].
+
+On-level score: 0.6666666666666666, Desired score: 0.66.
+
+
+Sending Response: 'Hey, how are you? It's a nice day in the cafe. What do you think of the coffee?'
+
+END received. Closing connection from ('192.168.86.1', 1875)

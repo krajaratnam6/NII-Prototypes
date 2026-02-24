@@ -135,15 +135,16 @@ public class ClientManager : MonoBehaviour
         }
     }
 
-    public void SendServerMessage(string message, bool locking = true)
+    public void SendServerMessage(string message, bool locking = true, bool prependMsg = true)
     {
         if (client != null && client.Connected && canSend)
         {
             try
             {
-                byte[] messageAsByteArray = Encoding.ASCII.GetBytes("MSG: " + message + " ");
+                string toSend = (prependMsg ? "MSG: " : "") + message + " ";
+                byte[] messageAsByteArray = Encoding.ASCII.GetBytes(toSend);
                 stream.Write(messageAsByteArray, 0, messageAsByteArray.Length);
-                Debug.Log("Sent to server: " + message);
+                Debug.Log("Sent to server: " + toSend);
                 if (ssm.state != 0)
                 {
                     waitingAnimation.SetActive(true);

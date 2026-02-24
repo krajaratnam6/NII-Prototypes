@@ -1,0 +1,279 @@
+Connection received from ('127.0.0.1', 36749)
+Declared level: A0. Target Level: A1. Permutation: 0
+Conversational introduction (Phase 0) will be leveled to: A1
+Phase 1 will be filtered to: A1
+Phase 2 will be filtered to: unfiltered
+
+
+Received Message: <user silence>
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Hello, are you waiting for a drink too? How's your day?'
+
+
+Sentence-level CEFR predictions: ['B1', 'A2'].
+
+On-level score: 0.25, Desired score: 0.66.
+
+Generated Feedback: 'The phrase uses a question with a colloquial contraction (How's) and an idiomatic expression (waiting for a drink). Both require understanding of informal, combined ideas that go beyond the simple, concrete language expected at A1. A1 learners need short, literal sentences with basic vocabulary and no contractions. Therefore the content is rated above A1. Adjust the wording to simple, separate statements using full forms and familiar words.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'Hello. Are you enjoying the cafe?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2'].
+
+On-level score: 0.75, Desired score: 0.66.
+
+
+Sending Response: 'Hello. Are you enjoying the cafe?'
+
+
+
+Received Message: 'It's ok'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Nice. Do you come here often?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2'].
+
+On-level score: 0.75, Desired score: 0.66.
+
+
+Sending Response: 'Nice. Do you come here often?'
+
+
+
+Received Message: <user silence>
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I have a coffee. What do you like to drink?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2'].
+
+On-level score: 0.75, Desired score: 0.66.
+
+
+Sending Response: 'I have a coffee. What do you like to drink?'
+
+
+
+Received Message: <user silence>
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I like coffee. How about you?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2'].
+
+On-level score: 0.75, Desired score: 0.66.
+
+
+Sending Response: 'I like coffee. How about you?'
+
+
+
+Received Message: <user silence>
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I prefer espresso, but I also like tea sometimes.'
+
+
+Sentence-level CEFR predictions: ['B1'].
+
+On-level score: 0.0, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses a contrastive conjunction (but) and two different beverage types, which requires the reader to process a preference hierarchy and a conditional nuance. This level of abstraction and the inclusion of sometimes go beyond the simple, concrete statements expected at A1. To match A1, the wording should be reduced to a single, straightforward fact without contrasting ideas.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'I like coffee too. What do you do here?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2'].
+
+On-level score: 0.75, Desired score: 0.66.
+
+
+Sending Response: 'I like coffee too. What do you do here?'
+
+
+
+Received Message: <user silence>
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I work on a computer. I write programs. What do you do?'
+
+
+Sentence-level CEFR predictions: ['A2', 'A1', 'A1'].
+
+On-level score: 0.8333333333333334, Desired score: 0.66.
+
+
+Sending Response: 'I work on a computer. I write programs. What do you do?'
+
+
+
+Received Message: 'I am a student'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Thats great. What are you studying?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A2'].
+
+On-level score: 0.75, Desired score: 0.66.
+
+
+Sending Response: 'Thats great. What are you studying?'
+
+
+
+Received Message: <user silence>
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I study at university. What subject?'
+
+
+Sentence-level CEFR predictions: ['A2', 'A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The phrase uses two separate sentences that each contain abstract nouns (university, subject) and a question word without context. At the A1 level, learners are expected to work with very concrete, everyday topics and short, simple structures. Talking about university and subject goes beyond familiar daily life, and the question What subject? lacks a clear reference, making it harder to understand. Reduce the abstraction and keep the statement and question directly linked to a familiar setting (e.g., school or a simple activity) to match A1 comprehension.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'I study at university. What do you like to study?'
+
+
+Sentence-level CEFR predictions: ['A2', 'B1'].
+
+On-level score: 0.25, Desired score: 0.66.
+
+Generated Feedback: 'The sentence uses the verb study in a way that assumes familiarity with abstract concepts such as university and what do you like to study? These words create a context beyond everyday, concrete topics and involve a question that requires the listener to reflect on personal preferencesboth are beyond the very basic, routine exchanges expected at A1. To lower the level, replace references to university and the abstract what do you like to study? with simple, concrete topics (e.g., school, a hobby) and use shorter, more direct sentences. This will make the content understandable for an A1 learner.'
+
+
+
+
+***Leveling Iteration 3 of 5***
+
+
+Potential response: 'What do you study?'
+
+
+Sentence-level CEFR predictions: ['A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The question What do you study? uses abstract vocabulary (study) and a grammatical structure (WHquestion with auxiliary do) that is beyond the very simple, concrete expressions expected at A1. Learners at this level handle familiar, everyday topics with short, fixed phrases; they are not yet comfortable forming openended questions about abstract activities. Therefore the phrase is rated above A1.'
+
+
+
+
+***Leveling Iteration 4 of 5***
+
+
+Potential response: 'What do you study?'
+
+
+Sentence-level CEFR predictions: ['A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The phrase What do you study? uses the verb study in an abstract sense and asks for information that may require a longer, less familiar response. It also involves a question structure that is typical of higherlevel conversation, not the simple, concrete language expected at A1. To suit an A1 learner, replace abstract verbs with concrete, everyday actions and keep the question short and direct.'
+
+
+
+
+***Leveling Iteration 5 of 5***
+
+
+Potential response: 'What do you study?'
+
+
+Sentence-level CEFR predictions: ['A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The phrase What do you study? uses the verb *study* in an abstract sense and asks for information that presumes familiarity with academic terminology. This goes beyond the concrete, everyday vocabulary expected at A1, where learners are limited to simple, familiar topics and direct expressions. To match an A1 level, replace the abstract notion of study with a concrete, everyday activity (e.g., What do you learn? or What are you learning?) and keep the sentence short and easy to parse. This adjustment brings the wording into the basic, familiartopic range suitable for an A1 learner.'
+
+
+
+Sending Response: 'What do you study?'
+
+
+
+Received Message: <user silence>
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I study economics. Do you like music?'
+
+
+Sentence-level CEFR predictions: ['A2', 'A1'].
+
+On-level score: 0.75, Desired score: 0.66.
+
+
+Sending Response: 'I study economics. Do you like music?'
+
+END received. Closing connection from ('127.0.0.1', 36749)

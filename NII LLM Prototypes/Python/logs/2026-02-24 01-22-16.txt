@@ -1,0 +1,41 @@
+Connection received from ('126.166.137.175', 64516)
+Declared level: A0. Target Level: A1. Permutation: 0
+Conversational introduction (Phase 0) will be leveled to: A1
+Phase 1 will be filtered to: A1
+Phase 2 will be filtered to: unfiltered
+
+
+Received Message: 'hi'
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Hi there, nice to meet you. How are you today?'
+
+
+Sentence-level CEFR predictions: ['A2', 'A2'].
+
+On-level score: 0.5, Desired score: 0.66.
+
+Generated Feedback: 'The phrase was rated above A1 because it contains multiple clauses (Hi there, nice to meet you and How are you today?) and uses a polite, somewhat formal greeting structure that goes beyond the very short, simple expressions typical for the lowest beginner level. To match A1, keep the utterance to a single, brief sentence with common everyday words, such as a single greeting or a simple question, avoiding commas and the extra polite formula. This will ensure the language remains easy for learners at that stage to process.'
+
+
+
+
+***Leveling Iteration 2 of 5***
+
+
+Potential response: 'Hello. Nice coffee. How are you?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A1', 'A1'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'Hello. Nice coffee. How are you?'
+
+END received. Closing connection from ('126.166.137.175', 64516)

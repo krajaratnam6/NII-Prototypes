@@ -1,0 +1,65 @@
+Connection received from ('127.0.0.1', 36667)
+Declared level: A0. Target Level: A1. Permutation: 0
+Conversational introduction (Phase 0) will be leveled to: A1
+Phase 1 will be filtered to: A1
+Phase 2 will be filtered to: unfiltered
+
+
+Received Message: <user silence>
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Hi. How are you? Do you like coffee?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A1', 'A1'].
+
+On-level score: 1.0, Desired score: 0.66.
+
+
+Sending Response: 'Hi. How are you? Do you like coffee?'
+
+
+
+Received Message: <user silence>
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'Im good, thank you. Yes, I love coffee. How about you?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A1', 'A2'].
+
+On-level score: 0.8333333333333334, Desired score: 0.66.
+
+
+Sending Response: 'Im good, thank you. Yes, I love coffee. How about you?'
+
+
+
+Received Message: <user silence>
+
+
+
+
+***Leveling Iteration 1 of 5***
+
+
+Potential response: 'I like coffee too. It is strong and warm. What do you do here?'
+
+
+Sentence-level CEFR predictions: ['A1', 'A1', 'A2'].
+
+On-level score: 0.8333333333333334, Desired score: 0.66.
+
+
+Sending Response: 'I like coffee too. It is strong and warm. What do you do here?'
+
